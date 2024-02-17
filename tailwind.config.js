@@ -14,6 +14,11 @@ export default {
         extend: {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                arial:['Arial','sans-serif'],
+                gothic:['Didact Gothic','sans-serif'],
+                inter:['Inter','sans-serif'],
+                spartan:['Spartan','sans-serif'],
+                questrial:['Questrial','sans-serif']
             },
             minWidth: {
                 '1': '.25rem',
@@ -127,6 +132,19 @@ export default {
                 '4/5': '80vh',
                 '9/10': '90vh',
             },
+            colors:{
+                'teal':'#32797D',
+                'cyan':'#6DB7BB',
+                'teal':'#32797D',
+                'submarine':'#8E9B9C',
+                'elm':'#247478',
+                'black':'#000000'
+                
+
+            },
+            zIndex:{
+                '-1':'-1',
+            },
         },
     },
 
@@ -136,11 +154,11 @@ export default {
                 light: {
                     // ...require("daisyui/src/colors/themes")["[data-theme=light]"],
                         // "primary": "#1686c7",
-                        "primary": "#0ab1e1",
-                        "secondary": "#D926AA",
-                        "accent": "#1FB2A5",
+                        "primary": " #64A3A6",
+                        "secondary": "#084D62",
+                        "accent": "#78888E",
                         "neutral": "#191D24",
-                        "base-100": "#f3f4f6",
+                        "base-100": "#ffffff",
                         "info": "#3ABFF8",
                         "success": "#36D399",
                         "warning": "#FBBD23",

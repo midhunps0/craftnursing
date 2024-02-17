@@ -18,8 +18,12 @@ use Modules\Ynotz\AppSettings\Http\Controllers\AppSettingsController;
 |
 */
 
+
+
 Route::get('/', [PageController::class, 'home'])->name('home');
 Route::get('/about', [PageController::class, 'about'])->name('about');
+Route::get('/courses', [PageController::class, 'courses'])->name('courses');
+Route::get('/gallery', [PageController::class, 'gallery'])->name('gallery');
 Route::get('/contact', [PageController::class, 'contact'])->name('contact');
 
 Route::get('/dashboard', function () {
