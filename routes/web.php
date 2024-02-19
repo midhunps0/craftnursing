@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\PageController;
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RoleController;
 use App\Http\Controllers\ProfileController;
@@ -25,6 +26,7 @@ Route::get('/about', [PageController::class, 'about'])->name('about');
 Route::get('/courses', [PageController::class, 'courses'])->name('courses');
 Route::get('/gallery', [PageController::class, 'gallery'])->name('gallery');
 Route::get('/contact', [PageController::class, 'contact'])->name('contact');
+Route::post('/contact', [ContactController::class,'submit'])->name('contact.submit');
 
 Route::get('/dashboard', function () {
     return view('dashboard');

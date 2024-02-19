@@ -52,7 +52,12 @@
                                     <p class="hidden lg:block font-normal  text-sm mt-6 lg:text-xl font-gothic">Feel free to contact us any time. We will get<br> back to you as we can!</p>
                                 </div>
                                 <div class="mt-4 ml-4 md:mt-6 md:ml-8 md:mr-8 xl:ml-16 xl:mr-16">
-                                    <form method="POST" action="#">
+                                @if(session('success'))
+                                <div class="alert alert-success">
+                                    {{ session('success') }}
+                                </div>
+                                @endif
+                                    <form method="POST" action="{{route('contact.submit')}}">
                                         @csrf
                                             <div class="relative mt-4 mr-4 lg:mr-0 ">
                                                 <input id="name" name="name" type="text"

@@ -58,7 +58,7 @@
 
         <div>
             <div class="mt-8 ml-4 md:mt-12 md:ml-8 lg:mt-14 lg:ml-12 xl:ml-14 2xl:ml-16">
-                <h class="text-teal text-sm font-bold font-inter md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-4xl ">DIPLOMA IN GENERAL NURSING & MIDWIFERY-3 YEARS</h><br>
+                <h class="text-teal text-sm font-bold font-inter  sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-4xl ">DIPLOMA IN GENERAL NURSING & MIDWIFERY-3 YEARS</h><br>
                 <div class="mt-2 lg:mt-6 md:mt-8"><h class="text-teal text-sm md:text-base font-bold font-inter lg:text-xl">WELCOME TO CRAFT SCHOOL OF NURSING</h></div>
             </div>
 
@@ -76,14 +76,14 @@
             <div>
                 <div class="mt-4 mb-4 ml-4 mr-4 lg:ml-14 lg:mr-14 2xl:mt-6 2xl:ml-16 2xl:mr-16 lg:space-y-4">
                     <x-page-component :content="'The course of General Nursing and Midwifery is of 3 years duration and according to the syllabus
-                    Laid down by INC and  the certificate  is provided  by  the  Kerala  Nurses and  midwives council. This 
-                    Initiative aims to facilitate admissions to various nursing  courses available in private nursing  school 
-                    across the state . The GNM diploma course, spanning three years ,focuses on nursing and midwifery . 
+                    laid down by INC and  the certificate  is provided  by  the  Kerala  Nurses and  midwives council. This 
+                    initiative aims to facilitate admissions to various nursing  courses available in private nursing  school 
+                    across the state . The GNM diploma course , spanning three years ,focuses on nursing and midwifery .  
                     '"/>
                     <x-page-component :content="'Individuals eligible for application have completed their 10 +2  education in  the science stream , with 
                     Physics , Chemistry , and Biology as the main subjects . The upcoming GNM admission cycle promises to 
                     be a gateway for enthusiastic  students to embark on a fulfilling journey in  the field of nursing and
-                    healthcare .'"/>
+                     healthcare .'"/>
                     <x-page-component :content="'The comprehensive program include a six month internship , making it an   integral part of 
                     curriculum and ensuring a holistic nursing education .  GNM admission for the year 2024 bring with it a 
                     set of noteworthy  highlights offering  , aspiring nursing professionals an opportunity to embark on a 
@@ -117,7 +117,7 @@
                         <tr class="md:text-base xl:text-lg">
                             
                             <td>Admission Authority</td>
-                            <td>Directorate of Medical Education (DME) Kerala</td>
+                            <td>Craft Hospital and Research Centre, Chandapura  , Kodungallur</td>
                         </tr>
                         <!-- row 3 -->
                         <tr class="md:text-base xl:text-lg">

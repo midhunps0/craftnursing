@@ -108,8 +108,8 @@
 
                 <div class="lg:w-1/2 ">
                     <div class="relative mt-2 ml-6 lg:mt-8 lg:flex flex-col ">
-                        <img src="{{url('/images/2new.jpg')}}" class=" w-5/6 md:ml-6 lg:ml-2 lg:w-full"alt="image">
-                        <div class=" h-44 w-48 ml-40 border-t-4 border-teal -mt-36 mr-4 bg-base-100 opacity-80 shadow-xl lg:opacity-100 md:h-72 md:w-80 md:ml-96 md:-mt-72 lg:flex justify-end lg:h-52 lg:w-56 lg:ml-0 lg:ml-52 lg:-mr-6 lg:-mt-40 xl:h-60 xl:w-72 xl:-mt-56 xl:ml-80 2xl:h-64 2xl:ml-96 ">
+                        <img src="{{url('/images/2new.jpg')}}" class=" w-5/6 md:ml-6 lg:ml-2 lg:w-full "alt="image">
+                        <div class=" h-44 w-48 ml-40 border-t-4 border-teal -mt-36 mr-4 bg-base-100 opacity-80 shadow-xl lg:opacity-100 md:h-72 md:w-80 md:ml-96 md:-mt-64 lg:flex justify-end lg:h-52 lg:w-56 lg:ml-0 lg:ml-52 lg:-mr-6 lg:-mt-40 xl:h-60 xl:w-72 xl:-mt-56 xl:ml-80 2xl:h-64 2xl:ml-96 ">
                             <div class="md:px-10 md:py-8 lg:px-2 lg:py-2">
                                 <div class="mt-5 text-left ml-6 lg:ml-2 "><h class="font-bold font-inter text-black text-base md:text-lg lg:text-lg">Established since<br> 1972</h></div>  
                                     <p class="font-thin font-inter text-left ml-6 mr-4  text-black lg:text-sm md:text-base text-xs lg:mt-2 lg:ml-2">Our organization has been committed to providing exceptional care and services to our community for over five decades.</p>

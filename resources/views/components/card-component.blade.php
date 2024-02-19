@@ -11,7 +11,7 @@
                 </p>
             </div>
             <div class="px-6 pt-4 pb-6 mb-2">
-                <button class="text-white bg-teal px-4 py-2 text-base md:text-lg 2xl:text-lg lg:text-base font-bold font-inter">Learn more</button>
+                <button class="text-white bg-teal px-4 py-2 text-base md:text-lg 2xl:text-lg lg:text-base font-bold font-inter" @click="$dispatch('linkaction', {link: '{{route('gallery')}}', route: 'gallery'}); console.log('event dispatched');">Learn more</button>
             </div>
         </div>
     </div>
