@@ -6,7 +6,7 @@
             </div>
             <img class="w-full  object-cover" src="{{url('/images/4.jpg')}}" alt="Card image">
             <div class="px-4 py-4 mt-2">
-                <p class=" text-xs md:text-sm 2xl:text-base font-extralight text-black font-inter lg:text-sm">
+                <p class=" text-sm text-justify md:text-sm 2xl:text-base font-extralight text-black font-inter lg:text-sm lg:text-justify">
                 {{$cardcontent}}
                 </p>
             </div>
