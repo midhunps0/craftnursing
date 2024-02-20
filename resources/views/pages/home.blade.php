@@ -147,28 +147,10 @@
             </div>
         </div>
 
-        <div>
-            <div class="ml-4 mr-4 md:ml-8 md:mr-8 lg:flex flex-row">
-                <div class="lg:w-1/3 lg:ml-4 2xl:ml-12">
-                    <div class="mt-10 md:mt-16 "><h class="text-xs md:text-sm font-normal font-inter outline outline-1 p-1 lg:text-lg">Know More About Us</h></div>
-                    <div class="mt-3 "><h class="text-xl md:text-2xl font-semibold font-inter text-black lg:font-bold lg:text-4xl">News & Articles</h></div>
-                </div>
-                <div class="lg:w-2/3 lg:mt-32">
-                    <p class="mt-3 md:mt-5 text-black  text-xs md:text-sm font-light  font-inter lg:font-thin lg:text-base 2xl:text-lg">Stay updated on accreditation updates, curriculum enhancements, and faculty developments at leading nursing institutions, ensuring the highest standards of nursing education.</p>
-                </div>
-            </div>
-        </div>
+        
 
         <div>
-            <div class="lg:flex flex-row md:mt-16 lg:space-x-4 lg:ml-3 lg:mr-3 2xl:ml-8 2xl:mr-8">
-                <div class="lg:w-1/3"><x-card-component cardtitle="Advancing Knowledge" :cardcontent="'Embracing lifelong learning, nurses pursue advanced degrees, certifications, and specialized training to remain adaptable and responsive to evolving healthcare needs.'"/></div>
-                <div class="lg:w-1/3"><x-card-component cardtitle="Advancing Knowledge" :cardcontent="'Nurses actively engage in interdisciplinary collaboration and knowledge exchange to enhance clinical practice and contribute to the advancement of healthcare innovations.'"/></div>
-                <div class="lg:w-1/3"><x-card-component cardtitle="Advancing Knowledge" :cardcontent="'Nurses embrace technology and innovation, leveraging advanced tools and resources to stay informed, enhance clinical decision-making, and deliver evidence-based care.'"/></div>
-            </div>
-        </div>
-
-        <div>
-            <div>
+            <div class="mt-8">
     <!-- maindiv -->
                 <div class="lg:flex flex-row">
                     <!-- subdiv1 -->
@@ -214,7 +196,27 @@
                 </div>
             </div>
             <div class="px-6 pt-4 pb-6 md:ml-4 md:mt-4 mb-2 lg:ml-8  lg:mt-2 xl:-mt-8 2xl:-mt-24 2xl:mb-16">
-                <button class="text-white bg-teal md:px-6 lg:px-4 lg:py-2 p-1 px-2 -ml-2  text-base md:text-lg font-bold font-inter 2xl:text-xl 2xl:px-8 2xl:py-3">Learn more</button>
+                <button class="text-white bg-teal md:px-6 md:py-2 lg:px-4 lg:py-2 p-1 px-2 -ml-2  text-base md:text-xl font-bold font-inter 2xl:text-xl 2xl:px-8 2xl:py-3">Learn more</button>
+            </div>
+        </div>
+
+        <div>
+            <div class="ml-4 mr-4 md:ml-8 md:mr-8 lg:flex flex-row">
+                <div class="lg:w-1/3 lg:ml-4 2xl:ml-12">
+                    <div class="mt-10 md:mt-16 "><h class="text-xs md:text-sm font-normal font-inter outline outline-1 p-1 lg:text-lg">Know More About Us</h></div>
+                    <div class="mt-3 "><h class="text-xl md:text-2xl font-semibold font-inter text-black lg:font-bold lg:text-4xl">News & Articles</h></div>
+                </div>
+                <div class="lg:w-2/3 lg:mt-32">
+                    <p class="mt-3 md:mt-5 text-black  text-xs md:text-sm font-light  font-inter lg:font-thin lg:text-base 2xl:text-lg">Stay updated on accreditation updates, curriculum enhancements, and faculty developments at leading nursing institutions, ensuring the highest standards of nursing education.</p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="lg:flex flex-row md:mt-16 lg:space-x-4 lg:ml-3 lg:mr-3 2xl:ml-8 2xl:mr-8">
+                <div class="lg:w-1/3 text-justify"><x-card-component cardtitle="Advancing Knowledge" :cardcontent="'Embracing lifelong learning, nurses pursue advanced degrees, certifications, and specialized training to remain adaptable and responsive to evolving healthcare needs.'"/></div>
+                <div class="lg:w-1/3 text-justify"><x-card-component cardtitle="Advancing Knowledge" :cardcontent="'Nurses actively engage in interdisciplinary collaboration and knowledge exchange to enhance clinical practice and contribute to the advancement of healthcare innovations.'"/></div>
+                <div class="lg:w-1/3 text-justify"><x-card-component cardtitle="Advancing Knowledge" :cardcontent="'Nurses embrace technology and innovation, leveraging advanced tools and resources to stay informed, enhance clinical decision-making, and deliver evidence-based care.'"/></div>
             </div>
         </div>
 
