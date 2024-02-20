@@ -14,11 +14,11 @@
                                     lg:block lg:items-center lg:mt-4 lg:text-lg lg:space-x-16
                                     xl:block xl:mt-6 xl:item-center xl:text-xl xl:space-x-20
                                     2xl:block 2xl:text-2xl 2xl:space-x-24">
-                            <a class="" @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'}); console.log('event dispatched');" >Home</a>
-                            <a class="" @click="$dispatch('linkaction', {link: '{{route('about')}}', route: 'about'}); console.log('event dispatched');">About Us</a>
-                            <a class="text-teal font-bold underline" @click="$dispatch('linkaction', {link: '{{route('courses')}}', route: 'courses'}); console.log('event dispatched');">Courses</a>
-                            <a class="" @click="$dispatch('linkaction', {link: '{{route('gallery')}}', route: 'gallery'}); console.log('event dispatched');">Gallery</a>
-                            <a class="" @click="$dispatch('linkaction', {link: '{{route('contact')}}', route: 'contact'}); console.log('event dispatched');">Contact</a> 
+                            <a class="cursor-pointer" @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'}); console.log('event dispatched');" >Home</a>
+                            <a class="cursor-pointer" @click="$dispatch('linkaction', {link: '{{route('about')}}', route: 'about'}); console.log('event dispatched');">About Us</a>
+                            <a class="cursor-pointer text-teal font-bold underline" @click="$dispatch('linkaction', {link: '{{route('courses')}}', route: 'courses'}); console.log('event dispatched');">Courses</a>
+                            <a class="cursor-pointer" @click="$dispatch('linkaction', {link: '{{route('gallery')}}', route: 'gallery'}); console.log('event dispatched');">Gallery</a>
+                            <a class="cursor-pointer" @click="$dispatch('linkaction', {link: '{{route('contact')}}', route: 'contact'}); console.log('event dispatched');">Contact</a> 
                         </div>
                         <div x-data="{ open : false }" class="pt-3 items-center text-right w-2/3 md:hidden items-center ">
                             <button @click="open = !open" class="">
@@ -29,11 +29,11 @@
                             </button>
                             <div x-show="open" class="lg:hidden md:hidden xl:hidden font-questrial">
                                 <ul class="bg-white mt-2 p-4 ">
-                                    <li><a class="text-sm" @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'}); console.log('event dispatched');">Home</a></li>
-                                    <li><a class="text-sm" @click="$dispatch('linkaction', {link: '{{route('about')}}', route: 'about'}); console.log('event dispatched');">About Us</a></li>
-                                    <li><a class="text-sm" @click="$dispatch('linkaction', {link: '{{route('courses')}}', route: 'courses'}); console.log('event dispatched');">Courses</a></li>
-                                    <li><a class="text-sm" @click="$dispatch('linkaction', {link: '{{route('gallery')}}', route: 'gallery'}); console.log('event dispatched');">Gallery</a></li>
-                                    <li><a class="text-sm" @click="$dispatch('linkaction', {link: '{{route('contact')}}', route: 'contact'}); console.log('event dispatched');">Contact Us</a></li>
+                                    <li><a class="text-sm cursor-pointer" @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'}); console.log('event dispatched');">Home</a></li>
+                                    <li><a class="text-sm cursor-pointer" @click="$dispatch('linkaction', {link: '{{route('about')}}', route: 'about'}); console.log('event dispatched');">About Us</a></li>
+                                    <li><a class="text-sm cursor-pointer" @click="$dispatch('linkaction', {link: '{{route('courses')}}', route: 'courses'}); console.log('event dispatched');">Courses</a></li>
+                                    <li><a class="text-sm cursor-pointer" @click="$dispatch('linkaction', {link: '{{route('gallery')}}', route: 'gallery'}); console.log('event dispatched');">Gallery</a></li>
+                                    <li><a class="text-sm cursor-pointer" @click="$dispatch('linkaction', {link: '{{route('contact')}}', route: 'contact'}); console.log('event dispatched');">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -47,9 +47,9 @@
                 <img src="{{url('/images/coursesd1.png')}}" class="lg:w-full lg:bg-cover hidden lg:block " alt="image">
                 <img src="{{url('/images/coursesm1.png')}}" class=" w-full  bg-cover lg:hidden" alt="image">
                 <div class="absolute inset-0 overflow-hidden  bg-gradient-to-r from-secondary/40 to-accent/10">
-                    <div class="mt-36  ml-6 sm:ml-10 sm:mt-48 md:mt-72 lg:mt-44 xl:mt-52 xl:ml-20 2xl:mt-72">
+                    <div class="mt-36  ml-6 sm:ml-12  sm:mt-52 md:mt-72 lg:mt-44 xl:mt-52 xl:ml-20 2xl:mt-72">
                         <div class=""><h class="text-white text-sm sm:text-base md:text-base lg:text-lg outline outline-white outline-1 font-normal lg:font-bold font-inter lg:px-2 lg:py-2  pt-1 pb-1 pl-1 pr-1">ACADEMICS</h></div>
-                        <p class="text-left text-white text-xl sm:text-2xl  md:text-4xl mt-4 md:mt-8 lg:text-5xl xl:text-6xl 2xl:text-7xl lg:leading-tight font-bold font-inter lg:mt-6 ">DIPLOMA IN GENERAL <br> NURSING & MIDWIFERY-3 YEARS</p>
+                        <p class="text-left text-white text-xl sm:text-4xl  md:text-4xl mt-4 md:mt-8 lg:text-5xl xl:text-6xl 2xl:text-7xl lg:leading-tight font-bold font-inter lg:mt-6 ">DIPLOMA IN GENERAL <br> NURSING & MIDWIFERY-3 YEARS</p>
                     </div>
                     
                 </div>
@@ -57,8 +57,8 @@
         </div>
 
         <div>
-            <div class="mt-8 ml-4 md:mt-12 md:ml-8 lg:mt-14 lg:ml-12 xl:ml-14 2xl:ml-16">
-                <h class="text-teal text-sm font-bold font-inter  sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-4xl ">DIPLOMA IN GENERAL NURSING & MIDWIFERY-3 YEARS</h><br>
+            <div class="mt-8 ml-4 sm:ml-6 sm:mt-12 md:mt-12 md:ml-8 lg:mt-14 lg:ml-12 xl:ml-14 2xl:ml-16">
+                <h class="text-teal text-sm font-bold font-inter  sm:text-2xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-4xl ">DIPLOMA IN GENERAL NURSING & MIDWIFERY-3 YEARS</h><br>
                 <div class="mt-2 lg:mt-6 md:mt-8"><h class="text-teal text-sm md:text-base font-bold font-inter lg:text-xl">WELCOME TO CRAFT SCHOOL OF NURSING</h></div>
             </div>
 
@@ -94,7 +94,7 @@
 
         <div>
             <div>
-                <div class=" ml-4 mr-4 md:ml-8 md:mr-8 md:mt-4 lg:mt-8 lg:ml-12 lg:mr-12 xl:mb-16 2xl:ml-16 2xl:mr-16 2xl:mt-12">
+                <div class=" ml-4 mr-4 sm:ml-6 sm:mr-6 md:ml-8 md:mr-8 md:mt-4 lg:mt-8 lg:ml-12 lg:mr-12 xl:mb-16 2xl:ml-16 2xl:mr-16 2xl:mt-12">
                     <table class="table ">
                         <!-- head -->
                         <thead>

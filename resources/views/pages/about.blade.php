@@ -14,11 +14,11 @@
                                         lg:block lg:items-center lg:mt-4 lg:text-lg lg:space-x-16
                                         xl:block xl:mt-6 xl:item-center xl:text-xl xl:space-x-20
                                         2xl:block 2xl:text-2xl 2xl:space-x-24">
-                                <a class="" @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'}); console.log('event dispatched');">Home</a>
-                                <a class="text-teal font-bold underline" @click="$dispatch('linkaction', {link: '{{route('about')}}', route: 'about'}); console.log('event dispatched');">About Us</a>
-                                <a class="" @click="$dispatch('linkaction', {link: '{{route('courses')}}', route: 'courses'}); console.log('event dispatched');">Courses</a>
-                                <a class="" @click="$dispatch('linkaction', {link: '{{route('gallery')}}', route: 'gallery'}); console.log('event dispatched');">Gallery</a>
-                                <a class="" @click="$dispatch('linkaction', {link: '{{route('contact')}}', route: 'contact'}); console.log('event dispatched');">Contact</a> 
+                                <a class="cursor-pointer" @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'}); console.log('event dispatched');">Home</a>
+                                <a class="cursor-pointer text-teal font-bold underline" @click="$dispatch('linkaction', {link: '{{route('about')}}', route: 'about'}); console.log('event dispatched');">About Us</a>
+                                <a class="cursor-pointer" @click="$dispatch('linkaction', {link: '{{route('courses')}}', route: 'courses'}); console.log('event dispatched');">Courses</a>
+                                <a class="cursor-pointer" @click="$dispatch('linkaction', {link: '{{route('gallery')}}', route: 'gallery'}); console.log('event dispatched');">Gallery</a>
+                                <a class="cursor-pointer" @click="$dispatch('linkaction', {link: '{{route('contact')}}', route: 'contact'}); console.log('event dispatched');">Contact</a> 
                             </div>
                             <div x-data="{ open : false }" class="pt-3 items-center text-right w-2/3 md:hidden items-center ">
                                 <button @click="open = !open" class="">
@@ -29,11 +29,11 @@
                                 </button>
                                 <div x-show="open" class="lg:hidden md:hidden xl:hidden font-questrial">
                                     <ul class="bg-white mt-2 p-4 ">
-                                        <li><a class="text-sm" @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'}); console.log('event dispatched');">Home</a></li>
-                                        <li><a class="text-sm" @click="$dispatch('linkaction', {link: '{{route('about')}}', route: 'about'}); console.log('event dispatched');">About Us</a></li>
-                                        <li><a class="text-sm" @click="$dispatch('linkaction', {link: '{{route('courses')}}', route: 'courses'}); console.log('event dispatched');">Courses</a></li>
-                                        <li><a class="text-sm" @click="$dispatch('linkaction', {link: '{{route('gallery')}}', route: 'gallery'}); console.log('event dispatched');">Gallery</a></li>
-                                        <li><a class="text-sm" @click="$dispatch('linkaction', {link: '{{route('contact')}}', route: 'contact'}); console.log('event dispatched');">Contact Us</a></li>
+                                        <li><a class="text-sm cursor-pointer" @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'}); console.log('event dispatched');">Home</a></li>
+                                        <li><a class="text-sm cursor-pointer" @click="$dispatch('linkaction', {link: '{{route('about')}}', route: 'about'}); console.log('event dispatched');">About Us</a></li>
+                                        <li><a class="text-sm cursor-pointer" @click="$dispatch('linkaction', {link: '{{route('courses')}}', route: 'courses'}); console.log('event dispatched');">Courses</a></li>
+                                        <li><a class="text-sm cursor-pointer" @click="$dispatch('linkaction', {link: '{{route('gallery')}}', route: 'gallery'}); console.log('event dispatched');">Gallery</a></li>
+                                        <li><a class="text-sm cursor-pointer" @click="$dispatch('linkaction', {link: '{{route('contact')}}', route: 'contact'}); console.log('event dispatched');">Contact Us</a></li>
                                     </ul>
                                 </div>
                             </div>

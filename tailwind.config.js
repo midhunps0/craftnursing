@@ -138,7 +138,8 @@ export default {
                 'teal':'#32797D',
                 'submarine':'#8E9B9C',
                 'elm':'#247478',
-                'black':'#000000'
+                'black':'#000000',
+                'lightblack':'#2D3436'
                 
 
             },

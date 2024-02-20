@@ -14,11 +14,11 @@
                                     lg:block lg:items-center lg:mt-4 lg:text-lg lg:space-x-16
                                     xl:block xl:mt-6 xl:item-center xl:text-xl xl:space-x-20
                                     2xl:block 2xl:text-2xl 2xl:space-x-24">
-                            <a class="text-teal font-bold underline" @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'})" >Home</a>
-                            <a class="" @click="$dispatch('linkaction', {link: '{{route('about')}}', route: 'about'}); console.log('event dispatched');">About Us</a>
-                            <a class="" @click="$dispatch('linkaction', {link: '{{route('courses')}}', route: 'courses'}); console.log('event dispatched');">Courses</a>
-                            <a class="" @click="$dispatch('linkaction', {link: '{{route('gallery')}}', route: 'gallery'}); console.log('event dispatched');">Gallery</a>
-                            <a class="" @click="$dispatch('linkaction', {link: '{{route('contact')}}', route: 'contact'}); console.log('event dispatched');">Contact</a> 
+                            <a class="cursor-pointer text-teal font-bold underline" @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'})" >Home</a>
+                            <a class="cursor-pointer" @click="$dispatch('linkaction', {link: '{{route('about')}}', route: 'about'}); console.log('event dispatched');">About Us</a>
+                            <a class="cursor-pointer" @click="$dispatch('linkaction', {link: '{{route('courses')}}', route: 'courses'}); console.log('event dispatched');">Courses</a>
+                            <a class="cursor-pointer" @click="$dispatch('linkaction', {link: '{{route('gallery')}}', route: 'gallery'}); console.log('event dispatched');">Gallery</a>
+                            <a class="cursor-pointer" @click="$dispatch('linkaction', {link: '{{route('contact')}}', route: 'contact'}); console.log('event dispatched');">Contact</a> 
                         </div>
                         <div x-data="{ open : false }" class="pt-3 items-center text-right w-2/3 md:hidden items-center ">
                             <button @click="open = !open" class="">
@@ -29,11 +29,11 @@
                             </button>
                             <div x-show="open" class="lg:hidden md:hidden xl:hidden font-questrial">
                                 <ul class="bg-white mt-2 p-4 ">
-                                    <li><a class="text-sm" @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'})">Home</a></li>
-                                    <li><a class="text-sm" @click="$dispatch('linkaction', {link: '{{route('about')}}', route: 'about'}); console.log('event dispatched');">About Us</a></li>
-                                    <li><a class="text-sm" @click="$dispatch('linkaction', {link: '{{route('courses')}}', route: 'courses'}); console.log('event dispatched');">Courses</a></li>
-                                    <li><a class="text-sm" @click="$dispatch('linkaction', {link: '{{route('gallery')}}', route: 'gallery'}); console.log('event dispatched');">Gallery</a></li>
-                                    <li><a class="text-sm" @click="$dispatch('linkaction', {link: '{{route('contact')}}', route: 'contact'}); console.log('event dispatched');">Contact Us</a></li>
+                                    <li><a class="text-sm cursor-pointer" @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'})">Home</a></li>
+                                    <li><a class="text-sm cursor-pointer" @click="$dispatch('linkaction', {link: '{{route('about')}}', route: 'about'}); console.log('event dispatched');">About Us</a></li>
+                                    <li><a class="text-sm cursor-pointer" @click="$dispatch('linkaction', {link: '{{route('courses')}}', route: 'courses'}); console.log('event dispatched');">Courses</a></li>
+                                    <li><a class="text-sm cursor-pointer" @click="$dispatch('linkaction', {link: '{{route('gallery')}}', route: 'gallery'}); console.log('event dispatched');">Gallery</a></li>
+                                    <li><a class="text-sm cursor-pointer" @click="$dispatch('linkaction', {link: '{{route('contact')}}', route: 'contact'}); console.log('event dispatched');">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -47,12 +47,12 @@
                 <img src="{{url('/images/1phn.png')}}" class=" w-full  bg-cover lg:hidden" alt="image">
                 <img src="{{url('/images/1new.png')}}" class="lg:w-full lg:bg-cover hidden lg:block " alt="image">
                 <div class="absolute inset-0 overflow-hidden  bg-gradient-to-r from-secondary/40 to-accent/20">
-                    <div class="mt-12 ml-14 text-left md:mt-28 md:ml-20 lg:ml-14 xl:mt-36 2xl:mt-48">
+                    <div class="mt-12 ml-14 text-left sm:mt-20 md:mt-28 md:ml-20 lg:ml-14 xl:mt-36 2xl:mt-48">
                             <div class=""><h class="text-white text-xs font-inter outline outline-white outline-1 p-1 font-bold md:text-sm lg:text-lg">WELCOME TO CRAFT SCHOOL OF NURSING</h></div>
-                            <p class=" text-left text-white font-inter text-2xl font-bold mr-10 mt-2 md:text-4xl lg:text-6xl lg:leading-12 xl:mt-6 xl:text-7xl 2xl:mt-4 2xl:text-8xl ">DIPLOMA IN GENERAL <br> NURSING & MIDWIFERY <br>3 YEARS</p>
-                            <p class=" text-left text-white font-inter mt-4 text-xs font-arial mr-24 md:text-base md:mt-6 lg:hidden" >General Nursing and Midwifery (GNM) is a diploma program that prepares individuals to become registered nurses (RNs) and midwives. It's a comprehensive course that covers various aspects of nursing, including medical-surgical nursing, pediatric nursing, psychiatric nursing, and obstetric nursing.</p>
+                            <p class=" text-left text-white font-inter text-2xl font-bold mr-10 mt-2 sm:text-3xl md:text-4xl lg:text-6xl lg:leading-12 xl:mt-6 xl:text-7xl 2xl:mt-4 2xl:text-8xl ">DIPLOMA IN GENERAL <br> NURSING & MIDWIFERY <br>3 YEARS</p>
+                            <p class=" text-left text-white font-inter mt-4 text-xs font-arial mr-24 sm:text-sm md:text-base md:mt-6 lg:hidden" >General Nursing and Midwifery (GNM) is a diploma program that prepares individuals to become registered nurses (RNs) and midwives. It's a comprehensive course that covers various aspects of nursing, including medical-surgical nursing, pediatric nursing, psychiatric nursing, and obstetric nursing.</p>
                             
-                            <button class="text-center flex items-center font-inter font-bold bg-teal text-white p-2 mt-2 md:mt-12 md:p-3 md:text-base md:text-lg lg:px-5 xl:text-xl xl:px-6 2xl:text-2xl 2xl:px-8 2xl:mt-20" type="button">
+                            <button class="text-center flex items-center font-inter font-bold bg-teal text-white p-2 mt-2 sm:mt-6 md:mt-12 md:p-3 md:text-base md:text-lg lg:px-5 xl:text-xl xl:px-6 2xl:text-2xl 2xl:px-8 2xl:mt-20" type="button">
                                 APPLY NOW
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 ml-2 lg:h-5 lg:w-5 md:h-4 md:w-4 stroke-1 fill-base-100"viewBox="0 0 512 512">
                                     <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
@@ -108,11 +108,11 @@
 
                 <div class="lg:w-1/2 ">
                     <div class="relative mt-2 ml-6 lg:mt-8 lg:flex flex-col ">
-                        <img src="{{url('/images/2new.jpg')}}" class=" w-5/6 md:ml-6 lg:ml-2 lg:w-full "alt="image">
-                        <div class=" h-44 w-48 ml-40 border-t-4 border-teal -mt-36 mr-4 bg-base-100 opacity-80 shadow-xl lg:opacity-100 md:h-72 md:w-80 md:ml-96 md:-mt-64 lg:flex justify-end lg:h-52 lg:w-56 lg:ml-0 lg:ml-52 lg:-mr-6 lg:-mt-40 xl:h-60 xl:w-72 xl:-mt-56 xl:ml-80 2xl:h-64 2xl:ml-96 ">
+                        <img src="{{url('/images/2new.jpg')}}" class=" w-5/6 md:ml-6 lg:ml-2 lg:w-full  "alt="image">
+                        <div class=" h-44 w-48 sm:h-48 sm:w-56 ml-40 border-t-4 border-teal -mt-36 mr-4 bg-base-100 opacity-80 shadow-xl lg:opacity-100 md:h-72 md:w-80 sm:ml-80 sm:-mt-44 md:ml-96 md:-mt-64 lg:flex justify-end lg:h-52 lg:w-56 lg:ml-0 lg:ml-52 lg:-mr-6 lg:-mt-40 xl:h-60 xl:w-72 xl:-mt-56 xl:ml-80 2xl:h-64 2xl:ml-96   ">
                             <div class="md:px-10 md:py-8 lg:px-2 lg:py-2">
-                                <div class="mt-5 text-left ml-6 lg:ml-2 "><h class="font-bold font-inter text-black text-base md:text-lg lg:text-lg">Established since<br> 1972</h></div>  
-                                    <p class="font-thin font-inter text-left ml-6 mr-4  text-black lg:text-sm md:text-base text-xs lg:mt-2 lg:ml-2">Our organization has been committed to providing exceptional care and services to our community for over five decades.</p>
+                                <div class="mt-5 text-left ml-6 lg:ml-2 "><h class="font-bold font-inter text-black text-base sm:text-lg md:text-lg lg:text-lg">Established since<br> 1972</h></div>  
+                                    <p class="font-thin font-inter text-left ml-6 mr-4  text-black lg:text-sm md:text-base text-xs sm:text-sm lg:mt-2 lg:ml-2">Our organization has been committed to providing exceptional care and services to our community for over five decades.</p>
                                 </div>
                             </div>
 
