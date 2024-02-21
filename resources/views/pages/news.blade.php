@@ -9,11 +9,11 @@
         </div>
         <div>
             <div class="mt-6 ml-4 mr-4 md:mt-10 md:ml-6 md:mr-6 lg:ml-8 lg:mr-8 lg:mt-12 xl:mt-14 xl:ml-12 xl:mr-12 2xl:mt-16 2xl:ml-14 2xl:mr-14" >
-                <h class="text-xl font-semibold font-inter text-black md:text-3xl lg:text-6xl 2xl:text-7xl">Advancing Knowledge</h>
+                <h class="text-xl  font-semibold font-inter text-black md:text-3xl lg:text-6xl 2xl:text-7xl">Advancing Knowledge</h>
             </div>
             <div class="lg:flex flex-row flex-grow">
                 <div class="ml-4 mr-4 md:ml-6 md:mr-6 lg:ml-8 lg:mr-8 lg:mt-20 xl:ml-12 2xl:ml-14 lg:w-2/3">
-                    <img src="{{url('/images/4.jpg')}}" class="bg-cover w-full  " alt="image">
+                    <img src="{{url('/images/4.jpg')}}" class="bg-cover w-full mt-4 lg:mt-0  " alt="image">
                 </div>
                 <div class="hidden lg:block lg:w-1/3  border border-l border-0 border-gray-200 lg:mr-4 xl:mr-6 2xl:mr-10">
                 <div>
