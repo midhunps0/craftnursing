@@ -17,7 +17,7 @@
                 </div>
                 <div class="hidden lg:block lg:w-1/3  border border-l border-0 border-gray-200 lg:mr-4 xl:mr-6 2xl:mr-10">
                 <div>
-                    <p class="bg-teal text-white text-base  font-extrabold text-center font-inter px-2 py-3 ">More Article</p>
+                    <p class="bg-teal text-white text-base 2xl:text-lg font-extrabold text-center font-inter px-2 py-3 ">More Article</p>
                 </div>
                     <div class="lg:ml-3 lg:space-y-6">
                         <div>
