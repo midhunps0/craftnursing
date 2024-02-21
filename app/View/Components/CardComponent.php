@@ -13,17 +13,23 @@ class CardComponent extends Component
      */
     public $cardtitle;
     public $cardcontent;
-
-    public function __construct($cardtitle,$cardcontent)
+    public $clickaction;
+    
+    
+    public function __construct($cardtitle,$cardcontent,$clickaction)
     {
       $this->cardtitle = $cardtitle;
-      $this->cardcontent = $cardcontent; 
+      $this->cardcontent = $cardcontent;
+      $this->clickaction = $clickaction;
+
+     
+      
     }
 
     /**
      * Get the view / contents that represent the component.
      */
-    public function render(): View|Closure|string
+    public function render(): View
     {
         return view('components.card-component');
     }

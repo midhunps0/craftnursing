@@ -175,14 +175,14 @@
 
         <div>
             <div class="lg:flex flex-row md:mt-16 lg:space-x-4 lg:ml-3 lg:mr-3 2xl:ml-8 2xl:mr-8">
-                <div class="lg:w-1/3 text-justify "><x-card-component cardtitle="Advancing Knowledge" :cardcontent="'Embracing lifelong learning, nurses pursue advanced degrees, certifications, and specialized training to remain adaptable and responsive to evolving healthcare needs.'"/></div>
-                <div class="lg:w-1/3 text-justify"><x-card-component cardtitle="Advancing Knowledge" :cardcontent="'Nurses actively engage in interdisciplinary collaboration and knowledge exchange to enhance clinical practice and contribute to the advancement of healthcare innovations.'"/></div>
-                <div class="lg:w-1/3 text-justify"><x-card-component cardtitle="Advancing Knowledge" :cardcontent="'Nurses embrace technology and innovation, leveraging advanced tools and resources to stay informed, enhance clinical decision-making, and deliver evidence-based care.'"/></div>
+                <div class="lg:w-1/3 text-justify"><x-card-component cardtitle="Advancing Knowledge" :cardcontent="'Embracing lifelong learning, nurses pursue advanced degrees, certifications, and specialized training to remain adaptable and responsive to evolving healthcare needs.'" :clickaction="route('news')"/></div>
+                <div class="lg:w-1/3 text-justify"><x-card-component cardtitle="Advancing Knowledge" :cardcontent="'Nurses actively engage in interdisciplinary collaboration and knowledge exchange to enhance clinical practice and contribute to the advancement of healthcare innovations.'" :clickaction="route('news')" /></div>
+                <div class="lg:w-1/3 text-justify"><x-card-component cardtitle="Advancing Knowledge" :cardcontent="'Nurses embrace technology and innovation, leveraging advanced tools and resources to stay informed, enhance clinical decision-making, and deliver evidence-based care.'" :clickaction="route('news')" /></div>
             </div>
         </div>
 
         <div>
-        <x-footer-component/> 
+            <x-footer-component/> 
         </div>
     
         

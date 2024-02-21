@@ -10,7 +10,7 @@
                         <div class="ml-6 mt-16 sm:mt-20 mb-20 md:mt-20 lg:mt-28 lg:ml-16 flex-grow lg:flex-grow">
                             <h class="font-inter text-white font-bold text-2xl sm:text-2xl md:text-2xl lg:text-3xl 2xl:text-4xl">Fulfill Your Dreams Of A<br> Noble Career</h>
                             <div class="lg:mr-96 lg:pr-64"><p class="font-inter text-white font-normal leading-4 text-sm mt-4 mr-4 text-justify sm:mt-4 sm:text-sm sm:mr-4 md:text-sm md:mt-4 lg:text-base lg:mt-8 lg:mr-0 2xl:text-xl">Discover the path to realizing your dreams of a noble career in nursing, where your skills, compassion, and dedication come together to create moments of profound impact and healing.</p></div>
-                                <button class="text-center flex items-center font-arial font-bold sm:text-sm sm:p-3 md:text-base lg:text-xl 2xl:text-2xl text-white mt-6 bg-teal text-xs p-2 lg:mt-8 2xl:mt-12 lg:py-3 lg:px-5 mr-52" type="button">
+                                <button class="text-center flex items-center font-arial font-bold sm:text-sm sm:p-3 md:text-base lg:text-xl 2xl:text-2xl text-white mt-6 bg-teal text-sm p-2 lg:mt-8 2xl:mt-12 lg:py-3 lg:px-5 mr-52" type="button">
                                             APPLY NOW
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 ml-2 lg:h-5 lg:w-5 stroke-1 fill-base-100"viewBox="0 0 512 512">
                                                 <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
