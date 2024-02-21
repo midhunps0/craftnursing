@@ -26,8 +26,8 @@ class PageController extends SmartController{
     {
         return $this->buildResponse('pages.contact');
     }
-    public function news()
+    public function news($id)
     {
-        return $this->buildResponse('pages.news');
+        return $this->buildResponse('pages.news_'.$id);
     }
 }

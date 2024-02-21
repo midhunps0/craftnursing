@@ -1,3 +1,4 @@
+@props(['title', 'content'])
 <div>
     <div class="content-box">
         

@@ -1,3 +1,4 @@
+@props(['cardtitle', 'cardcontent', 'route', 'route_key'])
 <div>
     <div class="card-component">
         <div class="max-w-sm mx-auto xl:mx-0 xl:ml-6 bg-white shadow-lg overflow-hidden mt-4 md:mt-8 lg:mt-4 mb-10">
@@ -11,7 +12,7 @@
                 </p>
             </div>
             <div class="px-6 pt-4 pb-6 mb-2">
-                <button class="text-white bg-teal px-4 py-2 text-base md:text-lg 2xl:text-lg lg:text-base font-bold font-inter"><a href="{{ $clickaction }}">Learn more</a></button>
+                <a  class="btn text-white bg-teal px-4 py-2 text-base md:text-lg 2xl:text-lg lg:text-base font-bold font-inter" @click.prevent.stop="$dispatch('linkaction', {route: '{{$route}}', link: '{{route($route,['id' => $route_key])}}'});" >Learn more</a>
             </div>
         </div>
     </div>

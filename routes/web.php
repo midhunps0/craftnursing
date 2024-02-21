@@ -26,7 +26,7 @@ Route::get('/about', [PageController::class, 'about'])->name('about');
 Route::get('/courses', [PageController::class, 'courses'])->name('courses');
 Route::get('/gallery', [PageController::class, 'gallery'])->name('gallery');
 Route::get('/contact', [PageController::class, 'contact'])->name('contact');
-Route::get('/news', [PageController::class, 'news'])->name('news');
+Route::get('/news/{id}', [PageController::class, 'news'])->name('news');
 Route::post('/contact', [ContactController::class,'submit'])->name('contact.submit');
 
 Route::get('/dashboard', function () {

@@ -1,4 +1,4 @@
-<x-easyadmin::guest-layout> 
+<x-guest-layout>
     <div class="items-center">
         <x-header-full-component/>
 
@@ -34,39 +34,10 @@
         </div> -->
 
         <div>
-            <div class="hidden lg:block lg:flex flex-row md:mt-16 lg:space-x-4 2xl:space-x-6 lg:ml-3 lg:mr-3 2xl:ml-8 2xl:mr-8">
-                <div class="lg:w-1/3 2xl:w-1/3"><x-card-component cardtitle="Advancing Knowledge" :cardcontent="'Embracing lifelong learning, nurses pursue advanced degrees, certifications, and specialized training to remain adaptable and responsive to evolving healthcare needs.'" :clickaction="route('news')" /></div>
-                <div class="lg:w-1/3 2xl:w-1/3"><x-card-component cardtitle="Advancing Knowledge" :cardcontent="'Nurses actively engage in interdisciplinary collaboration and knowledge exchange to enhance clinical practice and contribute to the advancement of healthcare innovations.'" :clickaction="route('news')" /></div>
-                <div class="lg:w-1/3 2xl:w-1/3"><x-card-component cardtitle="Advancing Knowledge" :cardcontent="'Nurses embrace technology and innovation, leveraging advanced tools and resources to stay informed, enhance clinical decision-making, and deliver evidence-based care.'" :clickaction="route('news')" /></div>
-            </div>
-        </div>
-
-        <div>
-            <div class=" lg:hidden sm:mt-6 ">
-                <div id="slide1" class="carousel-item relative w-full ">
-                    <div class="ml-4 md:ml-52 sm:ml-36"><x-card-component cardtitle="Advancing Knowledge" :cardcontent="'Embracing lifelong learning, nurses pursue advanced degrees, certifications, and specialized training to remain adaptable and responsive to evolving healthcare needs.'" :clickaction="route('news')"/></div>
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <!-- <a href="#slide3" class="btn btn-circle ">❮</a> 
-                        <a href="#slide2" class="btn btn-circle ">❯</a> -->
-                    </div>
-                </div>
-
-                <div id="slide2" class="carousel-item relative w-full ">
-                    <div class="ml-4 md:ml-52 sm:ml-36"><x-card-component cardtitle="Advancing Knowledge" :cardcontent="'Nurses actively engage in interdisciplinary collaboration and knowledge exchange to enhance clinical practice and contribute to the advancement of healthcare innovations.'" :clickaction="route('news')"/></div>
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <!-- <a href="#slide1" class="btn btn-circle ">❮</a> 
-                        <a href="#slide3" class="btn btn-circle ">❯</a> -->
-                    </div>
-                </div>
-
-                <div id="slide3" class="carousel-item relative w-full ">
-                    <div class="ml-4 md:ml-52 sm:ml-36"><x-card-component cardtitle="Advancing Knowledge" :cardcontent="'Nurses embrace technology and innovation, leveraging advanced tools and resources to stay informed, enhance clinical decision-making, and deliver evidence-based care.'" :clickaction="route('news')"/></div>
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <!-- <a href="#slide2" class="btn btn-circle ">❮</a> 
-                        <a href="#slide1" class="btn btn-circle ">❯</a> -->
-                    </div>
-                </div>
-
+            <div class="lg:block lg:flex flex-col md:flex-row md:mt-16 lg:space-x-4 2xl:space-x-6 lg:ml-3 lg:mr-3 2xl:ml-8 2xl:mr-8">
+                <div class="lg:w-1/3 2xl:w-1/3"><x-card-component cardtitle="Advancing Knowledge" :cardcontent="'Embracing lifelong learning, nurses pursue advanced degrees, certifications, and specialized training to remain adaptable and responsive to evolving healthcare needs.'" route="news" route_key="1" /></div>
+                <div class="lg:w-1/3 2xl:w-1/3"><x-card-component cardtitle="Advancing Knowledge" :cardcontent="'Embracing lifelong learning, nurses pursue advanced degrees, certifications, and specialized training to remain adaptable and responsive to evolving healthcare needs.'" route="news" route_key="2" /></div>
+                <div class="lg:w-1/3 2xl:w-1/3"><x-card-component cardtitle="Advancing Knowledge" :cardcontent="'Embracing lifelong learning, nurses pursue advanced degrees, certifications, and specialized training to remain adaptable and responsive to evolving healthcare needs.'" route="news" route_key="3" /></div>
             </div>
         </div>
 
@@ -74,4 +45,4 @@
         <x-footer-component/>
         </div>
     </div>
-</x-easyadmin::guest-layout> 
+</x-guest-layout> 

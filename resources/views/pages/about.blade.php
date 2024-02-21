@@ -1,4 +1,4 @@
-<x-easyadmin::guest-layout>
+<x-guest-layout>
     <div class="items-center">
         <x-header-full-component/>
 
@@ -39,4 +39,4 @@
         </div>
     
     </div>
-</x-easyadmin::guest-layout>
+</x-guest-layout>
