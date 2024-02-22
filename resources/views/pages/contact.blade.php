@@ -51,7 +51,7 @@
                                             </div>
                                                 
                                             <div class="mt-6 items-center text-center lg:mt-16 xl:mt-32">
-                                                <button class="text-base font-bold font-gothic text-white bg-primary px-28 py-1.5 md:text-lg  lg:text-2xl xl:text-3xl xl:px-52 lg:px-48 lg:py-3 font-gothic tracking-widest">SEND</button>
+                                                <button class="cursor-pointer text-base font-bold font-gothic text-white bg-primary px-28 py-1.5 md:text-lg  lg:text-2xl xl:text-3xl xl:px-52 lg:px-48 lg:py-3 font-gothic tracking-widest">SEND</button>
                                             </div>
 
                                     </form>

@@ -13,7 +13,7 @@
                             <p class=" text-left text-white font-inter text-2xl font-bold mr-10 mt-2 sm:text-3xl md:text-4xl lg:text-6xl lg:leading-12 xl:mt-6 xl:text-7xl 2xl:mt-4 2xl:text-8xl ">DIPLOMA IN GENERAL <br> NURSING & MIDWIFERY <br>3 YEARS</p>
                             <p class=" text-left text-white font-inter mt-4 text-sm font-arial mr-24 sm:text-sm md:text-base md:mt-6 lg:hidden" >General Nursing and Midwifery (GNM) is a diploma program that prepares individuals to become registered nurses (RNs) and midwives.</p>
                             
-                            <button class="text-center flex items-center font-inter font-bold bg-teal text-white p-2 mt-2 sm:mt-6 md:mt-12 md:p-3 md:text-base md:text-lg lg:px-5 xl:text-xl xl:px-6 2xl:text-2xl 2xl:px-8 2xl:mt-20" type="button">
+                            <button class="cursor-pointer text-center flex items-center font-inter font-bold bg-teal text-white p-2 mt-2 sm:mt-6 md:mt-12 md:p-3 md:text-base md:text-lg lg:px-5 xl:text-xl xl:px-6 2xl:text-2xl 2xl:px-8 2xl:mt-20" type="button">
                                 APPLY NOW
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 ml-2 lg:h-5 lg:w-5 md:h-4 md:w-4 stroke-1 fill-base-100"viewBox="0 0 512 512">
                                     <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
@@ -63,7 +63,7 @@
                             <p class="text-sm text-black lg:text-sm md:text-sm  lg:mt-1 font-inter font-semibold ml-1.5">Placement Assistance</p>
                         </div>
 
-                        <div class="mt-0 lg:mt-4"><button class="text-center  md:mt-8 xl:mt-6 2xl:mt-8 2xl:text-xl font-inter lg:text-base md:text-base xl:text-lg lg:py-2 2xl:py-3 2xl:px-10 md:py-1.5 md:px-6 lg:ml-1 lg:px-8 font-semibold text-white mt-4 bg-teal text-sm p-2 mr-52" type="button">More About Us</button></div>
+                        <div class="mt-0 lg:mt-4"><button class="cursor-pointer text-center  md:mt-8 xl:mt-6 2xl:mt-8 2xl:text-xl font-inter lg:text-base md:text-base xl:text-lg lg:py-2 2xl:py-3 2xl:px-10 md:py-1.5 md:px-6 lg:ml-1 lg:px-8 font-semibold text-white mt-4 bg-teal text-sm p-2 mr-52" type="button">More About Us</button></div>
                     </div>
                 </div>
 
@@ -150,7 +150,7 @@
                         </div>
                         <div class="hidden lg:block ">
                             <div class="px-6 pt-4 pb-6 md:ml-4 md:mt-4 mb-2 lg:ml-4   lg:mt-2 xl:mt-0  2xl:mt-4 ">
-                                <button class="text-white bg-teal md:px-6 md:py-2 lg:px-4 lg:py-2 p-1 px-2 -ml-2  text-base md:text-xl font-bold font-inter 2xl:text-xl 2xl:px-8 2xl:py-3">Learn more</button>
+                                <button class="cursor-pointer text-white bg-teal md:px-6 md:py-2 lg:px-4 lg:py-2 p-1 px-2 -ml-2  text-base md:text-xl font-bold font-inter 2xl:text-xl 2xl:px-8 2xl:py-3">Learn more</button>
                             </div>
                         </div>
                     </div>
@@ -163,7 +163,7 @@
             </div>
             <div class="lg:hidden 2xl:ml-28 2xl:mr-28">
                 <div class="px-6 pt-4 pb-6 md:ml-4 md:mt-4 mb-2 lg:ml-8  lg:mt-2 xl:mt-0  2xl:mb-48 ">
-                    <button class="text-white bg-teal md:px-6 md:py-2 lg:px-4 lg:py-2 p-1 px-2 -ml-2  text-base md:text-xl font-bold font-inter 2xl:text-xl 2xl:px-8 2xl:py-3">Learn more</button>
+                    <button class="cursor-pointer text-white bg-teal md:px-6 md:py-2 lg:px-4 lg:py-2 p-1 px-2 -ml-2  text-base md:text-xl font-bold font-inter 2xl:text-xl 2xl:px-8 2xl:py-3">Learn more</button>
                 </div>
             </div>
         </div>
