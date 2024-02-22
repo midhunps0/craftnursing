@@ -74,19 +74,19 @@
                            
                         </tr>
                         <!-- row 2 -->
-                        <tr class="md:text-base xl:text-lg">
+                        <tr class="md:text-base xl:text-base">
                             
                             <td>Admission Authority</td>
                             <td>Craft Hospital and Research Centre, Chandapura  , Kodungallur</td>
                         </tr>
                         <!-- row 3 -->
-                        <tr class="md:text-base xl:text-lg">
+                        <tr class="md:text-base xl:text-base">
                             
                             <td>Curriculum Focus</td>
                             <td>Comprehensive coverage of anatomy , physiology,nursing fundamentals ,and midwifery </td>
                         </tr>
                         <!-- row 4 -->
-                        <tr class="md:text-base xl:text-lg">
+                        <tr class="md:text-base xl:text-base">
                             
                             <td>Eligibility Criteria</td>
                             <td>Higher secondary education (10+2)in the science stream, with Physics, Chemistry ,and Biology as main subjects</td>
