@@ -7,7 +7,7 @@
                     <img src="{{url('/images/6 phnnew.png')}}" class="bg-cover w-full lg:hidden md:hidden"alt="image">
                     <img src="{{url('/images/6f.png')}}" class="bg-cover w-full hidden md:block lg:block"alt="image">
                     <div class="absolute inset-0 overflow-hidden  bg-gradient-to-r from-submarine/100 to-teal/10 lg:bg-gradient-to-r from-cyan/80 to-teal/10 flex flex-col lg:flex flex-col">
-                        <div class="ml-6 mt-16 sm:mt-20 mb-20 md:mt-20 lg:mt-28 lg:ml-16 flex-grow lg:flex-grow">
+                        <div class="ml-6 mt-16 sm:mt-20 mb-20 md:mt-20 lg:mt-28 lg:ml-16 flex-grow lg:flex-grow 2xl:ml-28 2xl:mr-28">
                             <h class="font-inter text-white font-bold text-2xl sm:text-2xl md:text-2xl lg:text-3xl 2xl:text-4xl">Fulfill Your Dreams Of A<br> Noble Career</h>
                             <div class="lg:mr-96 lg:pr-64"><p class="font-inter text-white font-normal leading-4 text-sm mt-4 mr-4 text-justify sm:mt-4 sm:text-sm sm:mr-4 md:text-sm md:mt-4 lg:text-base lg:mt-8 lg:mr-0 2xl:text-xl">Discover the path to realizing your dreams of a noble career in nursing, where your skills, compassion, and dedication come together to create moments of profound impact and healing.</p></div>
                                 <button class="text-center flex items-center font-arial font-bold sm:text-sm sm:p-3 md:text-base lg:text-xl 2xl:text-2xl text-white mt-6 bg-teal text-sm p-2 lg:mt-8 2xl:mt-12 lg:py-3 lg:px-5 mr-52" type="button">
@@ -36,7 +36,7 @@
             
         </div>
         <div class="inset-0 overflow-hidden  bg-gradient-to-b from-elm/100 to-teal/70  ">
-            <div class="lg:flex flex-row-reverse lg:mt-4 lg:mb-4 mb-6">
+            <div class="lg:flex flex-row-reverse lg:mt-4 lg:mb-4 mb-6 2xl:ml-28 2xl:mr-28">
                 <div class="mt-4 ml-10 lg:ml-0 lg:mr-32 2xl:mr-28 lg:w-1/2 md:flex flex-row  lg:flex flex-row lg:pr-0 2xl:w-2/3">
                     <div class="  md:ml-6 md:mt-7 lg:mt-16">
                         <div class=""><h class="text-white text-base  mb-2 lg:text-xl lg:font-normal 2xl:text-2xl font-inter">Reach us</h></div>

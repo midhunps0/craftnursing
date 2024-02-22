@@ -4,7 +4,7 @@
 
                 <div>
                     <div class="lg:flex flex-row">
-                        <div class="lg:flex-grow lg:w-1/2">
+                        <div class="lg:flex-grow lg:w-1/2 2xl:ml-28">
                             <div>
                                 <div class="mt-4 ml-4 mr-4 md:mt-8 md:ml-8 md:mr-8 lg:mt-44 xl:ml-16">
                                     <h class="text-2xl  font-bold text-black lg:text-6xl font-gothic md:text-3xl">Contact Us</h>
@@ -63,26 +63,28 @@
                         <div class="lg:w-1/2">
                             <div class="relative flex flex-row  mt-20 md:mt-32 md:mb-20 lg:flex justify-end ">
                                 <div class="bg-primary h-full w-1/3 absolute  right-0 flex justify-end  "></div>
-                                <div class="bg-gradient-to-r from-lightblack to-black w-full text-white z-10 mt-8 mb-8 ml-8 mr-8 md:ml-12 md:mr-12 md:mt-14 md:mb-14 xl:mt-16 xl:mb-16 2xl:mt-20 2xl:mb-20 2xl:mr-16">
-                                    <div class="ml-4 mt-8 md:ml-16 lg:ml-10 lg:pr-4 xl:ml-16 xl:mr-16 ">
-                                        <div class="xl:mt-12"><h class="text-white text-sm font-bold font-inter md:text-xl lg:text-2xl xl:text-3xl">Info</h></div>
-                                        <div class="flex mt-16 items-center lg:mt-8">
-                                            <p class="text-white text-xs font-bold font-gothic md:text-base lg:text-xl ">Email</p>
-                                            <p class="text-white text-xs font-gothic ml-14 md:ml-20 md:text-base lg:text-base xl:text-lg">craftnursingcollege.com</p>
-                                        </div>
-                                        <div class="flex mt-16 items-center lg:mt-8">
-                                        <p class="text-white text-xs font-bold font-gothic md:text-base lg:text-xl">Phone No.</p>
-                                        <p class="text-white text-xs font-gothic ml-6 md:ml-10 md:text-base lg:text-base xl:text-lg">+91 9526986000</p>
-                                        </div>
-                                        <div class="flex mt-16 lg:mt-8 ">
-                                            <p class="text-white text-xs font-bold font-gothic md:text-base lg:text-xl">Address</p>
-                                            <div class="flexflex-col mb-20">
-                                            <p class="text-white text-xs font-inter mb-4 ml-14 md:text-base lg:text-base xl:text-lg">CRAFT HOSPITAL AND RESEARCH<br> CENTRE,VIII/77/ 2,3,4, Kodungallur P.O,<br> Chanthappura,Kodungallur, Thrissur,<br> KeralaPh: +91 6282396564</p>
-                                            <p class="text-white text-xs font-inter mb-4 ml-14 md:text-base lg:text-base xl:text-lg">CRAFT Multispeciality Centre 5th & <br>6th Floor,Imperial Amity,Chalikkavattam,<br>NH66 Bypass Kochi 682032,<br> Kerala Ph:+91 9526986000</p>
-                                            </div> 
+                                
+                                    <div class=" bg-gradient-to-r from-lightblack to-black w-full text-white z-10 mt-8 mb-8 ml-8 mr-8 md:ml-12 md:mr-12 md:mt-14 md:mb-14 xl:mt-16 xl:mb-16 2xl:mt-20 2xl:mb-20 2xl:mr-28">
+                                        <div class="ml-4 mt-8 md:ml-16 lg:ml-10 lg:pr-4 xl:ml-16 xl:mr-16 ">
+                                            <div class="xl:mt-12"><h class="text-white text-sm font-bold font-inter md:text-xl lg:text-2xl xl:text-3xl">Info</h></div>
+                                            <div class="flex mt-16 items-center lg:mt-8">
+                                                <p class="text-white text-xs font-bold font-gothic md:text-base lg:text-xl ">Email</p>
+                                                <p class="text-white text-xs font-gothic ml-14 md:ml-20 md:text-base lg:text-base xl:text-lg">craftnursingcollege.com</p>
+                                            </div>
+                                            <div class="flex mt-16 items-center lg:mt-8">
+                                            <p class="text-white text-xs font-bold font-gothic md:text-base lg:text-xl">Phone No.</p>
+                                            <p class="text-white text-xs font-gothic ml-6 md:ml-10 md:text-base lg:text-base xl:text-lg">+91 9526986000</p>
+                                            </div>
+                                            <div class="flex mt-16 lg:mt-8 ">
+                                                <p class="text-white text-xs font-bold font-gothic md:text-base lg:text-xl">Address</p>
+                                                <div class="flexflex-col mb-20">
+                                                <p class="text-white text-xs font-inter mb-4 ml-14 md:text-base lg:text-base xl:text-lg">CRAFT HOSPITAL AND RESEARCH<br> CENTRE,VIII/77/ 2,3,4, Kodungallur P.O,<br> Chanthappura,Kodungallur, Thrissur,<br> KeralaPh: +91 6282396564</p>
+                                                <p class="text-white text-xs font-inter mb-4 ml-14 md:text-base lg:text-base xl:text-lg">CRAFT Multispeciality Centre 5th & <br>6th Floor,Imperial Amity,Chalikkavattam,<br>NH66 Bypass Kochi 682032,<br> Kerala Ph:+91 9526986000</p>
+                                                </div> 
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                               
                             </div>
                         </div>
                     </div>

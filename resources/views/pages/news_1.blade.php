@@ -5,9 +5,9 @@
 
         
         <div class="lg:hidden mt-4 mr-2 md:mr-6 text-right p-1">
-            <button class="text-white bg-teal px-2 py-1 text-base md:text-lg 2xl:text-lg lg:text-base font-bold font-inter"><a href="{{route('gallery')}}">Back</a></button>
+            <a class="text-white bg-teal px-2 py-1 text-base md:text-lg 2xl:text-lg lg:text-base font-bold font-inter cursor-pointer" @click.prevent.stop="$dispatch('linkaction', {link: '{{route('gallery')}}', route: 'gallery'});">Back</a>
         </div>
-        <div>
+        <div class="2xl:ml-28 2xl:mr-28">
             <div class="mt-6 ml-4 mr-4 md:mt-10 md:ml-6 md:mr-6 lg:ml-8 lg:mr-8 lg:mt-12 xl:mt-14 xl:ml-12 xl:mr-12 2xl:mt-16 2xl:ml-14 2xl:mr-14" >
                 <h class="text-xl  font-semibold font-inter text-black md:text-3xl lg:text-6xl 2xl:text-7xl">Advancing Knowledge</h>
             </div>
@@ -21,16 +21,16 @@
                 </div>
                     <div class="lg:ml-3 lg:space-y-6">
                         <div>
-                            <x-news-card-component :title="'Advancing Knowledge'" :src="url('/images/4.jpg')" :content="'The CRAFT School of'" :link="route('gallery')" />
+                            <x-news-card-component :title="'Advancing Knowledge'" :src="url('/images/4.jpg')" :content="'The CRAFT School of Nursing believes that excellence'" route="news" route_key="1" />
                         </div>
                         <div>
-                            <x-news-card-component :title="'Advancing Knowledge'" :src="url('/images/4.jpg')" :content="'The  institution believe'" :link="route('gallery')" />
+                            <x-news-card-component :title="'Advancing Knowledge'" :src="url('/images/4.jpg')" :content="'The  institution believe that accepting responsibilities'" route="news" route_key="2" />
                         </div>
                         <div>
-                            <x-news-card-component :title="'Advancing Knowledge'" :src="url('/images/4.jpg')" :content="'The  CRAFT School of'" :link="route('gallery')" />
+                            <x-news-card-component :title="'Advancing Knowledge'" :src="url('/images/4.jpg')" :content="'The  CRAFT School of Nursing believes that excellence'" route="news" route_key="3" />
                         </div>
                         <div>
-                            <x-news-card-component :title="'Advancing Knowledge'" :src="url('/images/4.jpg')" :content="'The  institution believe'" :link="route('gallery')" />
+                            <x-news-card-component :title="'Advancing Knowledge'" :src="url('/images/4.jpg')" :content="'The  institution believe that accepting responsibilities'" route="news" route_key="1" />
                         </div>
                        
                     </div>

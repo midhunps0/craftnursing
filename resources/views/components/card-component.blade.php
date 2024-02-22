@@ -12,7 +12,7 @@
                 </p>
             </div>
             <div class="px-6 pt-4 pb-6 mb-2">
-                <a  class="btn text-white bg-teal px-4 py-2 text-base md:text-lg 2xl:text-lg lg:text-base font-bold font-inter" @click.prevent.stop="$dispatch('linkaction', {route: '{{$route}}', link: '{{route($route,['id' => $route_key])}}'});" >Learn more</a>
+                <a  class="cursor-pointer text-white bg-teal px-4 py-2 text-base md:text-lg 2xl:text-lg lg:text-base font-bold font-inter" @click.prevent.stop="$dispatch('linkaction', {route: '{{$route}}', link: '{{route($route,['id' => $route_key])}}'});" >Learn more</a>
             </div>
         </div>
     </div>

@@ -8,7 +8,7 @@
                 <img src="{{url('/images/1phn.png')}}" class=" w-full  bg-cover lg:hidden" alt="image">
                 <img src="{{url('/images/1new.png')}}" class="lg:w-full lg:bg-cover hidden lg:block " alt="image">
                 <div class="absolute inset-0 overflow-hidden  bg-gradient-to-r from-secondary/40 to-accent/20">
-                    <div class="mt-12 ml-14 text-left sm:mt-20 md:mt-28 md:ml-20 lg:ml-14 xl:mt-36 2xl:mt-48">
+                    <div class="mt-12 ml-14 text-left sm:mt-20 md:mt-28 md:ml-20 lg:ml-14 xl:mt-36 2xl:mt-48 2xl:ml-28 2xl:mr-28">
                             <div class=""><h class="text-white text-xs font-inter outline outline-white outline-1 p-1 font-bold md:text-sm lg:text-lg">WELCOME TO CRAFT SCHOOL OF NURSING</h></div>
                             <p class=" text-left text-white font-inter text-2xl font-bold mr-10 mt-2 sm:text-3xl md:text-4xl lg:text-6xl lg:leading-12 xl:mt-6 xl:text-7xl 2xl:mt-4 2xl:text-8xl ">DIPLOMA IN GENERAL <br> NURSING & MIDWIFERY <br>3 YEARS</p>
                             <p class=" text-left text-white font-inter mt-4 text-sm font-arial mr-24 sm:text-sm md:text-base md:mt-6 lg:hidden" >General Nursing and Midwifery (GNM) is a diploma program that prepares individuals to become registered nurses (RNs) and midwives.</p>
@@ -27,8 +27,8 @@
         </div>
 
         <div>
-            <div class="lg:flex flex-row-reverse lg:mt-8 ">
-                <div>
+            <div class="lg:flex flex-row-reverse lg:mt-8 2xl:ml-28 2xl:mr-28">
+                <div class="">
                     <div class="mt-10 ml-6 mr-6 md:ml-10 md:mr-10 lg:ml-14 lg:mr-0 xl:ml-20">
                         <h class="text-sm text-black outline outline-1 p-px font-inter md:text-base md:px-1 md:p-py lg:text-base lg:font-light lg:p-px 2xl:text-xl 2xl:px-1">INTRODUCTION OUR CAMPUS</h><br>
                         <div class="mt-2"><h class="text-black text-base  font-medium  font-inter md:text-xl lg:2xl">About CRAFT Hospital & Research Centre</h></div>
@@ -84,7 +84,7 @@
             </div>
         </div>
 
-        <div class="mt-4 space-y-3 lg:flex flex-row lg:space-y-0 lg:mr-12 lg:ml-12 lg:space-x-2 lg:mt-16 ">
+        <div class="mt-4 space-y-3 lg:flex flex-row lg:space-y-0 lg:mr-12 lg:ml-12 lg:space-x-2 lg:mt-16 2xl:ml-28 2xl:mr-28 ">
             <div class="lg:border border-gray-400  border-r lg:w-1/3 "><x-content-box title="Our Vision" :content="'Being a community of scholars and mentors guiding proffessional
                                 nurses as nurse leaders and advanced practitioners commited to professional ideals and practicing meaningfully with a cultural competency in this increasingly technological 
                                 health care system and communities constitutes our vision'"/></div>
@@ -100,12 +100,12 @@
             <img src="{{url('/images/3 phn.png')}}"  class="w-full bg-cover lg:hidden"alt="image">
             <img src="{{url('/images/3n3.png')}}"  class="w-full bg-cover hidden lg:block"alt="image">
             <div class="absolute inset-0 overflow-hidden  bg-gradient-to-r from-cyan/100 to-teal/10 lg:bg-gradient-to-r from-cyan/80 to-teal/10">
-            <div class="text-center mt-36 md:mt-72 lg:mt-28 xl:mt-40 2xl:mt-48"><h class="font-inter text-white text-xl md:text-4xl font-bold lg:text-4xl xl:text-5xl 2xl:text-6xl">"Save one life, you're a hero. Save<br> a hundred lives, you're a nurse."</h></div>
+            <div class="2xl:ml-28 2xl:mr-28"><div class="text-center mt-36 md:mt-72 lg:mt-28 xl:mt-40 2xl:mt-48"><h class="font-inter text-white text-xl md:text-4xl font-bold lg:text-4xl xl:text-5xl 2xl:text-6xl">"Save one life, you're a hero. Save<br> a hundred lives, you're a nurse."</h></div>
             <div class="lg:ml-20 lg:mr-20"><p class="font-inter text-white text-center text-sm  mt-4 mr-10 ml-10 md:mr-20 md:ml-20 xl:mr-24 xl:ml-24 2xl:mr-44 2xl:ml-44 md:mt-12 md:text-base  lg:text-base xl:text-base 2xl:text-xl lg:mt-6 ">
                         Nurses are healthcare professionals trained to provide compassionate, holistic care to individuals across the lifespan, encompassing physical, emotional, and psychological needs.
                         Their dedication and expertise make them essential pillars of the healthcare system, delivering high-quality, patient-centered care.</p></div>
             </div>
-            </div>
+            </div></div>
         </div>
 
         
@@ -113,7 +113,7 @@
         <div>
             <div class="mt-8">
     <!-- maindiv -->
-                <div class="lg:flex flex-row">
+                <div class="lg:flex flex-row 2xl:ml-28 2xl:mr-28">
                     <!-- subdiv1 -->
                     <div class="lg:w-2/3 lg:ml-4">
                         <!-- sd11 -->
@@ -147,7 +147,11 @@
                                 <p class=" font-extralight font-inter ml-6 md:ml-8 mt-6 lg:mt-4 mr-8 lg:mr-0 ">Clinical experience in GNM and midwifery involves hands-on training in various healthcare settings, encompassing direct patient care, obstetric procedures, and maternal-child health interventions.</p>
                                 
                             </div>
-                            
+                        </div>
+                        <div class="hidden lg:block ">
+                            <div class="px-6 pt-4 pb-6 md:ml-4 md:mt-4 mb-2 lg:ml-4   lg:mt-2 xl:mt-0  2xl:mt-4 ">
+                                <button class="text-white bg-teal md:px-6 md:py-2 lg:px-4 lg:py-2 p-1 px-2 -ml-2  text-base md:text-xl font-bold font-inter 2xl:text-xl 2xl:px-8 2xl:py-3">Learn more</button>
+                            </div>
                         </div>
                     </div>
                     <!-- subdiv2 -->
@@ -155,14 +159,17 @@
                         <img src="{{url('/images/5.jpg')}}" class="bg-cover"alt="image">
                     </div>  
                 </div>
+                
             </div>
-            <div class="px-6 pt-4 pb-6 md:ml-4 md:mt-4 mb-2 lg:ml-8  lg:mt-2 xl:mt-0 2xl:-mt-24 2xl:mb-16">
-                <button class="text-white bg-teal md:px-6 md:py-2 lg:px-4 lg:py-2 p-1 px-2 -ml-2  text-base md:text-xl font-bold font-inter 2xl:text-xl 2xl:px-8 2xl:py-3">Learn more</button>
+            <div class="lg:hidden 2xl:ml-28 2xl:mr-28">
+                <div class="px-6 pt-4 pb-6 md:ml-4 md:mt-4 mb-2 lg:ml-8  lg:mt-2 xl:mt-0  2xl:mb-48 ">
+                    <button class="text-white bg-teal md:px-6 md:py-2 lg:px-4 lg:py-2 p-1 px-2 -ml-2  text-base md:text-xl font-bold font-inter 2xl:text-xl 2xl:px-8 2xl:py-3">Learn more</button>
+                </div>
             </div>
         </div>
 
         <div>
-            <div class="ml-4 mr-4 md:ml-8 md:mr-8 lg:flex flex-row">
+            <div class="ml-4 mr-4 md:ml-8 md:mr-8 lg:flex flex-row 2xl:ml-28 2xl:mr-28">
                 <div class="lg:w-1/3 lg:ml-4 2xl:ml-12">
                     <div class="mt-10 md:mt-16 "><h class="text-sm md:text-sm font-normal font-inter outline outline-1 p-1 lg:text-lg">Know More About Us</h></div>
                     <div class="mt-3 "><h class="text-xl md:text-2xl font-semibold font-inter text-black lg:font-bold lg:text-4xl">News & Articles</h></div>
@@ -173,8 +180,8 @@
             </div>
         </div>
 
-        <div>
-            <div class="lg:flex flex-row md:mt-16 lg:space-x-4 lg:ml-3 lg:mr-3 2xl:ml-8 2xl:mr-8">
+        <div class="2xl:ml-28 2xl:mr-28">
+            <div class="lg:flex flex-row md:mt-16 lg:space-x-4 lg:ml-3 lg:mr-3 ">
             <div class="lg:w-1/3 2xl:w-1/3"><x-card-component cardtitle="Advancing Knowledge" :cardcontent="'Embracing lifelong learning, nurses pursue advanced degrees, certifications, and specialized training to remain adaptable and responsive to evolving healthcare needs.'" route="news" route_key="1" /></div>
                 <div class="lg:w-1/3 2xl:w-1/3"><x-card-component cardtitle="Advancing Knowledge" :cardcontent="'Embracing lifelong learning, nurses pursue advanced degrees, certifications, and specialized training to remain adaptable and responsive to evolving healthcare needs.'" route="news" route_key="2" /></div>
                 <div class="lg:w-1/3 2xl:w-1/3"><x-card-component cardtitle="Advancing Knowledge" :cardcontent="'Embracing lifelong learning, nurses pursue advanced degrees, certifications, and specialized training to remain adaptable and responsive to evolving healthcare needs.'" route="news" route_key="3" /></div>
