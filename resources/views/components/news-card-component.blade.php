@@ -6,7 +6,7 @@
         </div> -->
         <div class="flex flex-row mt-2">
             <img class="w-1/3 object-cover" src="{{ $src }}" alt="Card image">
-            <div class="ml-2">
+            <div class="ml-2 mr-2">
                 <h class="lg:text-center font-light lg:text-base 2xl:text-base xl:text-base font-inter text-black lg:text-base">{{$title}}</h>
                 <p class="lg:mt-3 lg:text-justify font-extralight lg:text-sm 2xl:text-base xl:text-sm font-inter text-black lg:text-base">{{$content}}</p>
             </div>

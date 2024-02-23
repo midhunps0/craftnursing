@@ -8,7 +8,7 @@
                 <img src="{{url('/images/1phn.png')}}" class=" w-full  bg-cover lg:hidden" alt="image">
                 <img src="{{url('/images/1new.png')}}" class="lg:w-full lg:bg-cover hidden lg:block " alt="image">
                 <div class="absolute inset-0 overflow-hidden  bg-gradient-to-r from-secondary/40 to-accent/20">
-                    <div class="mt-12 ml-14 text-left sm:mt-20 md:mt-28 md:ml-20 lg:ml-14 xl:mt-36 2xl:mt-48 2xl:ml-28 2xl:mr-28">
+                    <div class="mt-12 ml-14 text-left sm:mt-20 md:mt-28 md:ml-20 lg:ml-14 xl:mt-36 2xl:mt-48 xl:ml-24 xl:mr-24 2xl:ml-32 2xl:mr-32">
                             <div class=""><h class="text-white text-xs font-inter outline outline-white outline-1 p-1 font-bold md:text-sm lg:text-lg">WELCOME TO CRAFT SCHOOL OF NURSING</h></div>
                             <p class=" text-left text-white font-inter text-2xl font-bold mr-10 mt-2 sm:text-3xl md:text-4xl lg:text-6xl lg:leading-12 xl:mt-6 xl:text-7xl 2xl:mt-4 2xl:text-8xl ">DIPLOMA IN GENERAL <br> NURSING & MIDWIFERY <br>3 YEARS</p>
                             <p class=" text-left text-white font-inter mt-4 text-sm font-arial mr-24 sm:text-sm md:text-base md:mt-6 lg:hidden" >General Nursing and Midwifery (GNM) is a diploma program that prepares individuals to become registered nurses (RNs) and midwives.</p>
@@ -27,7 +27,7 @@
         </div>
 
         <div>
-            <div class="lg:flex flex-row-reverse lg:mt-8 2xl:ml-28 2xl:mr-28">
+            <div class="lg:flex flex-row-reverse lg:mt-8 xl:ml-24 xl:mr-24 2xl:ml-32 2xl:mr-32">
                 <div class="">
                     <div class="mt-10 ml-6 mr-6 md:ml-10 md:mr-10 lg:ml-14 lg:mr-0 xl:ml-20">
                         <h class="text-sm text-black outline outline-1 p-px font-inter md:text-base md:px-1 md:p-py lg:text-base lg:font-light lg:p-px 2xl:text-xl 2xl:px-1">INTRODUCTION OUR CAMPUS</h><br>
@@ -63,14 +63,18 @@
                             <p class="text-sm text-black lg:text-sm md:text-sm  lg:mt-1 font-inter font-semibold ml-1.5">Placement Assistance</p>
                         </div>
 
-                        <div class="mt-0 lg:mt-4"><button class="cursor-pointer text-center  md:mt-8 xl:mt-6 2xl:mt-8 2xl:text-xl font-inter lg:text-base md:text-base xl:text-lg lg:py-2 2xl:py-3 2xl:px-10 md:py-1.5 md:px-6 lg:ml-1 lg:px-8 font-semibold text-white mt-4 bg-teal text-sm p-2 mr-52" type="button">More About Us</button></div>
+                        <div class="md:mt-16 mt-16 lg:mt-8 xl:mt-6">
+                            <div class="md:mt-8 mt-6 lg:mt-8 xl:mt-10">
+                                <a class="cursor-pointer text-center  2xl:mt-8 2xl:text-xl font-inter lg:text-base md:text-base xl:text-lg lg:py-2 2xl:py-3 2xl:px-10 md:py-1.5 md:px-6 lg:ml-1 lg:px-8 font-semibold text-white bg-teal text-sm p-2 mr-52" @click="$dispatch('linkaction', {link: '{{route('about')}}', route: 'about'});">More About Us</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <div class="lg:w-1/2 mt-4">
+                <div class="lg:w-1/2 mt-8">
                     <div class="relative mt-2 ml-6 lg:mt-8 lg:flex flex-col ">
                         <img src="{{url('/images/2new.jpg')}}" class=" w-5/6 md:ml-6 lg:ml-2 lg:w-full  "alt="image">
-                        <div class=" h-44 w-48 sm:h-48 sm:w-56 ml-40 border-t-4 border-teal -mt-36 mr-4 bg-base-100 opacity-80 shadow-xl lg:opacity-100 md:h-72 md:w-80 sm:ml-80 sm:-mt-44 md:ml-96 md:-mt-64 lg:flex justify-end lg:h-52 lg:w-56 lg:ml-0 lg:ml-52 lg:-mr-6 lg:-mt-40 xl:h-60 xl:w-72 xl:-mt-56 xl:ml-80 2xl:h-64 2xl:ml-96   ">
+                        <div class=" h-44 w-48 sm:h-48 sm:w-56 ml-40 border-t-4 border-teal -mt-36 mr-4 bg-base-100 opacity-80 shadow-xl lg:opacity-100 md:h-72 md:w-80 sm:ml-80 sm:-mt-44 md:ml-96 md:-mt-64 lg:flex justify-end lg:h-52 lg:w-56 lg:ml-0 lg:ml-52 lg:-mr-6 lg:-mt-40 xl:h-60 xl:w-64 xl:-mt-56 xl:ml-72 2xl:h-64 2xl:ml-96   ">
                             <div class="md:px-10 md:py-8 lg:px-2 lg:py-2  text-black lg:text-justify lg:text-sm xl:text-base md:text-base text-xs sm:text-sm">
                                 <div class="mt-5 text-left ml-6 lg:ml-2 "><h class="font-bold font-inter text-black text-base sm:text-lg md:text-lg lg:text-lg">Established since<br> 1972</h></div>  
                                     <p class="font-extralight font-inter text-left ml-6 mr-4  lg:mt-2 lg:ml-2 ">Our organization has been committed to providing exceptional care and services to our community for over five decades.</p>
@@ -84,7 +88,7 @@
             </div>
         </div>
 
-        <div class="mt-4 space-y-3 lg:flex flex-row lg:space-y-0 lg:mr-12 lg:ml-12 lg:space-x-2 lg:mt-16 2xl:ml-28 2xl:mr-28 ">
+        <div class="mt-4 space-y-3 lg:flex flex-row lg:space-y-0 lg:mr-12 lg:ml-12 lg:space-x-2 lg:mt-16 2xl:ml-24 2xl:mr-24 2xl:ml-32 2xl:mr-32">
             <div class="lg:border border-gray-400  border-r lg:w-1/3 "><x-content-box title="Our Vision" :content="'Being a community of scholars and mentors guiding proffessional
                                 nurses as nurse leaders and advanced practitioners commited to professional ideals and practicing meaningfully with a cultural competency in this increasingly technological 
                                 health care system and communities constitutes our vision'"/></div>
@@ -113,7 +117,7 @@
         <div>
             <div class="mt-8">
     <!-- maindiv -->
-                <div class="lg:flex flex-row 2xl:ml-28 2xl:mr-28">
+                <div class="lg:flex flex-row xl:ml-24 xl:mr-24 2xl:ml-32 2xl:mr-32">
                     <!-- subdiv1 -->
                     <div class="lg:w-2/3 lg:ml-4">
                         <!-- sd11 -->
@@ -150,7 +154,7 @@
                         </div>
                         <div class="hidden lg:block ">
                             <div class="px-6 pt-4 pb-6 md:ml-4 md:mt-4 mb-2 lg:ml-4   lg:mt-2 xl:mt-0  2xl:mt-4 ">
-                                <button class="cursor-pointer text-white bg-teal md:px-6 md:py-2 lg:px-4 lg:py-2 p-1 px-2 -ml-2  text-base md:text-xl font-bold font-inter 2xl:text-xl 2xl:px-8 2xl:py-3">Learn more</button>
+                                <a class="cursor-pointer text-white bg-teal md:px-6 md:py-2 lg:px-4 lg:py-2 p-1 px-2 -ml-2  text-base md:text-xl font-bold font-inter 2xl:text-xl 2xl:px-8 2xl:py-3" @click.prevent.stop="$dispatch('linkaction', {link: '{{route('courses')}}', route: 'courses'});">Learn more</a>
                             </div>
                         </div>
                     </div>
@@ -161,15 +165,15 @@
                 </div>
                 
             </div>
-            <div class="lg:hidden 2xl:ml-28 2xl:mr-28">
+            <div class="lg:hidden xl:ml-24 xl:mr-24 2xl:ml-32 2xl:mr-32">
                 <div class="px-6 pt-4 pb-6 md:ml-4 md:mt-4 mb-2 lg:ml-8  lg:mt-2 xl:mt-0  2xl:mb-48 ">
-                    <button class="cursor-pointer text-white bg-teal md:px-6 md:py-2 lg:px-4 lg:py-2 p-1 px-2 -ml-2  text-base md:text-xl font-bold font-inter 2xl:text-xl 2xl:px-8 2xl:py-3">Learn more</button>
+                    <a class="cursor-pointer text-white bg-teal md:px-6 md:py-2 lg:px-4 lg:py-2 p-1 px-2 -ml-2  text-base md:text-xl font-bold font-inter 2xl:text-xl 2xl:px-8 2xl:py-3" @click.prevent.stop="$dispatch('linkaction', {link: '{{route('courses')}}', route: 'courses'});">Learn more</a>
                 </div>
             </div>
         </div>
 
         <div>
-            <div class="ml-4 mr-4 md:ml-8 md:mr-8 lg:flex flex-row 2xl:ml-28 2xl:mr-28">
+            <div class="ml-4 mr-4 md:ml-8 md:mr-8 lg:flex flex-row xl:ml-24 xl:mr-24 2xl:ml-32 2xl:mr-32">
                 <div class="lg:w-1/3 lg:ml-4 2xl:ml-12">
                     <div class="mt-10 md:mt-16 "><h class="text-sm md:text-sm font-normal font-inter outline outline-1 p-1 lg:text-lg">Know More About Us</h></div>
                     <div class="mt-3 "><h class="text-xl md:text-2xl font-semibold font-inter text-black lg:font-bold lg:text-4xl">News & Articles</h></div>
@@ -180,7 +184,7 @@
             </div>
         </div>
 
-        <div class="2xl:ml-28 2xl:mr-28">
+        <div class="xl:ml-24 xl:mr-24 2xl:ml-32 2xl:mr-32">
             <div class="lg:flex flex-row md:mt-16 lg:space-x-4 lg:ml-3 lg:mr-3 ">
             <div class="lg:w-1/3 2xl:w-1/3"><x-card-component cardtitle="Advancing Knowledge" :cardcontent="'Embracing lifelong learning, nurses pursue advanced degrees, certifications, and specialized training to remain adaptable and responsive to evolving healthcare needs.'" route="news" route_key="1" /></div>
                 <div class="lg:w-1/3 2xl:w-1/3"><x-card-component cardtitle="Advancing Knowledge" :cardcontent="'Embracing lifelong learning, nurses pursue advanced degrees, certifications, and specialized training to remain adaptable and responsive to evolving healthcare needs.'" route="news" route_key="2" /></div>
@@ -188,9 +192,12 @@
             </div>
         </div>
 
-        <div>
-            <x-footer-component/> 
-        </div>
+        <footer>
+            <div class="mt-8">
+               <x-footer-top-component/>
+               <x-footer-component/> 
+            </div>
+        </footer>
     
         
     </div>

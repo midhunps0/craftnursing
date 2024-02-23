@@ -2,7 +2,7 @@
     <div class="items-center">
         <x-header-full-component/>
 
-        <div class="2xl:ml-28 2xl:mr-28">
+        <div class="xl:ml-24 xl:mr-24 2xl:ml-32 2xl:mr-32">
             <div class="mt-6 ml-4 mr-4 md:mt-10 md:ml-6 md:mr-6 lg:ml-8 lg:mr-8 lg:mt-12 xl:mt-14 xl:ml-12 xl:mr-12 2xl:mt-16 2xl:ml-14 2xl:mr-14" >
             <div class=""><h class="text-xl font-semibold font-inter text-black md:text-3xl lg:text-6xl 2xl:text-7xl">News & Articles</h></div>
             <!-- <p class="text-sm text-justify font-extralight font-inter  mt-3 lg:text-base lg:mt-6 lg:leading-6 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctusnec ullamcorper mattis, pulvinar dapibus leo.Lorem ipsum dolor
@@ -33,7 +33,7 @@
             </div>
         </div> -->
 
-        <div class="2xl:ml-28 2xl:mr-28">
+        <div class="xl:ml-24 xl:mr-24 2xl:ml-32 2xl:mr-32">
             <div class="lg:block lg:flex flex-col md:flex-row md:mt-16 lg:space-x-4 2xl:space-x-6 lg:ml-3 lg:mr-3 2xl:ml-8 2xl:mr-8">
                 <div class="lg:w-1/3 2xl:w-1/3"><x-card-component cardtitle="Advancing Knowledge" :cardcontent="'Embracing lifelong learning, nurses pursue advanced degrees, certifications, and specialized training to remain adaptable and responsive to evolving healthcare needs.'" route="news" route_key="1" /></div>
                 <div class="lg:w-1/3 2xl:w-1/3"><x-card-component cardtitle="Advancing Knowledge" :cardcontent="'Embracing lifelong learning, nurses pursue advanced degrees, certifications, and specialized training to remain adaptable and responsive to evolving healthcare needs.'" route="news" route_key="2" /></div>
@@ -41,8 +41,11 @@
             </div>
         </div>
 
-        <div>
-        <x-footer-component/>
-        </div>
+        <footer>
+            <div class="mt-8">
+               <x-footer-top-component/>
+               <x-footer-component/> 
+            </div>
+        </footer>
     </div>
 </x-guest-layout> 

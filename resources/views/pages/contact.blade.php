@@ -4,7 +4,7 @@
 
                 <div>
                     <div class="lg:flex flex-row">
-                        <div class="lg:flex-grow lg:w-1/2 2xl:ml-28">
+                        <div class="lg:flex-grow lg:w-1/2 2xl:ml-32 xl:ml-10">
                             <div>
                                 <div class="mt-4 ml-4 mr-4 md:mt-8 md:ml-8 md:mr-8 lg:mt-44 xl:ml-16">
                                     <h class="text-2xl  font-bold text-black lg:text-6xl font-gothic md:text-3xl">Contact Us</h>
@@ -89,9 +89,12 @@
                         </div>
                     </div>
                 </div>
-        <div>
-        <x-footer-component/>
-        </div>
+        <footer>
+            <div class="mt-8">
+               <x-footer-top-component/>
+               <x-footer-component/> 
+            </div>
+        </footer>
         
 
         

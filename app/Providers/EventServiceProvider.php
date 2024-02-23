@@ -8,6 +8,8 @@ use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvi
 use Illuminate\Support\Facades\Event;
 use App\Events\ContactFormSubmission;
 use App\Listeners\SendContactForm;
+use App\Events\ApplicationFormSubmission;
+use App\Listeners\SendApplicationForm;
 
 class EventServiceProvider extends ServiceProvider
 {
@@ -20,6 +22,9 @@ class EventServiceProvider extends ServiceProvider
         ContactFormSubmission::class => [
             SendContactForm::class,
         ],
+        ApplicationFormSubmission::class => [
+            SendApplicationForm::class,
+        ]
     ];
 
     /**

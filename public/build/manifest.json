@@ -1,6 +1,10 @@
 {
   "resources/css/app.css": {
+<<<<<<< HEAD
     "file": "assets/app-e3bc9864.css",
+=======
+    "file": "assets/app-56e9dc46.css",
+>>>>>>> df2ea36 (commit after update)
     "isEntry": true,
     "src": "resources/css/app.css"
   },

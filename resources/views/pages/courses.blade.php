@@ -7,7 +7,7 @@
                 <img src="{{url('/images/coursesd1.png')}}" class="lg:w-full lg:bg-cover hidden lg:block " alt="image">
                 <img src="{{url('/images/coursesm1.png')}}" class=" w-full  bg-cover lg:hidden" alt="image">
                 <div class="absolute inset-0 overflow-hidden  bg-gradient-to-r from-secondary/40 to-accent/10">
-                    <div class="mt-36  ml-6 sm:ml-12  sm:mt-52 md:mt-72 lg:mt-44 xl:mt-52 xl:ml-20 2xl:mt-72 2xl:ml-28 2xl:mr-28">
+                    <div class="mt-36  ml-6 sm:ml-12  sm:mt-52 md:mt-72 lg:mt-44 xl:mt-52 xl:ml-20 2xl:mt-72 xl:ml-24 xl:mr-24 2xl:ml-32 2xl:mr-32">
                         <div class=""><h class="text-white text-sm sm:text-base md:text-base lg:text-lg outline outline-white outline-1 font-normal lg:font-bold font-inter lg:px-2 lg:py-2  pt-1 pb-1 pl-1 pr-1">ACADEMICS</h></div>
                         <p class="text-left text-white text-xl sm:text-4xl  md:text-4xl mt-4 md:mt-8 lg:text-5xl xl:text-6xl 2xl:text-7xl lg:leading-tight font-bold font-inter lg:mt-6 ">DIPLOMA IN GENERAL <br> NURSING & MIDWIFERY-3 YEARS</p>
                     </div>
@@ -16,7 +16,7 @@
             </div>
         </div>
 
-        <div class="2xl:ml-28 2xl:mr-28">
+        <div class="xl:ml-20 xl:mr-16 2xl:ml-32 2xl:mr-32">
             <div class="mt-8 ml-4 sm:ml-6 sm:mt-12 md:mt-12 md:ml-8 lg:mt-14 lg:ml-12 xl:ml-14 2xl:ml-16">
                 <h class="text-teal text-sm font-bold font-inter  sm:text-2xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-4xl ">DIPLOMA IN GENERAL NURSING & MIDWIFERY-3 YEARS</h><br>
                 <div class="mt-2 lg:mt-6 md:mt-8"><h class="text-teal text-sm md:text-base font-bold font-inter lg:text-xl">WELCOME TO CRAFT SCHOOL OF NURSING</h></div>
@@ -53,8 +53,8 @@
         </div>
 
         <div>
-            <div>
-                <div class=" ml-4 mr-4 sm:ml-6 sm:mr-6 md:ml-8 md:mr-8 md:mt-4 lg:mt-8 lg:ml-12 lg:mr-12 xl:mb-16 2xl:ml-16 2xl:mr-16 2xl:mt-12 2xl:ml-36 2xl:mr-36">
+            <div class="2xl:ml-32 2xl:mr-32 xl:ml-20 xl:mr-24">
+                <div class=" ml-4 mr-4 sm:ml-6 sm:mr-6 md:ml-8 md:mr-8 md:mt-4 lg:mt-8 lg:ml-12 lg:mr-12 xl:mb-16 2xl:ml-16 2xl:mr-16 2xl:mt-12 ">
                     <table class="table ">
                         <!-- head -->
                         <thead>
@@ -97,9 +97,12 @@
             </div>
         </div>
 
-        <div>
-        <x-footer-component/>
-        </div>
+        <footer>
+            <div class="mt-8">
+               <x-footer-top-component/>
+               <x-footer-component/> 
+            </div>
+        </footer>
 
 
 

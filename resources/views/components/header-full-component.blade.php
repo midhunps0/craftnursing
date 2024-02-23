@@ -6,7 +6,7 @@
                <x-header-top-component/>
                     
                     <div>
-                        <div class="flex flex-row 2xl:ml-28 2xl:mr-28 ">
+                        <div class="flex flex-row xl:ml-24 xl:mr-24 2xl:ml-32 2xl:mr-32 ">
                             <div class=" py-1 pl-3.5 w-1/3 ">
                                 <a @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'})"><img src="{{url('/images/Craft school of nursing logo.png')}}" class="cursor-pointer h-14 w-12 lg:h-16 lg:w-14 xl:h-20 xl:w-16 2xl:h-24 2xl:w-20" alt="logo"/></a>
                             </div> 
@@ -27,13 +27,13 @@
                                     <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/>
                                     </svg>
                                 </button>
-                                <div x-show="open" class="lg:hidden md:hidden xl:hidden font-questrial">
-                                    <ul class="bg-white mt-2 p-4 ">
-                                        <li><a class="text-sm cursor-pointer" @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'})">Home</a></li>
-                                        <li><a class="text-sm cursor-pointer" @click="$dispatch('linkaction', {link: '{{route('about')}}', route: 'about'}); console.log('event dispatched');">About Us</a></li>
-                                        <li><a class="text-sm cursor-pointer" @click="$dispatch('linkaction', {link: '{{route('courses')}}', route: 'courses'}); console.log('event dispatched');">Courses</a></li>
-                                        <li><a class="text-sm cursor-pointer" @click="$dispatch('linkaction', {link: '{{route('gallery')}}', route: 'gallery'}); console.log('event dispatched');">Gallery</a></li>
-                                        <li><a class="text-sm cursor-pointer" @click="$dispatch('linkaction', {link: '{{route('contact')}}', route: 'contact'}); console.log('event dispatched');">Contact Us</a></li>
+                                <div x-show="open" class="lg:hidden md:hidden xl:hidden font-questrial flex justify-end">
+                                    <ul class="bg-white/60 mt-2  font-normal shadow-xl text-center absolute z-10 ">
+                                        <li class="hover:bg-primary border-b border-primary hover:font-bold hover:text-white z-20 mt-4"><a class=" text-base cursor-pointer w-full px-2 py-4" @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'})">Home</a></li>
+                                        <li class="hover:bg-primary border-b border-primary hover:font-bold hover:text-white z-20"><a class=" text-base cursor-pointer w-full px-2 py-4" @click="$dispatch('linkaction', {link: '{{route('about')}}', route: 'about'}); console.log('event dispatched');">About Us</a></li>
+                                        <li class="hover:bg-primary border-b border-primary hover:font-bold hover:text-white z-20"><a class=" text-base cursor-pointer w-full px-2 py-4" @click="$dispatch('linkaction', {link: '{{route('courses')}}', route: 'courses'}); console.log('event dispatched');">Courses</a></li>
+                                        <li class="hover:bg-primary border-b border-primary hover:font-bold hover:text-white z-20"><a class=" text-base cursor-pointer w-full px-2 py-4" @click="$dispatch('linkaction', {link: '{{route('gallery')}}', route: 'gallery'}); console.log('event dispatched');">Gallery</a></li>
+                                        <li class="hover:bg-primary  hover:font-bold hover:text-white z-20 mb-4"><a class=" text-base cursor-pointer w-full px-2 py-4" @click="$dispatch('linkaction', {link: '{{route('contact')}}', route: 'contact'}); console.log('event dispatched');">Contact Us</a></li>
                                     </ul>
                                 </div>
                             </div>

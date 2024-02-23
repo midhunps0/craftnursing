@@ -30,4 +30,10 @@ class PageController extends SmartController{
     {
         return $this->buildResponse('pages.news_'.$id);
     }
+    public function applicationform()
+    {
+        return $this->buildResponse('pages.applicationform');
+    }
+    
+    
 }
