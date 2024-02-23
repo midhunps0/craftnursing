@@ -89,13 +89,13 @@ x-init="
                 @contentupdate.window="
                 if ($event.detail.target == 'renderedpanel') {
                     {{-- show = false; --}}
-                    $el.style.opacity = 0.5;
+                    $el.style.opacity = 0.7;
                     setTimeout(() => {
                         $el.innerHTML = $event.detail.content;
                         {{-- show = true; --}}
                         $el.style.opacity = 1;
                     },
-                        400
+                        200
                     );
                 }
                 " id="renderedpanel"
@@ -105,7 +105,7 @@ x-init="
                 x-transition:leave="transition ease-in duration-250"
                 x-transition:leave-start="translate-x-0"
                 x-transition:leave-end="opacity-20 -translate-x-6" --}}
-                class="transition-all duration-500">
+                class="transition-all duration-200">
                 @fragment('page-content')
                     {{ $slot }}
                 @endfragment
