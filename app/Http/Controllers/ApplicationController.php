@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Mail;
 use Illuminate\Http\Request;
 use App\Events\ApplicationFormSubmission;
 use App\Mail\ApplicationMail;
+use Illuminate\Http\JsonResponse;
 
 
 class ApplicationController extends Controller
@@ -20,7 +21,8 @@ class ApplicationController extends Controller
             'contact'=>'required|numeric|digits:10',
         ]);
         $formData = $request->all();
-        event(new ApplicationFormSubmission($formData));
-        return redirect()->back()->with('success','Thank you!Your application is successfully submitted.');
+        // event(new ApplicationFormSubmission($formData));
+        Mail::to('reshmakanjoorparambil@gmail.com')->send(new ApplicationMail($formData));
+        return response()->json(['success' => true, 'message' => 'Form submitted successfully']);
     }
 }

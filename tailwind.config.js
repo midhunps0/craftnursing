@@ -135,7 +135,7 @@ export default {
             colors:{
                 'teal':'#32797D',
                 'cyan':'#6DB7BB',
-                'teal':'#32797D',
+                'red' : '#FF0000',
                 'submarine':'#8E9B9C',
                 'elm':'#247478',
                 'black':'#000000',

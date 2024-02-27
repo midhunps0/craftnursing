@@ -12,28 +12,58 @@
                                     <p class="hidden lg:block font-normal  text-sm mt-6 lg:text-xl font-gothic">Feel free to contact us any time. We will get<br> back to you as we can!</p>
                                 </div>
                                 <div class="mt-4 ml-4 md:mt-6 md:ml-8 md:mr-8 xl:ml-16 xl:mr-16">
-                                @if(session('success'))
+                                <!-- @if(session('success'))
                                 <div class="alert alert-success">
                                     {{ session('success') }}
                                 </div>
-                                @endif
-                                    <form method="POST" action="{{route('contact.submit')}}">
+                                @endif -->
+                                    <form method="POST" action="" x-data="{
+                                        postUrl:'',
+                                        successMessage:false,
+                                        errorMessage:false,
+                                       
+                                        handleSuccess(){
+                                            this.successMessage = true
+                                        },
+                                        handleError(){
+                                            this.errorMessage = true
+                                        },
+                                        
+                                        doSubmit() {
+                                            let fd = new FormData($el);
+                                            postUrl='{{route('contact.submit')}}';
+                                            $dispatch('formsubmit',{url:this.postUrl,formData:fd,target:$el.id});
+                                        },
+                                    }"
+                                        @submit.prevent.stop="doSubmit();"
+                                        @formresponse.window="console.log($event.detail);
+                                        if($event.detail.target == $el.id){
+                                            
+                                            if($event.detail.content.success){
+                                               handleSuccess();
+                                            }
+                                            
+                                            else{
+                                                handleError();
+                                            }
+                                            
+                                            }">
                                         @csrf
                                             <div class="relative mt-4 mr-4 lg:mr-0 ">
-                                                <input id="name" name="name" type="text"
+                                                <input id="name" name="name" type="text" autocomplete="name"
                                                     class="w-full h-10 text-gray-900 placeholder-transparent border-0 border-b border-black peer focus:outline-none focus:border-0 border-b
                                                         border-black"
-                                                    placeholder="Name"/>
+                                                    placeholder="Name" required/>
                                                 <label for="name"
                                                     class="absolute left-0 -top-3.5 text-black text-sm lg:text-xl  transition-all peer-placeholder-shown:text-sm peer-placeholder-shown:md:text-base peer-placeholder-shown:lg:text-xl peer-placeholder-shown:text-black
                                                         peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-black peer-focus:text-sm font-gothic">Name
                                                 </label>
                                             </div>
                                             <div class="relative mt-4 lg:mt-16 mr-4 lg:mr-0 ">
-                                                <input id="email" name="email" type="email"
+                                                <input id="email" name="email" type="email" autocomplete="email"
                                                     class="w-full h-10 text-gray-900 placeholder-transparent border-0 border-b border-black peer focus:outline-none focus:border-0 border-b
                                                         border-black"
-                                                    placeholder="Email" />
+                                                    placeholder="Email" required />
                                                 <label for="email"
                                                     class="absolute left-0 -top-3.5 text-black text-sm transition-all peer-placeholder-shown:text-sm peer-placeholder-shown:md:text-base peer-placeholder-shown:lg:text-xl peer-placeholder-shown:text-black
                                                         peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-black peer-focus:text-sm font-gothic">Email
@@ -43,7 +73,7 @@
                                                 <input id="message" name="message" type="text"
                                                     class="w-full h-10 text-gray-900 placeholder-transparent border-0 border-b border-black peer focus:outline-none focus:border-0 border-b
                                                         border-black"
-                                                    placeholder="Mesage" />
+                                                    placeholder="Mesage" required/>
                                                 <label for="message"
                                                     class="absolute left-0 -top-3.5 text-black text-sm transition-all peer-placeholder-shown:text-sm peer-placeholder-shown:md:text-base peer-placeholder-shown:lg:text-xl peer-placeholder-shown:text-black
                                                         peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-black peer-focus:text-sm font-gothic">Message
@@ -51,7 +81,19 @@
                                             </div>
                                                 
                                             <div class="mt-6 items-center text-center lg:mt-16 xl:mt-32">
-                                                <button class="cursor-pointer text-base font-bold font-gothic text-white bg-primary px-28 py-1.5 md:text-lg  lg:text-2xl xl:text-3xl xl:px-52 lg:px-48 lg:py-3 font-gothic tracking-widest">SEND</button>
+                                                <button type="submit" class="cursor-pointer text-base font-bold font-gothic text-white bg-primary px-28 py-1.5 md:text-lg  lg:text-2xl xl:text-3xl xl:px-52 lg:px-48 lg:py-3 font-gothic tracking-widest">SEND</button>
+                                            </div>
+                                            <div x-show="successMessage" x-cloak class="mt-4 xl:mt-8 border border-gray-600 ml-2 mr-2 text-center">
+                                                <div class=" text-center mb-4">
+                                                    <p class="text-sm font-inter mt-2">Your message has been successfully sent!</p>
+                                                    <div class="mt-4 mb-2"><a class="text-white text-base font-bold bg-primary border border-primary font-teal px-4 py-2   " @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'})">OK</a></div>
+                                                </div>
+                                            </div>
+                                            <div x-show="errorMessage" x-cloak class="mt-4 xl:mt-8 border border-red ml-2 mr-2 text-center">
+                                                <div class=" text-center mb-4">
+                                                    <p class="text-sm font-inter mt-2">Please enter valid information</p>
+                                                    <div class="mt-4 mb-2"><a class="text-white text-base font-bold bg-red border border-red font-teal px-4 py-2   " @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'})">OK</a></div>
+                                                </div>
                                             </div>
 
                                     </form>

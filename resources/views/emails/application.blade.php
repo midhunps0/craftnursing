@@ -7,7 +7,7 @@
 </head>
 <body>
 <div>
-    <h2>Contact Form Submission</h2>
+    <h2>Application Form Submission</h2>
     <p><strong>Name:</strong> {{ $formData['name'] }}</p>
     <p><strong>Address:</strong> {{ $formData['address'] }}</p>
     <p><strong>Highest qualification:</strong> {{ $formData['qualification'] }}</p>
