@@ -6,7 +6,7 @@
        
             <!-- <div class="relative">
                 
-                    <img src="{{url('/images/6 phnnew.png')}}" class="bg-cover w-full lg:hidden md:hidden"alt="image">
+                    <img src="{{url('/images/6 phnnew.webp')}}" class="bg-cover w-full lg:hidden md:hidden"alt="image">
                     <img src="{{url('/images/6f.png')}}" class="bg-cover w-full hidden md:block lg:block"alt="image">
                     <div class="absolute inset-0 overflow-hidden  bg-gradient-to-r from-submarine/100 to-teal/10 lg:bg-gradient-to-r from-cyan/80 to-teal/10 flex flex-col lg:flex flex-col">
                         <div class="ml-6 mt-16 sm:mt-20 mb-20 md:mt-20 lg:mt-28 lg:ml-16 flex-grow lg:flex-grow 2xl:ml-24 2xl:mr-24 2xl:ml-32 2xl:mr-32">
@@ -68,13 +68,13 @@
 
                 <div class="mt-12 md:mt-24 flex flex-row mb-6 lg:w-2/4 lg:ml-8 ml-8 md:ml-16 xl:ml-32 2xl:w-1/3">
                     <div>
-                        <img src="{{url('/images/Craft school of nursing logo1.png')}}" class="border rounded-lg h-32 w-26 lg:h-48 lg:w-36" alt="image">
+                        <img src="{{url('/images/craftnursing.webp')}}" class="border bg-base-100 rounded-lg h-32 w-26 lg:h-48 lg:w-36" alt="image">
                     </div>
 
                     <div class="ml-10 -mt-4">
                         <p class="text-white font-light leading-6 text-xs mt-2 lg:mt-4 lg:text-sm font-inter">Our sister concerns</p>   
-                        <div class="border border-0 bg-gray-100 bg-opacity-40  rounded-lg h-20 w-36 lg:h-auto lg:mt-2"><img src="{{url('/images/Craft hospital logo-01.png')}}" class="border border-white rounded-lg  w-14 ml-10 items-center lg:w-16" alt="image"></div>
-                        <img src="{{url('/images/WhatsApp_Image_2023-12-04_at_1.50.00_PM-removebg-preview.png')}}" class="border rounded-lg bg-base-100 h-10 w-36 mt-4 px-1" alt="image">
+                        <div class="border border-0 bg-gray-100 bg-opacity-40  rounded-lg h-20 w-36 lg:h-auto lg:mt-2"><img src="{{url('/images/craftfertility.webp')}}" class="border border-white rounded-lg  w-14 ml-10 items-center lg:w-16" alt="image"></div>
+                        <img src="{{url('/images/arlogo.webp')}}" class="border rounded-lg bg-base-100 h-10 w-36 mt-4 px-1" alt="image">
                     </div>
                 </div>
             </div>   

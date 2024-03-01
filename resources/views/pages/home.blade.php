@@ -5,8 +5,8 @@
 
         <div>
             <div class="relative ">
-                <img src="{{url('/images/1phn.png')}}" class=" w-full  bg-cover lg:hidden" alt="image">
-                <img src="{{url('/images/1new.png')}}" class="lg:w-full lg:bg-cover hidden lg:block " alt="image">
+                <img src="{{url('/images/1phn.webp')}}" class=" w-full  bg-cover lg:hidden" alt="image">
+                <img src="{{url('/images/1new.webp')}}" class="lg:w-full lg:bg-cover hidden lg:block " alt="image">
                 <div class="absolute inset-0 overflow-hidden  bg-gradient-to-r from-secondary/40 to-accent/20">
                     <div class="mt-12 ml-14 text-left sm:mt-20 md:mt-28 md:ml-20 lg:ml-14 xl:mt-36 2xl:mt-48 xl:ml-24 xl:mr-24 2xl:ml-32 2xl:mr-32">
                             <div class=""><h class="text-white text-xs font-inter outline outline-white outline-1 p-1 font-bold md:text-sm lg:text-lg">WELCOME TO CRAFT SCHOOL OF NURSING</h></div>
@@ -74,7 +74,7 @@
 
                 <div class="lg:w-1/2 mt-8">
                     <div class="relative mt-2 ml-6 lg:mt-8 lg:flex flex-col ">
-                        <img src="{{url('/images/2new.jpg')}}" class=" w-5/6 md:ml-6 lg:ml-2 lg:w-full  "alt="image">
+                        <img src="{{url('/images/2new.webp')}}" class=" w-5/6 md:ml-6 lg:ml-2 lg:w-full  "alt="image">
                         <div class=" h-44 w-48 sm:h-48 sm:w-56 ml-40 border-t-4 border-teal -mt-36 mr-4 bg-base-100 opacity-80 shadow-xl lg:opacity-100 md:h-72 md:w-80 sm:ml-80 sm:-mt-44 md:ml-96 md:-mt-64 lg:flex justify-end lg:h-52 lg:w-56 lg:ml-0 lg:ml-52 lg:-mr-6 lg:-mt-40 xl:h-60 xl:w-64 xl:-mt-56 xl:ml-72 2xl:h-64 2xl:ml-96   ">
                             <div class="md:px-10 md:py-8 lg:px-2 lg:py-2  text-black lg:text-justify lg:text-sm xl:text-base md:text-base text-xs sm:text-sm">
                                 <div class="mt-5 text-left ml-6 lg:ml-2 "><h class="font-bold font-inter text-black text-base sm:text-lg md:text-lg lg:text-lg">Established since<br> 1972</h></div>  
@@ -102,8 +102,8 @@
 
         <div>
             <div class="relative mt-4">
-            <img src="{{url('/images/3 phn.png')}}"  class="w-full bg-cover lg:hidden"alt="image">
-            <img src="{{url('/images/3n3.png')}}"  class="w-full bg-cover hidden lg:block"alt="image">
+            <img src="{{url('/images/3 phn.webp')}}"  class="w-full bg-cover lg:hidden"alt="image">
+            <img src="{{url('/images/3n3.webp')}}"  class="w-full bg-cover hidden lg:block"alt="image">
             <div class="absolute inset-0 overflow-hidden  bg-gradient-to-r from-cyan/100 to-teal/10 lg:bg-gradient-to-r from-cyan/80 to-teal/10">
             <div class="2xl:ml-28 2xl:mr-28"><div class="text-center mt-36 md:mt-72 lg:mt-28 xl:mt-40 2xl:mt-48"><h class="font-inter text-white text-xl md:text-4xl font-bold lg:text-4xl xl:text-5xl 2xl:text-6xl">"Save one life, you're a hero. Save<br> a hundred lives, you're a nurse."</h></div>
             <div class="lg:ml-20 lg:mr-20"><p class="font-inter text-white text-center text-sm  mt-4 mr-10 ml-10 md:mr-20 md:ml-20 xl:mr-24 xl:ml-24 2xl:mr-44 2xl:ml-44 md:mt-12 md:text-base  lg:text-base xl:text-base 2xl:text-xl lg:mt-6 ">
@@ -161,7 +161,7 @@
                     </div>
                     <!-- subdiv2 -->
                     <div class="mt-8 ml-4 mr-6 md:ml-8 md:mr-8 lg:w-2/4  lg:mt-14 lg:mr-4">
-                        <img src="{{url('/images/5.jpg')}}" class="bg-cover"alt="image">
+                        <img src="{{url('/images/5.webp')}}" class="bg-cover"alt="image">
                     </div>  
                 </div>
                 
@@ -186,10 +186,10 @@
         </div>
 
         <div class="xl:ml-24 xl:mr-24 2xl:ml-32 2xl:mr-32">
-            <div class="lg:flex flex-row md:mt-16 lg:space-x-4 lg:ml-3 lg:mr-3 ">
-            <div class="lg:w-1/3 2xl:w-1/3"><x-card-component cardtitle="Advancing Knowledge" :cardcontent="'Embracing lifelong learning, nurses pursue advanced degrees, certifications, and specialized training to remain adaptable and responsive to evolving healthcare needs.'" route="news" route_key="1" /></div>
-                <div class="lg:w-1/3 2xl:w-1/3"><x-card-component cardtitle="Advancing Knowledge" :cardcontent="'Embracing lifelong learning, nurses pursue advanced degrees, certifications, and specialized training to remain adaptable and responsive to evolving healthcare needs.'" route="news" route_key="2" /></div>
-                <div class="lg:w-1/3 2xl:w-1/3"><x-card-component cardtitle="Advancing Knowledge" :cardcontent="'Embracing lifelong learning, nurses pursue advanced degrees, certifications, and specialized training to remain adaptable and responsive to evolving healthcare needs.'" route="news" route_key="3" /></div>
+            <div class="lg:block lg:flex flex-col md:flex-row md:mt-16 lg:space-x-4 2xl:space-x-6 lg:ml-3 lg:mr-3 2xl:ml-8 2xl:mr-8">
+                <div class="lg:w-1/3 2xl:w-1/3"><x-card-component cardtitle="Lamplighting Ceremony" :src="url('/images/3 craft-01.webp')" :cardcontent="'Guests, alongside the esteemed District Collector V R Krishna Teja  IAS,gathered on the dais to mark the beginning of a momentous occasion.'" route="news" route_key="1" /></div>
+                <div class="lg:w-1/3 2xl:w-1/3"><x-card-component cardtitle="Lamplighting Ceremony" :src="url('/images/8 craft-01.webp')" :cardcontent="'Amidst an ambiance of warmth and camaraderie, dignitaries gather on the dais to extend a heartfelt welcome to esteemed guests.'" route="news" route_key="2" /></div>
+                <div class="lg:w-1/3 2xl:w-1/3"><x-card-component cardtitle="Lamplighting Ceremony" :src="url('/images/4 craft-01.webp')" :cardcontent="'District Collector, V R Krishna Teja  IAS,gracefully illuminating  the lamp on the dais, symbolizing the guiding light of knowledge and progress.'" route="news" route_key="3" /></div>
             </div>
         </div>
 

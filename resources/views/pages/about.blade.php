@@ -4,8 +4,8 @@
 
         <div>
             <div class="relative">
-                <img src="{{url('/images/hospital1.png')}}" class="lg:w-full lg:bg-cover hidden lg:block " alt="image">
-                <img src="{{url('/images/about1phn.png')}}" class=" w-full  bg-cover lg:hidden" alt="image">
+                <img src="{{url('/images/about.webp')}}" class="lg:w-full lg:bg-cover hidden lg:block " alt="image">
+                <img src="{{url('/images/aboutphn.webp')}}" class=" w-full  bg-cover lg:hidden" alt="image">
                 <div class="absolute inset-0 overflow-hidden  bg-gradient-to-r from-secondary/40 to-accent/50">
                     <div class="mt-28 ml-14 md:mt-48 md:ml-20 lg:mt-24 xl:mt-28 2xl:mt-40 xl:ml-24 xl:mr-24 2xl:ml-32 2xl:mr-32">
                         <div class=""><h class="text-white text-sm md:text-xl md:px-2 md:py-2 lg:text-base 2xl:text-lg outline outline-white outline-1 font-bold font-inter lg:px-2 lg:py-2  pt-1 pb-1  pl-1 pr-1">WELCOME TO CRAFT SCHOOL OF NURSING</h></div>

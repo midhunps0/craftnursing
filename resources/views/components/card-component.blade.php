@@ -1,11 +1,11 @@
-@props(['cardtitle', 'cardcontent', 'route', 'route_key'])
+@props(['cardtitle', 'cardcontent', 'route', 'route_key','src'])
 <div>
     <div class="card-component">
-        <div class="max-w-sm mx-auto xl:mx-0 xl:ml-6 bg-white shadow-lg overflow-hidden mt-4 md:mt-8 lg:mt-4 mb-10">
+        <div class="max-w-sm  mx-auto xl:mx-0 xl:ml-6 bg-white shadow-lg overflow-hidden mt-4 md:mt-8 lg:mt-4 mb-10">
             <div>
                 <p class="bg-teal text-white text-2xl md:text-3xl 2xl:text-3xl font-extrabold text-center font-inter px-2 py-3 lg:text-2xl">{{$cardtitle}}</p>
             </div>
-            <img class="w-full object-cover" src="{{ url('/images/4.jpg') }}" alt="Card image">
+            <img class="w-full object-cover" src="{{ $src }}" alt="Card image">
             <div class="px-4 py-4 mt-2">
                 <p class="text-sm text-justify md:text-sm 2xl:text-base font-extralight text-black font-inter lg:text-sm lg:text-justify">
                     {{$cardcontent}}

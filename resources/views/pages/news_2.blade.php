@@ -13,7 +13,7 @@
             </div>
             <div class="lg:flex flex-row flex-grow">
                 <div class="ml-4 mr-4 md:ml-6 md:mr-6 lg:ml-8 lg:mr-8 lg:mt-20 xl:ml-12 2xl:ml-14 lg:w-2/3">
-                    <img src="{{url('/images/4.jpg')}}" class="bg-cover w-full mt-4 lg:mt-0  " alt="image">
+                    <img src="{{url('/images/4.webp')}}" class="bg-cover w-full mt-4 lg:mt-0  " alt="image">
                     <div class="mt-4 mb-4 md:ml-6 md:mr-6 md:mt-10 lg:ml-4 lg:mr-4 lg:mt-12 xl:mt-14 xl:ml-4 xl:mr-2 2xl:mt-16 2xl:ml-2 2xl:mr-2">
                     <x-page-component :content="'The  CRAFT School of Nursing believes that excellence in professional nursing education is achieved  through a curriculum , which unifies the essential phenomena 
                     of interest in nursing : the concept of nursing , health , person and environment . the  school accepts that professional nursing education at 
@@ -29,28 +29,28 @@
                     </div>
                     <div class="lg:ml-3 lg:space-y-6">
                         <div>
-                            <x-news-card-component :title="'Advancing Knowledge'" :src="url('/images/4.jpg')" :content="'The CRAFT School of Nursing believes that excellence'" route="news" route_key="1" />
+                            <x-news-card-component :title="'Advancing Knowledge'" :src="url('/images/4.webp')" :content="'The CRAFT School of Nursing believes that excellence'" route="news" route_key="1" />
                         </div>
                         <div>
-                            <x-news-card-component :title="'Advancing Knowledge'" :src="url('/images/4.jpg')" :content="'The  institution believe that accepting responsibilities'" route="news" route_key="2" />
+                            <x-news-card-component :title="'Advancing Knowledge'" :src="url('/images/4.webp')" :content="'The  institution believe that accepting responsibilities'" route="news" route_key="2" />
                         </div>
                         <div>
-                            <x-news-card-component :title="'Advancing Knowledge'" :src="url('/images/4.jpg')" :content="'The  CRAFT School of Nursing believes that excellence'" route="news" route_key="3" />
+                            <x-news-card-component :title="'Advancing Knowledge'" :src="url('/images/4.webp')" :content="'The  CRAFT School of Nursing believes that excellence'" route="news" route_key="3" />
                         </div>
                         <div>
-                            <x-news-card-component :title="'Advancing Knowledge'" :src="url('/images/4.jpg')" :content="'The  institution believe that accepting responsibilities'" route="news" route_key="1" />
+                            <x-news-card-component :title="'Advancing Knowledge'" :src="url('/images/4.webp')" :content="'The  institution believe that accepting responsibilities'" route="news" route_key="1" />
                         </div>
                         <div>
-                            <x-news-card-component :title="'Advancing Knowledge'" :src="url('/images/4.jpg')" :content="'The CRAFT School of Nursing believes that excellence'" route="news" route_key="1" />
+                            <x-news-card-component :title="'Advancing Knowledge'" :src="url('/images/4.webp')" :content="'The CRAFT School of Nursing believes that excellence'" route="news" route_key="1" />
                         </div>
                         <div>
-                            <x-news-card-component :title="'Advancing Knowledge'" :src="url('/images/4.jpg')" :content="'The  institution believe that accepting responsibilities'" route="news" route_key="2" />
+                            <x-news-card-component :title="'Advancing Knowledge'" :src="url('/images/4.webp')" :content="'The  institution believe that accepting responsibilities'" route="news" route_key="2" />
                         </div>
                         <div>
-                            <x-news-card-component :title="'Advancing Knowledge'" :src="url('/images/4.jpg')" :content="'The  CRAFT School of Nursing believes that excellence'" route="news" route_key="3" />
+                            <x-news-card-component :title="'Advancing Knowledge'" :src="url('/images/4.webp')" :content="'The  CRAFT School of Nursing believes that excellence'" route="news" route_key="3" />
                         </div>
                         <div>
-                            <x-news-card-component :title="'Advancing Knowledge'" :src="url('/images/4.jpg')" :content="'The  institution believe that accepting responsibilities'" route="news" route_key="1" />
+                            <x-news-card-component :title="'Advancing Knowledge'" :src="url('/images/4.webp')" :content="'The  institution believe that accepting responsibilities'" route="news" route_key="1" />
                         </div>
                        
                     </div>

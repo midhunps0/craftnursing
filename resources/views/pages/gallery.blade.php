@@ -18,7 +18,7 @@
             </div>
             <div>
                 <div class="ml-4 mr-4 md:ml-6 md:mr-6 lg:ml-8 lg:mr-8 lg:mt-20 xl:ml-12 2xl:ml-14">
-                    <img src="{{url('/images/4.jpg')}}" class="bg-cover w-full lg:w-2/3 " alt="image">
+                    <img src="{{url('/images/4.webp')}}" class="bg-cover w-full lg:w-2/3 " alt="image">
                 </div>
             </div>
         </div> -->
@@ -35,9 +35,25 @@
 
         <div class="xl:ml-24 xl:mr-24 2xl:ml-32 2xl:mr-32">
             <div class="lg:block lg:flex flex-col md:flex-row md:mt-16 lg:space-x-4 2xl:space-x-6 lg:ml-3 lg:mr-3 2xl:ml-8 2xl:mr-8">
-                <div class="lg:w-1/3 2xl:w-1/3"><x-card-component cardtitle="Advancing Knowledge" :cardcontent="'Embracing lifelong learning, nurses pursue advanced degrees, certifications, and specialized training to remain adaptable and responsive to evolving healthcare needs.'" route="news" route_key="1" /></div>
-                <div class="lg:w-1/3 2xl:w-1/3"><x-card-component cardtitle="Advancing Knowledge" :cardcontent="'Embracing lifelong learning, nurses pursue advanced degrees, certifications, and specialized training to remain adaptable and responsive to evolving healthcare needs.'" route="news" route_key="2" /></div>
-                <div class="lg:w-1/3 2xl:w-1/3"><x-card-component cardtitle="Advancing Knowledge" :cardcontent="'Embracing lifelong learning, nurses pursue advanced degrees, certifications, and specialized training to remain adaptable and responsive to evolving healthcare needs.'" route="news" route_key="3" /></div>
+                <div class="lg:w-1/3 2xl:w-1/3"><x-card-component cardtitle="Lamplighting Ceremony" :src="url('/images/3 craft-01.webp')" :cardcontent="'Guests, alongside the esteemed District Collector V R Krishna Teja  IAS,gathered on the dais to mark the beginning of a momentous occasion.'" route="news" route_key="1" /></div>
+                <div class="lg:w-1/3 2xl:w-1/3"><x-card-component cardtitle="Lamplighting Ceremony" :src="url('/images/8 craft-01.webp')" :cardcontent="'Amidst an ambiance of warmth and camaraderie, dignitaries gather on the dais to extend a heartfelt welcome to esteemed guests.'" route="news" route_key="2" /></div>
+                <div class="lg:w-1/3 2xl:w-1/3"><x-card-component cardtitle="Lamplighting Ceremony" :src="url('/images/11 craft-01.webp')" :cardcontent="'District Collector, V R Krishna Teja  IAS,gracefully illuminating  the lamp on the dais, symbolizing the guiding light of knowledge and progress.'" route="news" route_key="3" /></div>
+            </div>
+        </div>
+
+        <div class="xl:ml-24 xl:mr-24 2xl:ml-32 2xl:mr-32">
+            <div class="lg:block lg:flex flex-col md:flex-row md:mt-16 lg:space-x-4 2xl:space-x-6 lg:ml-3 lg:mr-3 2xl:ml-8 2xl:mr-8">
+                <div class="lg:w-1/3 2xl:w-1/3"><x-card-component cardtitle="Lamplighting Ceremony" :src="url('/images/1 craft-01.webp')" :cardcontent="'Renowned film director Kamal illuminates the dais with the symbolic lighting of the lamp, marking the commencement of the event with grace and reverence.'" route="news" route_key="1" /></div>
+                <div class="lg:w-1/3 2xl:w-1/3"><x-card-component cardtitle="Lamplighting Ceremony" :src="url('/images/5 craft-01.webp')" :cardcontent="'Embracing lifelong learning, nurses pursue advanced degrees, certifications, and specialized training to remain adaptable and responsive to evolving healthcare needs.'" route="news" route_key="2" /></div>
+                <div class="lg:w-1/3 2xl:w-1/3"><x-card-component cardtitle="Lamplighting Ceremony" :src="url('/images/7 craft-01.webp')" :cardcontent="'Embracing lifelong learning, nurses pursue advanced degrees, certifications, and specialized training to remain adaptable and responsive to evolving healthcare needs.'" route="news" route_key="3" /></div>
+            </div>
+        </div>
+
+        <div class="xl:ml-24 xl:mr-24 2xl:ml-32 2xl:mr-32">
+            <div class="lg:block lg:flex flex-col md:flex-row md:mt-16 lg:space-x-4 2xl:space-x-6 lg:ml-3 lg:mr-3 2xl:ml-8 2xl:mr-8">
+                <div class="lg:w-1/3 2xl:w-1/3"><x-card-component cardtitle="Lamplighting Ceremony" :src="url('/images/9 craft-01.webp')" :cardcontent="'Our chairman Prof. Dr. C Mohammed Ashraf,gracefully illuminating the path of knowledge during the ceremonial lighting of the lamp on the dais.'" route="news" route_key="1" /></div>
+                <div class="lg:w-1/3 2xl:w-1/3"><x-card-component cardtitle="Lamplighting Ceremony" :src="url('/images/6 craft-01.webp')" :cardcontent="'Nursing students solemnly pledge to uphold the values of compassion, integrity, and excellence at the investiture ceremony, marking their commitment.'" route="news" route_key="2" /></div>
+                <div class="lg:w-1/3 2xl:w-1/3"><x-card-component cardtitle="Lamplighting Ceremony" :src="url('/images/2 craft-01.webp')" :cardcontent="'Captured: Our chairman and the esteemed film director engage in insightful dialogue, epitomizing the fusion of leadership and artistic vision.'" route="news" route_key="3" /></div>
             </div>
         </div>
 
