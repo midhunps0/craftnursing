@@ -1,9 +1,9 @@
 @props(['title', 'content', 'route', 'route_key','src'])
 <div class="news-card-component">
    <a class="cursor-pointer" @click.prevent.stop="$dispatch('linkaction',{route: '{{$route}}', link: '{{route($route,['id' => $route_key])}}'});"><div>
-        <!-- <div>
+        <div>
             <p class="bg-teal text-white text-base  font-extrabold text-center font-inter px-2 py-3 ">More Article</p>
-        </div> -->
+        </div>
         <div class="flex flex-row mt-2">
             <img class="w-1/3 object-cover" src="{{ $src }}" alt="Card image">
             <div class="ml-2 mr-2">

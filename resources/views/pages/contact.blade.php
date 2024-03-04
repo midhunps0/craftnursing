@@ -83,7 +83,7 @@
                                             <div class="mt-6 items-center text-center lg:mt-16 xl:mt-32">
                                                 <button type="submit" class="cursor-pointer text-base font-bold font-gothic text-white bg-primary px-28 py-1.5 md:text-lg  lg:text-2xl xl:text-3xl xl:px-52 lg:px-48 lg:py-3 font-gothic tracking-widest">SEND</button>
                                             </div>
-                                            <div x-show="successMessage" x-cloak class="mt-4 xl:mt-8 border border-gray-600 ml-2 mr-2 text-center">
+                                            <div x-show="successMessage" x-cloak class="mt-4 xl:mt-8 border border-gray-600 ml-2 mr-2 text-center  bg-base-100/80">
                                                 <div class=" text-center mb-4">
                                                     <p class="text-sm font-inter mt-2">Your message has been successfully sent!</p>
                                                     <div class="mt-4 mb-2"><a class="text-white text-base font-bold bg-primary border border-primary font-teal px-4 py-2   " @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'})">OK</a></div>
