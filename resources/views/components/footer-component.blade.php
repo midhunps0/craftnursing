@@ -39,13 +39,13 @@
         <!-- </div> -->
         <div class="inset-0 overflow-hidden  bg-gradient-to-b from-elm/100 to-teal/70  ">
             <div class="lg:flex flex-row-reverse lg:mt-4 lg:mb-4 mb-6 2xl:ml-28 2xl:mr-28">
-                <div class="mt-4 ml-10 lg:ml-0 lg:mr-32 2xl:mr-28 lg:w-1/2 md:flex flex-row  lg:flex flex-row lg:pr-0 2xl:w-2/3">
+                <div class="mt-4 ml-10 lg:ml-0 lg:mr-32 2xl:mr-28 lg:w-1/2  lg:flex flex-row lg:pr-0 2xl:w-2/3">
                     <div class="  md:ml-6 md:mt-7 lg:mt-16">
                         <div class=""><h class="text-white text-base  mb-2 lg:text-xl lg:font-normal 2xl:text-2xl font-inter">Reach us</h></div>
-                        <p class="text-white font-light font-inter leading-6 text-xs 2xl:text-sm mt-2 lg:font-normal">CRAFT HOSPITAL AND RESEARCH<br> CENTRE,VIII/77/ 2,3,4, Kodungallur P.O,<br> Chanthappura,Kodungallur, Thrissur,<br> Kerala Ph: +91 6282396564</p>
-                        <p class="text-white font-light font-inter leading-6 text-xs 2xl:text-sm mt-2 lg:font-normal">CRAFT Multispeciality Centre 5th & <br>6th Floor,Imperial Amity,Chalikkavattam,<br>NH66 Bypass Kochi 682032,<br> Kerala Ph:+91 9526986000</p>
+                        <p class="text-white font-light font-inter leading-6 text-xs 2xl:text-sm mt-2 lg:font-normal">CRAFT SCHOOL OF NURSING <br>Craft Campus, Kodungallur, Thrissur,<br> Kerala - 680664</p>
+                        <!-- <p class="text-white font-light font-inter leading-6 text-xs 2xl:text-sm mt-2 lg:font-normal">CRAFT Multispeciality Centre 5th & <br>6th Floor,Imperial Amity,Chalikkavattam,<br>NH66 Bypass Kochi 682032,<br> Kerala Ph:+91 9526986000</p> -->
                     </div>
-                    <div class=" md:flex md:ml-32 md:mr-10 lg:ml-10 lg:flex flex-col-reverse lg:mb-24 xl:mb-8 2xl:mt-9 xl:mb-0 2xl:flex-row-reverse  ">
+                    <div class="md:flex md:ml-0 md:mr-0 lg:ml-10 lg:flex flex-col-reverse lg:mb-24 xl:mb-8 2xl:mt-9 xl:mb-0 2xl:flex-row-reverse  ">
                         <div class="lg:ml-6 lg:mr-0 2xl:mr-8 md:ml-4">
                             <ul class="list-disc text-white mt-6 lg:mt-0 2xl:mt-4 ">
                                 <div class="lg:-mr-4"><h class="text-white text-base mb-2 font-inter 2xl:text-2xl  lg:text-lg lg:font-normal font-inter">Quick Links</h></div>

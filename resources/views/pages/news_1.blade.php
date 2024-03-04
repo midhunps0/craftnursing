@@ -4,8 +4,8 @@
         <x-header-full-component/>
 
         
-        <div class="lg:hidden mt-4 mr-2 md:mr-6 text-right p-1">
-            <a class="text-white bg-teal px-2 py-1 text-base md:text-lg 2xl:text-lg lg:text-base font-bold font-inter cursor-pointer" @click.prevent.stop="$dispatch('linkaction', {link: '{{route('gallery')}}', route: 'gallery'});">Back</a>
+        <div class=" mt-4 mr-2 md:mr-6 text-right p-1">
+            <a class="text-white bg-teal px-2 py-1 text-base md:text-lg 2xl:text-lg lg:text-base font-bold font-inter cursor-pointer  shadow-md" @click="history.back();">Back</a>
         </div>
         <div class="xl:ml-24 xl:mr-24 2xl:ml-32 2xl:mr-32">
             <div class="mt-6 ml-4 mr-4 md:mt-10 md:ml-6 md:mr-6 lg:ml-8 lg:mr-8 lg:mt-12 xl:mt-14 xl:ml-12 xl:mr-12 2xl:mt-16 2xl:ml-14 2xl:mr-14" >
@@ -62,7 +62,7 @@
         
         <footer>
             <div class="mt-8">
-               <x-footer-top-component/>
+               
                <x-footer-component/> 
             </div>
         </footer>

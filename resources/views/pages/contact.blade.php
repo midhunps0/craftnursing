@@ -12,11 +12,7 @@
                                     <p class="hidden lg:block font-normal  text-sm mt-6 lg:text-xl font-gothic">Feel free to contact us any time. We will get<br> back to you as we can!</p>
                                 </div>
                                 <div class="mt-4 ml-4 md:mt-6 md:ml-8 md:mr-8 xl:ml-16 xl:mr-16">
-                                <!-- @if(session('success'))
-                                <div class="alert alert-success">
-                                    {{ session('success') }}
-                                </div>
-                                @endif -->
+                                
                                     <form method="POST" action="" x-data="{
                                         postUrl:'',
                                         successMessage:false,
@@ -86,13 +82,13 @@
                                             <div x-show="successMessage" x-cloak class="mt-4 xl:mt-8 border border-gray-600 ml-2 mr-2 text-center  bg-base-100/80">
                                                 <div class=" text-center mb-4">
                                                     <p class="text-sm font-inter mt-2">Your message has been successfully sent!</p>
-                                                    <div class="mt-4 mb-2"><a class="text-white text-base font-bold bg-primary border border-primary font-teal px-4 py-2   " @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'})">OK</a></div>
+                                                    <div class="mt-4 mb-2"><a class="text-white cursor-pointer shadow-md text-base font-bold bg-primary border border-primary font-teal px-4 py-2   " @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'})">OK</a></div>
                                                 </div>
                                             </div>
                                             <div x-show="errorMessage" x-cloak class="mt-4 xl:mt-8 border border-red ml-2 mr-2 text-center">
                                                 <div class=" text-center mb-4">
                                                     <p class="text-sm font-inter mt-2">Please enter valid information</p>
-                                                    <div class="mt-4 mb-2"><a class="text-white text-base font-bold bg-red border border-red font-teal px-4 py-2   " @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'})">OK</a></div>
+                                                    <div class="mt-4 mb-2"><a class="text-white cursor-pointer shadow-md text-base font-bold bg-red border border-red font-teal px-4 py-2   " @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'})">OK</a></div>
                                                 </div>
                                             </div>
 
@@ -111,17 +107,17 @@
                                             <div class="xl:mt-12"><h class="text-white text-sm font-bold font-inter md:text-xl lg:text-2xl xl:text-3xl">Info</h></div>
                                             <div class="flex mt-16 items-center lg:mt-8">
                                                 <p class="text-white text-xs font-bold font-gothic md:text-base lg:text-xl ">Email</p>
-                                                <p class="text-white text-xs font-gothic ml-14 md:ml-20 md:text-base lg:text-base xl:text-lg">craftnursingcollege.com</p>
+                                                <p class="text-white text-xs font-gothic ml-14 md:ml-20 md:text-base lg:text-base xl:text-lg">nursingschool@craftivf.com</p>
                                             </div>
                                             <div class="flex mt-16 items-center lg:mt-8">
                                             <p class="text-white text-xs font-bold font-gothic md:text-base lg:text-xl">Phone No.</p>
-                                            <p class="text-white text-xs font-gothic ml-6 md:ml-10 md:text-base lg:text-base xl:text-lg">+91 9526986000</p>
+                                            <p class="text-white text-xs font-gothic ml-6 md:ml-10 md:text-base lg:text-base xl:text-lg">0480-2800200</p>
                                             </div>
                                             <div class="flex mt-16 lg:mt-8 ">
                                                 <p class="text-white text-xs font-bold font-gothic md:text-base lg:text-xl">Address</p>
                                                 <div class="flexflex-col mb-20">
-                                                <p class="text-white text-xs font-inter mb-4 ml-14 md:text-base lg:text-base xl:text-lg">CRAFT HOSPITAL AND RESEARCH<br> CENTRE,VIII/77/ 2,3,4, Kodungallur P.O,<br> Chanthappura,Kodungallur, Thrissur,<br> KeralaPh: +91 6282396564</p>
-                                                <p class="text-white text-xs font-inter mb-4 ml-14 md:text-base lg:text-base xl:text-lg">CRAFT Multispeciality Centre 5th & <br>6th Floor,Imperial Amity,Chalikkavattam,<br>NH66 Bypass Kochi 682032,<br> Kerala Ph:+91 9526986000</p>
+                                                <p class="text-white text-xs font-inter mb-4 ml-14 md:text-base lg:text-base xl:text-lg">CRAFT SCHOOL OF NURSING <br>Craft Campus,<br> Kodungallur, Thrissur,<br> Kerala - 680664</p>
+                                                <!-- <p class="text-white text-xs font-inter mb-4 ml-14 md:text-base lg:text-base xl:text-lg">CRAFT Multispeciality Centre 5th & <br>6th Floor,Imperial Amity,Chalikkavattam,<br>NH66 Bypass Kochi 682032,<br> Kerala Ph:+91 9526986000</p> -->
                                                 </div> 
                                             </div>
                                         </div>
