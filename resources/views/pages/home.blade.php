@@ -194,7 +194,7 @@
         </div>
         <div class="xl:ml-24 xl:mr-24 2xl:ml-32 2xl:mr-32">
             <div class="flex justify-center">
-                <a @click="$dispatch('linkaction', {link: '{{route('gallery')}}', route: 'gallery'});" class="text-teal cursor-pointer text-base md:text-lg 2xl:text-lg lg:text-base font-extrabold font-inter">View more ...</a>
+                <a @click="$dispatch('linkaction', {link: '{{route('gallery')}}', route: 'gallery'});" class="cursor-pointer shadow-md text-white bg-teal md:px-6 md:py-2 lg:px-4 lg:py-2 p-1 px-2 -ml-2  text-base md:text-xl font-bold font-inter 2xl:text-xl 2xl:px-8 2xl:py-3">View more</a>
             </div>
         </div>
 
