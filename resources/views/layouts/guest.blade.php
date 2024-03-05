@@ -112,8 +112,11 @@ x-init="
                 </div>
             </main>
         </div>
+        
         <x-easyadmin::display.notice />
         <x-easyadmin::display.toast />
         @stack('js')
+        <div x-show="$store.app.pageloading" class="progress-bar">
+        </div>
     </body>
 </html>

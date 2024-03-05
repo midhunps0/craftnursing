@@ -1,5 +1,6 @@
 <x-guest-layout>
     <div class="items-center">
+    
         
         <x-header-full-component/> 
 
