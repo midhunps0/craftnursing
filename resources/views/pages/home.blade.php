@@ -6,8 +6,8 @@
 
         <div>
             <div class="relative ">
-                <img src="{{url('/images/1phn.webp')}}" class=" w-full  bg-cover lg:hidden" alt="image">
-                <img src="{{url('/images/1new.webp')}}" class="lg:w-full lg:bg-cover hidden lg:block " alt="image">
+                <img src="{{url('/images/1phn.webp')}}" class="w-full sm:w-full bg-cover lg:hidden" alt="student image">
+                <img src="{{url('/images/1new.webp')}}" class="lg:w-full lg:bg-cover hidden lg:block " alt="student image">
                 <div class="absolute inset-0 overflow-hidden  bg-gradient-to-r from-secondary/40 to-accent/20">
                     <div class="mt-12 ml-14 text-left sm:mt-20 md:mt-28 md:ml-20 lg:ml-14 xl:mt-36 2xl:mt-48 xl:ml-24 xl:mr-24 2xl:ml-32 2xl:mr-32">
                             <div class=""><h class="text-white text-xs font-inter outline outline-white outline-1 p-1 font-bold md:text-sm lg:text-lg">WELCOME TO CRAFT SCHOOL OF NURSING</h></div>
@@ -30,7 +30,7 @@
 
         <div>
             <div class="lg:flex flex-row-reverse lg:mt-8 xl:ml-24 xl:mr-24 2xl:ml-32 2xl:mr-32">
-                <div class="">
+                <div>
                     <div class="mt-10 ml-6 mr-6 md:ml-10 md:mr-10 lg:ml-14 lg:mr-0 xl:ml-20">
                         <h class="text-sm text-black outline outline-1 p-px font-inter md:text-base md:px-1 md:p-py lg:text-base lg:font-light lg:p-px 2xl:text-xl 2xl:px-1">INTRODUCTION OUR CAMPUS</h><br>
                         <div class="mt-2"><h class="text-black text-base  font-medium  font-inter md:text-xl lg:2xl">About CRAFT Hospital & Research Centre</h></div>
