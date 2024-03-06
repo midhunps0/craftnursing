@@ -73,7 +73,7 @@
 
                     <div class="ml-10 -mt-4">
                         <p class="text-white font-light leading-6 text-xs mt-2 lg:mt-4 lg:text-sm font-inter">Our sister concerns</p>   
-                        <div class="border border-0 bg-gray-100 bg-opacity-40  rounded-lg h-20 w-36 lg:h-auto lg:mt-2"><img src="{{url('/images/craftfertility.webp')}}" class="border border-white rounded-lg  w-14 ml-10 items-center lg:w-16" alt="image"></div>
+                        <div class="border border-0 bg-gray-100 bg-opacity-40  rounded-lg h-20 w-36 lg:h-auto lg:mt-2"><img src="{{url('/images/craftfertility (1).webp')}}" class="border border-white rounded-lg  w-14 ml-10 items-center lg:w-16" alt="image"></div>
                         <img src="{{url('/images/arlogo.webp')}}" class="border rounded-lg bg-base-100 h-10 w-36 mt-4 px-1" alt="image">
                     </div>
                 </div>

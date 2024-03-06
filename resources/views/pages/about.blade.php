@@ -4,7 +4,7 @@
 
         <div>
             <div class="relative">
-                <img src="{{url('/images/about.webp')}}" class="lg:w-full lg:bg-cover hidden lg:block " alt="image">
+                <img src="{{url('/images/about (1).webp')}}" class="lg:w-full lg:bg-cover hidden lg:block " alt="image">
                 <img src="{{url('/images/aboutphn.webp')}}" class=" w-full  bg-cover lg:hidden" alt="image">
                 <div class="absolute inset-0 overflow-hidden  bg-gradient-to-r from-secondary/40 to-accent/50">
                     <div class="mt-28 ml-14 md:mt-48 md:ml-20 lg:mt-24 xl:mt-28 2xl:mt-40 xl:ml-24 xl:mr-24 2xl:ml-32 2xl:mr-32">

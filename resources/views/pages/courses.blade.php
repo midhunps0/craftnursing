@@ -4,8 +4,8 @@
 
         <div>
             <div class="relative mt-2">
-                <img src="{{url('/images/courses.webp')}}" class="lg:w-full lg:bg-cover hidden lg:block " alt="image">
-                <img src="{{url('/images/coursesphn.webp')}}" class=" w-full  bg-cover lg:hidden" alt="image">
+                <img src="{{url('/images/courses (1).webp')}}" class="lg:w-full lg:bg-cover hidden lg:block " alt="image">
+                <img src="{{url('/images/coursesphn (1).webp')}}" class=" w-full  bg-cover lg:hidden" alt="image">
                 <div class="absolute inset-0 overflow-hidden  bg-gradient-to-r from-secondary/40 to-accent/10">
                     <div class="mt-36  ml-6 sm:ml-12  sm:mt-52 md:mt-72 lg:mt-44 xl:mt-52 xl:ml-20 2xl:mt-72 xl:ml-24 xl:mr-24 2xl:ml-32 2xl:mr-32">
                         <div class=""><h class="text-white text-sm sm:text-base md:text-base lg:text-lg outline outline-white outline-1 font-normal lg:font-bold font-inter lg:px-2 lg:py-2  pt-1 pb-1 pl-1 pr-1">ACADEMICS</h></div>
