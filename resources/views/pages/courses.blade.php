@@ -4,7 +4,7 @@
 
         <div>
             <div class="relative mt-2">
-                <img src="{{url('/images/courses (1).webp')}}" class="lg:w-full h-auto lg:bg-cover hidden lg:block " alt="image">
+                <img src="{{url('/images/courses (1).webp')}}" class="lg:w-full h-auto lg:bg-cover hidden lg:block " alt="nursing college student image">
                 <img src="{{url('/images/coursesphn (1).webp')}}" class=" w-full h-auto  bg-cover lg:hidden" alt="image">
                 <div class="absolute inset-0 overflow-hidden  bg-gradient-to-r from-secondary/40 to-accent/10">
                     <div class="mt-36  ml-6 sm:ml-12  sm:mt-52 md:mt-72 lg:mt-44 xl:mt-52 xl:ml-20 2xl:mt-72 xl:ml-24 xl:mr-24 2xl:ml-32 2xl:mr-32">

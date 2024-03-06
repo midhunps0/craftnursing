@@ -75,7 +75,7 @@
 
                 <div class="lg:w-1/2 mt-8">
                     <div class="relative mt-2 ml-6 lg:mt-8 lg:flex flex-col ">
-                        <img src="{{url('/images/2new.webp')}}" class=" w-5/6 sm:w-5/6 md:w-5/6 h-auto md:ml-6 lg:ml-2 lg:w-full h-auto "alt="image">
+                        <img src="{{url('/images/2new.webp')}}" class=" w-5/6 sm:w-5/6 md:w-5/6 h-auto md:ml-6 lg:ml-2 lg:w-full h-auto "alt="nursing student">
                         <div class=" h-44 w-48 sm:h-48 sm:w-56 ml-40 border-t-4 border-teal -mt-36 mr-4 bg-base-100 opacity-80 shadow-xl lg:opacity-100 md:h-72 md:w-80 sm:ml-80 sm:-mt-44 md:ml-96 md:-mt-64 lg:flex justify-end lg:h-52 lg:w-56 lg:ml-0 lg:ml-52 lg:-mr-6 lg:-mt-40 xl:h-60 xl:w-64 xl:-mt-56 xl:ml-72 2xl:h-64 2xl:ml-96   ">
                             <div class="md:px-10 md:py-8 lg:px-2 lg:py-2  text-black lg:text-justify lg:text-sm xl:text-base md:text-base text-xs sm:text-sm">
                                 <div class="mt-5 text-left ml-6 lg:ml-2 "><h class="font-bold font-inter text-black text-base sm:text-lg md:text-lg lg:text-lg">Established since<br> 1972</h></div>  
@@ -103,8 +103,8 @@
 
         <div>
             <div class="relative mt-4">
-            <img src="{{url('/images/3 phn.webp')}}"  class="w-full h-auto bg-cover lg:hidden"alt="image">
-            <img src="{{url('/images/3n3.webp')}}"  class="w-full h-auto bg-cover hidden lg:block"alt="image">
+            <img src="{{url('/images/3 phn.webp')}}"  class="w-full h-auto bg-cover lg:hidden"alt="student image">
+            <img src="{{url('/images/3n3.webp')}}"  class="w-full h-auto bg-cover hidden lg:block"alt="nursing student image">
             <div class="absolute inset-0 overflow-hidden  bg-gradient-to-r from-cyan/100 to-teal/10 lg:bg-gradient-to-r from-cyan/80 to-teal/10">
             <div class="2xl:ml-28 2xl:mr-28"><div class="text-center mt-36 md:mt-72 lg:mt-28 xl:mt-40 2xl:mt-48"><h class="font-inter text-white text-xl md:text-4xl font-bold lg:text-4xl xl:text-5xl 2xl:text-6xl">"Save one life, you're a hero. Save<br> a hundred lives, you're a nurse."</h></div>
             <div class="lg:ml-20 lg:mr-20"><p class="font-inter text-white text-center text-sm  mt-4 mr-10 ml-10 md:mr-20 md:ml-20 xl:mr-24 xl:ml-24 2xl:mr-44 2xl:ml-44 md:mt-12 md:text-base  lg:text-base xl:text-base 2xl:text-xl lg:mt-6 ">
@@ -162,7 +162,7 @@
                     </div>
                     <!-- subdiv2 -->
                     <div class="mt-8 ml-4 mr-6 md:ml-8 md:mr-8 lg:w-2/4  lg:mt-14 lg:mr-4">
-                        <img src="{{url('/images/5.webp')}}" class="w-full h-auto bg-cover"alt="image">
+                        <img src="{{url('/images/5.webp')}}" class="w-full h-auto bg-cover"alt="nursing student image">
                     </div>  
                 </div>
                 
