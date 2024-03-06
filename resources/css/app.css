@@ -27,3 +27,16 @@
     from{transform: translateX(-100%);}
     to{transform: translateX(0%);}
 }
+@font-face {
+    font-family:gothic;
+    src:url('./DidactGothic-Regular.ttf');
+}
+@font-face {
+    font-family:inter;
+    src:url('./Inter-VariableFont_slnt,wght.ttf');
+}
+@font-face {
+    font-family:questrial;
+    src:url('./Questrial-Regular.ttf');
+}
+    

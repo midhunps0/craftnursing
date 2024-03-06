@@ -1,6 +1,18 @@
 {
+  "resources/css/DidactGothic-Regular.ttf": {
+    "file": "assets/DidactGothic-Regular-b41981e6.ttf",
+    "src": "resources/css/DidactGothic-Regular.ttf"
+  },
+  "resources/css/Inter-VariableFont_slnt,wght.ttf": {
+    "file": "assets/Inter-VariableFont_slnt_wght-cf3cb43b.ttf",
+    "src": "resources/css/Inter-VariableFont_slnt,wght.ttf"
+  },
+  "resources/css/Questrial-Regular.ttf": {
+    "file": "assets/Questrial-Regular-1bd0a353.ttf",
+    "src": "resources/css/Questrial-Regular.ttf"
+  },
   "resources/css/app.css": {
-    "file": "assets/app-1655c19b.css",
+    "file": "assets/app-0106dfed.css",
     "isEntry": true,
     "src": "resources/css/app.css"
   },
