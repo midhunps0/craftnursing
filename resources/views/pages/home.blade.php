@@ -75,7 +75,7 @@
 
                 <div class="lg:w-1/2 mt-8">
                     <div class="relative mt-2 ml-6 lg:mt-8 lg:flex flex-col ">
-                        <img src="{{url('/images/2new.webp')}}" class=" w-5/6 sm:w-5/6 md:w-5/6 h-auto md:ml-6 lg:ml-2 lg:w-full h-auto "alt="nursing student">
+                        <img src="{{url('/images/2new.webp')}}" class=" w-5/6 sm:w-5/6 md:w-5/6 h-auto md:ml-6 lg:ml-2 lg:w-full h-auto" alt="group of nursing student">
                         <div class=" h-44 w-48 sm:h-48 sm:w-56 ml-40 border-t-4 border-teal -mt-36 mr-4 bg-base-100 opacity-80 shadow-xl lg:opacity-100 md:h-72 md:w-80 sm:ml-80 sm:-mt-44 md:ml-96 md:-mt-64 lg:flex justify-end lg:h-52 lg:w-56 lg:ml-0 lg:ml-52 lg:-mr-6 lg:-mt-40 xl:h-60 xl:w-64 xl:-mt-56 xl:ml-72 2xl:h-64 2xl:ml-96   ">
                             <div class="md:px-10 md:py-8 lg:px-2 lg:py-2  text-black lg:text-justify lg:text-sm xl:text-base md:text-base text-xs sm:text-sm">
                                 <div class="mt-5 text-left ml-6 lg:ml-2 "><h class="font-bold font-inter text-black text-base sm:text-lg md:text-lg lg:text-lg">Established since<br> 1972</h></div>  
