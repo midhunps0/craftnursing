@@ -47,18 +47,21 @@
                     </div>
                     <div class="md:flex md:ml-0 md:mr-0 lg:ml-10 lg:flex flex-col-reverse lg:mb-24 xl:mb-8 2xl:mt-9 xl:mb-0 2xl:flex-row-reverse  ">
                         <div class="lg:ml-6 lg:mr-0 2xl:mr-8 md:ml-4">
-                            <ul class="list-disc text-white mt-6 lg:mt-0 2xl:mt-4 ">
-                                <div class="lg:-mr-4"><h class="text-white text-base mb-2 font-inter 2xl:text-2xl  lg:text-lg lg:font-normal font-inter">Quick Links</h></div>
-                                    <li class="ml-6 cursor-pointer"><a @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'})"><p class="text-white font-inter font-light leading-6 text-xs 2xl:text-sm mt-2 lg:font-normal">Home</p></a></li>
-                                    <li class="ml-6 cursor-pointer"><a @click="$dispatch('linkaction', {link: '{{route('courses')}}', route: 'courses'}); console.log('event dispatched');"><p class="text-white font-inter font-light leading-6 text-xs 2xl:text-sm mt-2 lg:font-normal">Courses</p></a></li>
-                                    <li class="ml-6 cursor-pointer"><a @click="$dispatch('linkaction', {link: '{{route('about')}}', route: 'about'}); console.log('event dispatched');"><p class="text-white font-inter font-light leading-6 text-xs mt-2 2xl:text-sm lg:font-normal">About Us</p></a></li>
-                                    <li class="ml-6 cursor-pointer"><a @click="$dispatch('linkaction', {link: '{{route('contact')}}', route: 'contact'}); console.log('event dispatched');"><p class="text-white font-inter font-light leading-6 text-xs 2xl:text-sm mt-2 lg:font-normal">Contact Us</p></a></li>
-                                    <li class="ml-6 cursor-pointer"><a @click="$dispatch('linkaction', {link: '{{route('gallery')}}', route: 'gallery'}); console.log('event dispatched');"><p class="text-white font-inter font-light leading-6 text-xs 2xl:text-sm mt-2 lg:font-normal">Gallery</p></a></li>
+                            <p class="lg:-mr-4 text-white text-base mb-2 font-inter 2xl:text-2xl  lg:text-lg lg:font-normal font-inter mt-6 2xl:mt-4 ">Quick Links</p>
+                            <ul class="list-disc text-white  lg:mt-0 ">
+                                <!-- <div class="lg:-mr-4"><h class="text-white text-base mb-2 font-inter 2xl:text-2xl  lg:text-lg lg:font-normal font-inter">Quick Links</h></div> -->
+                                
+                                    <li class="ml-6 cursor-pointer"><a role="link" tabindex="0" aria-label="Home" @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'})"><p class="text-white font-inter font-light leading-6 text-xs 2xl:text-sm mt-2 lg:font-normal">Home</p></a></li>
+                                    <li class="ml-6 cursor-pointer"><a  role="link" tabindex="0" aria-label="Courses"@click="$dispatch('linkaction', {link: '{{route('courses')}}', route: 'courses'}); console.log('event dispatched');"><p class="text-white font-inter font-light leading-6 text-xs 2xl:text-sm mt-2 lg:font-normal">Courses</p></a></li>
+                                    <li class="ml-6 cursor-pointer"><a  role="link" tabindex="0" aria-label="About"@click="$dispatch('linkaction', {link: '{{route('about')}}', route: 'about'}); console.log('event dispatched');"><p class="text-white font-inter font-light leading-6 text-xs mt-2 2xl:text-sm lg:font-normal">About Us</p></a></li>
+                                    <li class="ml-6 cursor-pointer"><a  role="link" tabindex="0" aria-label="Contact"@click="$dispatch('linkaction', {link: '{{route('contact')}}', route: 'contact'}); console.log('event dispatched');"><p class="text-white font-inter font-light leading-6 text-xs 2xl:text-sm mt-2 lg:font-normal">Contact Us</p></a></li>
+                                    <li class="ml-6 cursor-pointer"><a  role="link" tabindex="0" aria-label="Gallery"@click="$dispatch('linkaction', {link: '{{route('gallery')}}', route: 'gallery'}); console.log('event dispatched');"><p class="text-white font-inter font-light leading-6 text-xs 2xl:text-sm mt-2 lg:font-normal">Gallery</p></a></li>
                             </ul>
                         </div>
                         <div class="lg:ml-6 lg:mr-0 md:ml-4 lg:mt-10 2xl:mt-0">
-                            <ul class="list-disc text-white mt-6  ">
-                                <div><h class="text-white text-base mb-2 lg:text-lg lg:font-normal 2xl:text-2xl font-inter ">Openings Hours</h></div>
+                            <p class="text-white text-base mb-2 lg:text-lg lg:font-normal 2xl:text-2xl font-inter mt-6  ">Openings Hours</p>
+                            <ul class="list-disc text-white  ">
+                               
                                     <li class="ml-6 lg:mr-0"><p class="text-white font-inter 2xl:text-sm font-light leading-6 text-xs mt-2 lg:font-normal">Mon – Sat 09:00 AM – 06:00PM(Kochi) </p></li>
                                     <li class="ml-6 lg:mr-0"><p class="text-white font-inter 2xl:text-sm font-light leading-6 text-xs mt-2 lg:font-normal">Mon – Sun Always open(Kodungalloor)</p></li>
                             </ul>
