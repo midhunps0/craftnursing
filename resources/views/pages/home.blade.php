@@ -32,7 +32,7 @@
             <div class="lg:flex flex-row-reverse lg:mt-8 xl:ml-24 xl:mr-24 2xl:ml-32 2xl:mr-32">
                 <div>
                     <div class="mt-10 ml-6 mr-6 md:ml-10 md:mr-10 lg:ml-14 lg:mr-0 xl:ml-20">
-                        <h class="text-sm text-black outline outline-1 p-px font-inter md:text-base md:px-1 md:p-py lg:text-base lg:font-light lg:p-px 2xl:text-xl 2xl:px-1">INTRODUCTION OUR CAMPUS</h><br>
+                        <h class="text-sm text-black outline outline-1 p-px font-inter md:text-base md:px-1 md:p-py lg:text-base lg:font-light lg:p-px 2xl:text-xl 2xl:px-1">INTRODUCING OUR CAMPUS</h><br>
                         <div class="mt-2"><h class="text-black text-base  font-medium  font-inter md:text-xl lg:2xl">About CRAFT Hospital & Research Centre</h></div>
                         <div class="mt-2"><p class="text-black font-normal lg:font-extralight mr-2 font-inter text-sm md:text-sm lg:text-base lg:text-justify xl:text-base lg:mr-4 xl:mr-8 2xl:text-lg ">CRAFT Hospital specialises in infertility treatment that houses a team of experts and
                             specialists who are dedicated in helping couples to combat and overcome infertility issues.</p>
