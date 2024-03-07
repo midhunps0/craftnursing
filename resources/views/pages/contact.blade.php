@@ -82,13 +82,13 @@
                                             <div x-show="successMessage" x-cloak class="mt-4 xl:mt-8 border border-gray-600 ml-2 mr-2 text-center  bg-base-100/80">
                                                 <div class=" text-center mb-4">
                                                     <p class="text-sm font-inter mt-2">Your message has been successfully sent!</p>
-                                                    <div class="mt-4 mb-2"><a class="text-white cursor-pointer shadow-md text-base font-bold bg-primary border border-primary font-teal px-4 py-2   " @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'})">OK</a></div>
+                                                    <div class="mt-4 mb-2"><a href="{{route('home')}}" class="text-white cursor-pointer shadow-md text-base font-bold bg-primary border border-primary font-teal px-4 py-2   " @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'})">OK</a></div>
                                                 </div>
                                             </div>
                                             <div x-show="errorMessage" x-cloak class="mt-4 xl:mt-8 border border-red ml-2 mr-2 text-center">
                                                 <div class=" text-center mb-4">
                                                     <p class="text-sm font-inter mt-2">Please enter valid information</p>
-                                                    <div class="mt-4 mb-2"><a class="text-white cursor-pointer shadow-md text-base font-bold bg-red border border-red font-teal px-4 py-2   " @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'})">OK</a></div>
+                                                    <div class="mt-4 mb-2"><a href="{{route('contact')}}" class="text-white cursor-pointer shadow-md text-base font-bold bg-red border border-red font-teal px-4 py-2   " @click="$dispatch('linkaction', {link: '{{route('contact')}}', route: 'contact'})">OK</a></div>
                                                 </div>
                                             </div>
 
@@ -137,4 +137,7 @@
 
         
     </div>
+    <meta name="description" content="Your page description here">
+    <meta property="og:title" content="Your Open Graph title here">
+    <meta property="og:description" content="Your Open Graph description here">
 </x-guest-layout>

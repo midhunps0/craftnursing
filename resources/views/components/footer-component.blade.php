@@ -51,11 +51,11 @@
                             <ul class="list-disc text-white  lg:mt-0 ">
                                 <!-- <div class="lg:-mr-4"><h class="text-white text-base mb-2 font-inter 2xl:text-2xl  lg:text-lg lg:font-normal font-inter">Quick Links</h></div> -->
                                 
-                                    <li class="ml-6 cursor-pointer"><a role="link" tabindex="0" aria-label="Home" @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'})"><p class="text-white font-inter font-light leading-6 text-xs 2xl:text-sm mt-2 lg:font-normal">Home</p></a></li>
-                                    <li class="ml-6 cursor-pointer"><a  role="link" tabindex="0" aria-label="Courses"@click="$dispatch('linkaction', {link: '{{route('courses')}}', route: 'courses'}); console.log('event dispatched');"><p class="text-white font-inter font-light leading-6 text-xs 2xl:text-sm mt-2 lg:font-normal">Courses</p></a></li>
-                                    <li class="ml-6 cursor-pointer"><a  role="link" tabindex="0" aria-label="About"@click="$dispatch('linkaction', {link: '{{route('about')}}', route: 'about'}); console.log('event dispatched');"><p class="text-white font-inter font-light leading-6 text-xs mt-2 2xl:text-sm lg:font-normal">About Us</p></a></li>
-                                    <li class="ml-6 cursor-pointer"><a  role="link" tabindex="0" aria-label="Contact"@click="$dispatch('linkaction', {link: '{{route('contact')}}', route: 'contact'}); console.log('event dispatched');"><p class="text-white font-inter font-light leading-6 text-xs 2xl:text-sm mt-2 lg:font-normal">Contact Us</p></a></li>
-                                    <li class="ml-6 cursor-pointer"><a  role="link" tabindex="0" aria-label="Gallery"@click="$dispatch('linkaction', {link: '{{route('gallery')}}', route: 'gallery'}); console.log('event dispatched');"><p class="text-white font-inter font-light leading-6 text-xs 2xl:text-sm mt-2 lg:font-normal">Gallery</p></a></li>
+                                    <li class="ml-6 cursor-pointer"><a  href="{{route('home')}}" aria-label="Home"    @keydown.enter.prevent.stop="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'}); console.log('event dispatched');" @click.prevent.stop="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'})"><p class="text-white font-inter font-light leading-6 text-xs 2xl:text-sm mt-2 lg:font-normal">Home</p></a></li>
+                                    <li class="ml-6 cursor-pointer"><a  href="{{route('courses')}}" aria-label="Courses" @keydown.enter.prevent.stop="$dispatch('linkaction', {link: '{{route('courses')}}', route: 'courses'}); console.log('event dispatched');" @click.prevent.stop="$dispatch('linkaction', {link: '{{route('courses')}}', route: 'courses'}); console.log('event dispatched');"><p class="text-white font-inter font-light leading-6 text-xs 2xl:text-sm mt-2 lg:font-normal">Courses</p></a></li>
+                                    <li class="ml-6 cursor-pointer"><a  href="{{route('about')}}" aria-label="About"   @keydown.enter.prevent.stop="$dispatch('linkaction', {link: '{{route('about')}}', route: 'about'}); console.log('event dispatched');" @click.prevent.stop="$dispatch('linkaction', {link: '{{route('about')}}', route: 'about'}); console.log('event dispatched');"><p class="text-white font-inter font-light leading-6 text-xs mt-2 2xl:text-sm lg:font-normal">About Us</p></a></li>
+                                    <li class="ml-6 cursor-pointer"><a  href="{{route('contact')}}" aria-label="Contact" @keydown.enter.prevent.stop="$dispatch('linkaction', {link: '{{route('contact')}}', route: 'contact'}); console.log('event dispatched');" @click.prevent.stop="$dispatch('linkaction', {link: '{{route('contact')}}', route: 'contact'}); console.log('event dispatched');"><p class="text-white font-inter font-light leading-6 text-xs 2xl:text-sm mt-2 lg:font-normal">Contact Us</p></a></li>
+                                    <li class="ml-6 cursor-pointer"><a  href="{{route('gallery')}}" aria-label="Gallery" @keydown.enter.prevent.stop="$dispatch('linkaction', {link: '{{route('gallery')}}', route: 'gallery'}); console.log('event dispatched');" @click.prevent.stop="$dispatch('linkaction', {link: '{{route('gallery')}}', route: 'gallery'}); console.log('event dispatched');"><p class="text-white font-inter font-light leading-6 text-xs 2xl:text-sm mt-2 lg:font-normal">Gallery</p></a></li>
                             </ul>
                         </div>
                         <div class="lg:ml-6 lg:mr-0 md:ml-4 lg:mt-10 2xl:mt-0">
@@ -71,13 +71,13 @@
 
                 <div class="mt-12 md:mt-24 flex flex-row mb-6 lg:w-2/4 lg:ml-8 ml-8 md:ml-16 xl:ml-32 2xl:w-1/3">
                     <div>
-                        <img src="{{url('/images/craftnursing (1).webp')}}" class="border bg-base-100 rounded-lg h-32 w-26 lg:h-48 lg:w-36" alt="image">
+                        <img src="{{url('/images/craftnursing (1).webp')}}" width="100%" height="100%" class="border bg-base-100 rounded-lg  w-24  lg:w-36" alt="image">
                     </div>
 
                     <div class="ml-10 -mt-4">
                         <p class="text-white font-light leading-6 text-xs mt-2 lg:mt-4 lg:text-sm font-inter">Our sister concerns</p>   
-                        <div class="border border-0 bg-gray-100 bg-opacity-40  rounded-lg h-20 w-36 lg:h-auto lg:mt-2"><img src="{{url('/images/craftfertility (1).webp')}}" class="border border-white rounded-lg  w-14 ml-10 items-center lg:w-16 h-auto" alt="image"></div>
-                        <img src="{{url('/images/arlogo (1).webp')}}" class="border rounded-lg bg-base-100 h-10 w-36 mt-4 px-1" alt="image">
+                        <div class="border border-0 bg-gray-100 bg-opacity-40  rounded-lg h-20 w-36 lg:h-auto lg:mt-2"><img src="{{url('/images/craftfertility (1).webp')}}" width="100%" height="100%" class="border border-white rounded-lg  w-14 ml-10 items-center lg:w-16 h-auto" alt="image"></div>
+                        <img src="{{url('/images/arlogo (1).webp')}}" width="100%" height="100%" class="border rounded-lg bg-base-100  w-36 mt-4 px-1" alt="image">
                     </div>
                 </div>
             </div>   
