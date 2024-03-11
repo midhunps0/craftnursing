@@ -59,13 +59,15 @@ x-init="
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <template x-for="tag in nameMetas()">
+        <!-- <template x-for="tag in nameMetas()">
                 <meta :name="tag.name" :content="tag.content" >
         </template>
         <template x-for="tag in propertyMetas()">
                 <meta :property="tag.property" :content="tag.content" >
-        </template>
-
+        </template> -->
+        {{ $meta_tags}}
+       
+       
         <!-- Fonts -->
         <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap"> -->
         <link rel="preconnect" href="https://fonts.googleapis.com">

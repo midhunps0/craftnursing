@@ -1,4 +1,9 @@
 <x-guest-layout>
+    <x-slot:meta_tags>
+        <meta property="og:title" content="Welcome to CRAFT collge of Nursing,Kodungallur,Thrissur">
+        <meta property="og:description" content="Explore our nursing programs at CRAFT collge of Nursing,Kodungallur,Thrissur.We offers 3 year diploma in general nursing and midwifery, providing comprehensive education and training for aspiring nurses.">
+        <meta property="og:image" content="{{url('/images/1phn.webp')}}">
+    </x-slot>
     <div class="items-center">
     
         

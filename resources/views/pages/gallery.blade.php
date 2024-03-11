@@ -1,4 +1,9 @@
 <x-guest-layout>
+<x-slot:meta_tags>
+        <meta property="og:title" content="Gallery-CRAFT collge of Nursing,Kodungallur,Thrissur">
+        <meta property="og:description" content="Explore the news about  CRAFT College of Nursing, Kodungallur, Thrissur. See images showcasing our campus, facilities, events, and student life.">
+        
+    </x-slot>
     <div class="items-center">
         <x-header-full-component/>
 
