@@ -17,7 +17,7 @@ export default {
                 arial:['Arial','sans-serif'],
                 gothic:['Didact Gothic','sans-serif'],
                 inter:['Inter','sans-serif'],
-                spartan:['Spartan','sans-serif'],
+                // spartan:['Spartan','sans-serif'],
                 questrial:['Questrial','sans-serif']
             },
             minWidth: {
