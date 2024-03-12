@@ -2,7 +2,7 @@
 <x-slot:meta_tags>
         <meta property="og:title" content="Contact-CRAFT collge of Nursing,Kodungallur,Thrissur">
         <meta property="og:description" content="Contact CRAFT College of Nursing, Kodungallur, Thrissur for inquiries regarding courses we offer. Get in touch with us to learn more about our institution and admission process.">
-        
+        <meta name="description" content="Contact CRAFT College of Nursing, Kodungallur, Thrissur for inquiries regarding courses we offer. Get in touch with us to learn more about our institution and admission process.">
     </x-slot>
     <div class="items-center">
         <x-header-full-component/>

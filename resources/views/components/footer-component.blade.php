@@ -71,13 +71,13 @@
 
                 <div class="mt-12 md:mt-24 flex flex-row mb-6 lg:w-2/4 lg:ml-8 ml-8 md:ml-16 xl:ml-32 2xl:w-1/3">
                     <div>
-                        <img src="{{url('/images/craftnursing (1).webp')}}" width="100%" height="100%" class="border bg-base-100 rounded-lg  w-24  lg:w-36" alt="image">
+                        <img src="{{url('/images/craftnursing (1).webp')}}" width="100%" height="100%" class="border bg-base-100 rounded-lg  w-24  lg:w-36" alt="craft_nursingcollege_logo">
                     </div>
 
                     <div class="ml-10 -mt-4">
                         <p class="text-white font-light leading-6 text-xs mt-2 lg:mt-4 lg:text-sm font-inter">Our sister concerns</p>   
-                        <div class="border border-0 bg-gray-100 bg-opacity-40  rounded-lg h-20 w-36 lg:h-auto lg:mt-2"><img src="{{url('/images/craftfertility (1).webp')}}" width="100%" height="100%" class="border border-white rounded-lg  w-14 ml-10 items-center lg:w-16 h-auto" alt="image"></div>
-                        <img src="{{url('/images/arlogo (1).webp')}}" width="100%" height="100%" class="border rounded-lg bg-base-100  w-36 mt-4 px-1" alt="image">
+                        <div class="border border-0 bg-gray-100 bg-opacity-40  rounded-lg h-20 w-36 lg:h-auto lg:mt-2"><img src="{{url('/images/craftfertility (1).webp')}}" width="100%" height="100%" class="border border-white rounded-lg  w-14 ml-10 items-center lg:w-16 h-auto" alt="craftfertility_logo"></div>
+                        <img src="{{url('/images/arlogo (1).webp')}}" width="100%" height="100%" class="border rounded-lg bg-base-100  w-36 mt-4 px-1" alt="ar_hospital_logo">
                     </div>
                 </div>
             </div>   

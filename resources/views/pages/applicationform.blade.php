@@ -2,6 +2,7 @@
 <x-slot:meta_tags>
         <meta property="og:title" content="Application Form-CRAFT collge of Nursing,Kodungallur,Thrissur">
         <meta property="og:description" content="Apply to CRAFT College of Nursing, Kodungallur, Thrissur for our 3-year diploma program in general nursing and midwifery. Take the first step towards a rewarding career in nursing.">
+        <meta name="description" content="Apply to CRAFT College of Nursing, Kodungallur, Thrissur for our 3-year diploma program in general nursing and midwifery. Take the first step towards a rewarding career in nursing.">
         
     </x-slot>
     <div class="items-center">

@@ -3,6 +3,7 @@
         <meta property="og:title" content="Welcome to CRAFT collge of Nursing,Kodungallur,Thrissur">
         <meta property="og:description" content="Explore our nursing programs at CRAFT collge of Nursing,Kodungallur,Thrissur.We offers 3 year diploma in general nursing and midwifery, providing comprehensive education and training for aspiring nurses.">
         <meta property="og:image" content="{{url('/images/1phn.webp')}}">
+        <meta name="description" content="Explore our nursing programs at CRAFT collge of Nursing,Kodungallur,Thrissur.We offers 3 year diploma in general nursing and midwifery, providing comprehensive education and training for aspiring nurses.">
     </x-slot>
     <div class="items-center">
     
@@ -11,8 +12,8 @@
 
         <div>
             <div class="relative ">
-                <img src="{{url('/images/1phn.webp')}}" width="100%" height="100%" class="w-full sm:w-full h-auto bg-cover lg:hidden" alt="student image">
-                <img src="{{url('/images/1new.webp')}}" width="100%" height="100%" class="lg:w-full xl:w-full 2xl:w-full h-auto lg:bg-cover hidden lg:block " alt="student image">
+                <div class="w-full sm:w-full h-auto bg-cover lg:hidden"><img src="{{url('/images/1phn.webp')}}" width="100%" height="100%"  alt="nursing_student_image"></div>
+                <div class="lg:w-full xl:w-full 2xl:w-full h-auto lg:bg-cover hidden lg:block"><img src="{{url('/images/1new.webp')}}" width="100%" height="100%"  alt="nursing_student_image"></div>
                 <div class="absolute inset-0 overflow-hidden  bg-gradient-to-r from-secondary/40 to-accent/20">
                     <div class="mt-12 ml-14 text-left sm:mt-20 md:mt-28 md:ml-20 lg:ml-14 xl:mt-36 2xl:mt-48 xl:ml-24 xl:mr-24 2xl:ml-32 2xl:mr-32">
                             <div class=""><h class="text-white text-xs font-inter outline outline-white outline-1 p-1 font-bold md:text-sm lg:text-lg">WELCOME TO CRAFT SCHOOL OF NURSING</h></div>
@@ -80,7 +81,7 @@
 
                 <div class="lg:w-1/2 mt-8">
                     <div class="relative mt-2 ml-6 lg:mt-8 lg:flex flex-col ">
-                        <img src="{{url('/images/2new.webp')}}" width="100%" height="100%" class=" w-5/6 sm:w-5/6 md:w-5/6 h-auto md:ml-6 lg:ml-2 lg:w-full xl:w-full 2xl:w-full h-auto" alt="group of nursing student">
+                        <img src="{{url('/images/2new.webp')}}" width="100%" height="100%" class=" w-5/6 sm:w-5/6 md:w-5/6 h-auto md:ml-6 lg:ml-2 lg:w-full xl:w-full 2xl:w-full h-auto" alt="group_of_nursing_student">
                         <div class=" h-44 w-48 sm:h-48 sm:w-56 ml-40 border-t-4 border-teal -mt-36 mr-4 bg-base-100 opacity-80 shadow-xl lg:opacity-100 md:h-72 md:w-80 sm:ml-80 sm:-mt-44 md:ml-96 md:-mt-64 lg:flex justify-end lg:h-52 lg:w-56 lg:ml-0 lg:ml-52 lg:-mr-6 lg:-mt-40 xl:h-60 xl:w-64 xl:-mt-56 xl:ml-72 2xl:h-64 2xl:ml-96   ">
                             <div class="md:px-10 md:py-8 lg:px-2 lg:py-2  text-black lg:text-justify lg:text-sm xl:text-base md:text-base text-xs sm:text-sm">
                                 <div class="mt-5 text-left ml-6 lg:ml-2 "><h class="font-bold font-inter text-black text-base sm:text-lg md:text-lg lg:text-lg">Established since<br> 1972</h></div>  
@@ -108,8 +109,8 @@
 
         <div>
             <div class="relative mt-4">
-            <img src="{{url('/images/3 phn.webp')}}" width="100%" height="100%" class="w-full sm:w-full md:w-full h-auto bg-cover lg:hidden"alt="student image">
-            <img src="{{url('/images/3n3.webp')}}" width="100%" height="100%" class="w-full h-auto bg-cover hidden lg:block"alt="nursing student image">
+            <img src="{{url('/images/3 phn.webp')}}" width="100%" height="100%" class="w-full sm:w-full md:w-full h-auto bg-cover lg:hidden"alt="nursing_student_image">
+            <img src="{{url('/images/3n3.webp')}}" width="100%" height="100%" class="w-full h-auto bg-cover hidden lg:block"alt="nursing_student_image">
             <div class="absolute inset-0 overflow-hidden  bg-gradient-to-r from-cyan/100 to-teal/10 lg:bg-gradient-to-r from-cyan/80 to-teal/10">
             <div class="2xl:ml-28 2xl:mr-28"><div class="text-center mt-36 md:mt-72 lg:mt-28 xl:mt-40 2xl:mt-48"><h class="font-inter text-white text-xl md:text-4xl font-bold lg:text-4xl xl:text-5xl 2xl:text-6xl">"Save one life, you're a hero. Save<br> a hundred lives, you're a nurse."</h></div>
             <div class="lg:ml-20 lg:mr-20"><p class="font-inter text-white text-center text-sm  mt-4 mr-10 ml-10 md:mr-20 md:ml-20 xl:mr-24 xl:ml-24 2xl:mr-44 2xl:ml-44 md:mt-12 md:text-base  lg:text-base xl:text-base 2xl:text-xl lg:mt-6 ">
@@ -161,20 +162,20 @@
                         </div>
                         <div class="hidden lg:block ">
                             <div class="px-6 pt-4 pb-6 md:ml-4 md:mt-4 mb-2 lg:ml-4   lg:mt-2 xl:mt-0  2xl:mt-4 ">
-                                <a href="{{route('courses')}}" aria-label="Learn more" class="cursor-pointer shadow-md text-white bg-teal md:px-6 md:py-2 lg:px-4 lg:py-2 p-1 px-2 -ml-2  text-base md:text-xl font-bold font-inter 2xl:text-xl 2xl:px-8 2xl:py-3" @click.prevent.stop="$dispatch('linkaction', {link: '{{route('courses')}}', route: 'courses'});"  @keydown.enter.prevent.stop="$dispatch('linkaction', {link: '{{route('courses')}}', route: 'courses'});">Learn more</a>
+                                <a href="{{route('courses')}}" aria-label="Learn more" class="cursor-pointer shadow-md text-white bg-teal md:px-6 md:py-2 lg:px-4 lg:py-2 p-1 px-2 -ml-2  text-base md:text-xl font-bold font-inter 2xl:text-xl 2xl:px-8 2xl:py-3" @click.prevent.stop="$dispatch('linkaction', {link: '{{route('courses')}}', route: 'courses'});"  @keydown.enter.prevent.stop="$dispatch('linkaction', {link: '{{route('courses')}}', route: 'courses'});">More about courses</a>
                             </div>
                         </div>
                     </div>
                     <!-- subdiv2 -->
                     <div class="mt-8 ml-4 mr-6 md:ml-8 md:mr-8 lg:w-2/4  lg:mt-14 lg:mr-4">
-                        <img src="{{url('/images/5.webp')}}" width="100%" height="100%" class="w-full sm:w-full md:w-full lg:w-full xl:w-full 2xl:w-full h-auto bg-cover"alt="nursing student image">
+                        <img src="{{url('/images/5.webp')}}" width="100%" height="100%" class="w-full sm:w-full md:w-full lg:w-full xl:w-full 2xl:w-full h-auto bg-cover"alt="nursing_student_image">
                     </div>  
                 </div>
                 
             </div>
             <div class="lg:hidden xl:ml-24 xl:mr-24 2xl:ml-32 2xl:mr-32">
                 <div class="px-6 pt-4 pb-6 md:ml-4 md:mt-4 mb-2 lg:ml-8  lg:mt-2 xl:mt-0  2xl:mb-48 ">
-                    <a href="{{route('courses')}}" aria-label="Learn more" class="cursor-pointer shadow-md text-white bg-teal md:px-6 md:py-2 lg:px-4 lg:py-2 p-1 px-2 -ml-2  text-base md:text-xl font-bold font-inter 2xl:text-xl 2xl:px-8 2xl:py-3" @click.prevent.stop="$dispatch('linkaction', {link: '{{route('courses')}}', route: 'courses'});" @keydown.enter.prevent.stop="$dispatch('linkaction', {link: '{{route('courses')}}', route: 'courses'});">Learn more</a>
+                    <a href="{{route('courses')}}" aria-label="Learn more" class="cursor-pointer shadow-md text-white bg-teal md:px-6 md:py-2 lg:px-4 lg:py-2 p-1 px-2 -ml-2  text-base md:text-xl font-bold font-inter 2xl:text-xl 2xl:px-8 2xl:py-3" @click.prevent.stop="$dispatch('linkaction', {link: '{{route('courses')}}', route: 'courses'});" @keydown.enter.prevent.stop="$dispatch('linkaction', {link: '{{route('courses')}}', route: 'courses'});">More about courses</a>
                 </div>
             </div>
         </div>
@@ -200,7 +201,7 @@
         </div>
         <div class="xl:ml-24 xl:mr-24 2xl:ml-32 2xl:mr-32">
             <div class="flex justify-center">
-                <a href="{{route('gallery')}}" aria-label="View more" @click.prevent.stop="$dispatch('linkaction', {link: '{{route('gallery')}}', route: 'gallery'});" @keydown.enter.stop="$dispatch('linkaction', {link: '{{route('gallery')}}', route: 'gallery'});" class="cursor-pointer shadow-md text-white bg-teal md:px-6 md:py-2 lg:px-4 lg:py-2 p-1 px-2 -ml-2  text-base md:text-xl font-bold font-inter 2xl:text-xl 2xl:px-8 2xl:py-3">View more</a>
+                <a href="{{route('gallery')}}" aria-label="View more" @click.prevent.stop="$dispatch('linkaction', {link: '{{route('gallery')}}', route: 'gallery'});" @keydown.enter.stop="$dispatch('linkaction', {link: '{{route('gallery')}}', route: 'gallery'});" class="cursor-pointer shadow-md text-white bg-teal md:px-6 md:py-2 lg:px-4 lg:py-2 p-1 px-2 -ml-2  text-base md:text-xl font-bold font-inter 2xl:text-xl 2xl:px-8 2xl:py-3">More news & articles</a>
             </div>
         </div>
 
