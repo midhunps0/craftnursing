@@ -1,4 +1,4 @@
-@props(['cardtitle', 'cardcontent', 'route', 'route_key','src','image'])
+@props(['cardtitle', 'cardcontent','src','image'])
 <div>
     <div class="card-component">
         <div class="max-w-sm  mx-auto xl:mx-0 xl:ml-6 bg-white shadow-lg overflow-hidden mt-4 md:mt-8 lg:mt-4 mb-6">

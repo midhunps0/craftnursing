@@ -194,9 +194,9 @@
 
         <div class="xl:ml-24 xl:mr-24 2xl:ml-32 2xl:mr-32">
             <div class="lg:block lg:flex flex-col md:flex-row md:mt-16 lg:space-x-4 2xl:space-x-6 lg:ml-3 lg:mr-3 2xl:ml-8 2xl:mr-8">
-                <div class="lg:w-1/3 2xl:w-1/3"><x-card-component cardtitle="Lamplighting Ceremony" :src="url('/images/3 craft-01 smallm.webp')" :image="url('/images/3 craft-01 big.webp')" :cardcontent="'Guests, alongside the esteemed District Collector V R Krishna Teja  IAS,gathered on the dais to mark the beginning of a momentous occasion.'" route="news" route_key="1" /></div>
-                <div class="lg:w-1/3 2xl:w-1/3"><x-card-component cardtitle="Lamplighting Ceremony" :src="url('/images/8 craft-01 smallm.webp')" :image="url('/images/8 craft-01 big.webp')" :cardcontent="'Amidst an ambiance of warmth and camaraderie, dignitaries gather on the dais to extend a heartfelt welcome to esteemed guests.'" route="news" route_key="2" /></div>
-                <div class="lg:w-1/3 2xl:w-1/3"><x-card-component cardtitle="Lamplighting Ceremony" :src="url('/images/4 craft-01 smallm.webp')" :image="url('/images/4 craft-01 big.webp')" :cardcontent="'District Collector, V R Krishna Teja  IAS,gracefully illuminating  the lamp on the dais, symbolizing the guiding light of knowledge and progress.'" route="news" route_key="3" /></div>
+                <div class="lg:w-1/3 2xl:w-1/3"><x-card-component cardtitle="Lamplighting Ceremony" :src="url('/images/3 craft-01 smallm.webp')" :image="url('/images/3 craft-01 big.webp')" :cardcontent="'Guests, alongside the esteemed District Collector V R Krishna Teja  IAS,gathered on the dais to mark the beginning of a momentous occasion.'"  /></div>
+                <div class="lg:w-1/3 2xl:w-1/3"><x-card-component cardtitle="Lamplighting Ceremony" :src="url('/images/8 craft-01 smallm.webp')" :image="url('/images/8 craft-01 big.webp')" :cardcontent="'Amidst an ambiance of warmth and camaraderie, dignitaries gather on the dais to extend a heartfelt welcome to esteemed guests.'"  /></div>
+                <div class="lg:w-1/3 2xl:w-1/3"><x-card-component cardtitle="Lamplighting Ceremony" :src="url('/images/4 craft-01 smallm.webp')" :image="url('/images/4 craft-01 big.webp')" :cardcontent="'District Collector, V R Krishna Teja  IAS,gracefully illuminating  the lamp on the dais, symbolizing the guiding light of knowledge and progress.'"  /></div>
             </div>
         </div>
         <div class="xl:ml-24 xl:mr-24 2xl:ml-32 2xl:mr-32">
