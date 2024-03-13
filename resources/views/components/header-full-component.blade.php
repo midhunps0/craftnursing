@@ -8,7 +8,7 @@
                     <div>
                         <div class="flex flex-row xl:ml-24 xl:mr-24 2xl:ml-32 2xl:mr-32 ">
                             <div class=" py-1 pl-3.5 w-1/3 ">
-                                <a  role="link" tabindex="0" aria-label="Logo" @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'})"><img src="{{url('/images/craftnursing.webp')}}" width="100%" height="100%" class="cursor-pointer  w-12 lg:h-16 lg:w-14 xl:h-20 xl:w-16 2xl:h-24 2xl:w-20" alt="craft_nursingcollege_logo"/></a>
+                                <a  role="link" tabindex="0" aria-label="Logo" @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'})"><img src="{{url('/images/craftnursing.webp')}}" width="322" height="413" class="cursor-pointer  w-12 lg:h-16 lg:w-14 xl:h-20 xl:w-16 2xl:h-24 2xl:w-20" alt="craft_nursingcollege_logo"/></a>
                             </div> 
                             <div class="md:block md:flex hidden md:items-center md:mt-4 md:w-2/3 md:text-left md:text-base md:space-x-12 font-questrial font-thin 
                                         lg:block lg:items-center lg:mt-6 lg:text-base lg:space-x-16

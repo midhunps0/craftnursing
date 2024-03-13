@@ -1,8 +1,8 @@
 
         <div class="relative">
                 
-                <img src="{{url('/images/6 phnnew.webp')}}" width="100%" height="100%" class="bg-cover w-full lg:hidden md:hidden" alt="nursing_student_logo">
-                <img src="{{url('/images/footer.webp')}}" width="100%" height="100%" class="bg-cover w-full hidden md:block lg:block" alt="nursing_student_logo">
+                <img src="{{url('/images/6 phnnew.webp')}}" width="742" height="768" class="bg-cover w-full lg:hidden md:hidden" alt="nursing_student_logo">
+                <img src="{{url('/images/footer.webp')}}" width="1200" height="675" class="bg-cover w-full hidden md:block lg:block" alt="nursing_student_logo">
                 <div class="absolute inset-0 overflow-hidden  bg-gradient-to-r from-submarine/100 to-teal/10 lg:bg-gradient-to-r from-cyan/80 to-teal/10 flex flex-col lg:flex flex-col">
                     <div class="ml-6 mt-16 sm:mt-20 mb-20 md:mt-20 lg:mt-28 lg:ml-16 flex-grow lg:flex-grow xl:ml-24 xl:mr-24 2xl:ml-32 2xl:mr-32">
                         <h class="font-inter text-white font-bold text-2xl sm:text-2xl md:text-2xl lg:text-3xl 2xl:text-4xl">Fulfill Your Dreams Of A<br> Noble Career</h>
