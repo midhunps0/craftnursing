@@ -81,10 +81,10 @@
 
                 <div class="lg:w-1/2 mt-8">
                     <div class="relative mt-2 ml-6 lg:mt-8 lg:flex flex-col ">
-                        <img src="{{url('/images/2new.webp')}}" width="926" height="631" class=" w-5/6 sm:w-5/6 md:w-5/6 h-auto md:ml-6 lg:ml-2 lg:w-full xl:w-full 2xl:w-full h-auto" alt="group_of_nursing_student">
+                        <img src="{{url('/images/2new.webp')}}" width="926" height="631" class=" w-5/6 sm:w-5/6 md:w-5/6 h-auto md:ml-6 lg:ml-2 lg:w-full xl:w-full 2xl:w-full " alt="group_of_nursing_student">
                         <div class=" h-44 w-48 sm:h-48 sm:w-56 ml-40 border-t-4 border-teal -mt-36 mr-4 bg-base-100 opacity-80 shadow-xl lg:opacity-100 md:h-72 md:w-80 sm:ml-80 sm:-mt-44 md:ml-96 md:-mt-64 lg:flex justify-end lg:h-52 lg:w-56 lg:ml-0 lg:ml-52 lg:-mr-6 lg:-mt-40 xl:h-60 xl:w-64 xl:-mt-56 xl:ml-72 2xl:h-64 2xl:ml-96   ">
                             <div class="md:px-10 md:py-8 lg:px-2 lg:py-2  text-black lg:text-justify lg:text-sm xl:text-base md:text-base text-xs sm:text-sm">
-                                <div class="mt-5 text-left ml-6 lg:ml-2 "><h class="font-bold font-inter text-black text-base sm:text-lg md:text-lg lg:text-lg">Established since<br> 1972</h></div>  
+                                <div class="mt-5 text-left ml-6 lg:ml-2 "><h class="font-bold font-inter text-black text-base sm:text-lg md:text-lg lg:text-lg">CRAFT legacy since<br> 1972</h></div>  
                                     <p class="font-extralight font-inter text-left ml-6 mr-4  lg:mt-2 lg:ml-2 ">Our organization has been committed to providing exceptional care and services to our community for over five decades.</p>
                                 </div>
                             </div>
@@ -96,7 +96,7 @@
             </div>
         </div>
 
-        <div class="mt-4 space-y-3 lg:flex flex-row lg:space-y-0 lg:mr-12 lg:ml-12 lg:space-x-2 lg:mt-16 2xl:ml-24 2xl:mr-24 2xl:ml-32 2xl:mr-32">
+        <div class="mt-4 space-y-3 lg:flex flex-row lg:space-y-0 lg:mr-12 lg:ml-12 lg:space-x-2 lg:mt-16 2xl:ml-24 2xl:mr-24 ">
             <div class="lg:border border-gray-400   lg:w-1/3 "><x-content-box title="Our Vision" :content="'Being a community of scholars and mentors guiding proffessional
                                 nurses as nurse leaders and advanced practitioners commited to professional ideals and practicing meaningfully with a cultural competency in this increasingly technological 
                                 health care system and communities constitutes our vision'"/></div>

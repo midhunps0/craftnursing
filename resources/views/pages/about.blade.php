@@ -29,14 +29,23 @@
 
         <div>
             <div class="text-left xl:ml-8 xl:mr-8 2xl:ml-32 2xl:mr-32">
-                <div class="mt-6 md:mt-10  mb-4 lg:mt-14 lg:mb-14 lg:ml-16 lg:mr-16 2xl:mt-20 ">
-                    <h class="text-teal font-inter ml-4 font-bold text-sm sm:text-base md:text-2xl lg:text-3xl 2xl:text-4xl lg:text-left">WELCOME TO CRAFT SCHOOL OF NURSING</h>
+                <div class="mt-6 md:mt-10  mb-4 lg:mt-14 lg:mb-14 lg:ml-16 lg:mr-16 2xl:mt-20 font-inter">
+                    <h class="text-teal font-inter ml-4 lg:ml-0 font-bold text-sm sm:text-base md:text-2xl lg:text-3xl 2xl:text-4xl lg:text-left">WELCOME TO CRAFT SCHOOL OF NURSING</h>
                     <div class="mt-4 mb-4 2xl:mt-6 ">
-                        <x-page-component :content="'The  CRAFT School of Nursing believes that excellence in professional nursing education is achieved  through a curriculum , which unifies the essential phenomena 
-                        of interest in nursing : the concept of nursing , health , person and environment . the  school accepts that professional nursing education at 
-                        it’s best in an interactive process by which students and teachers , teach and learn from each other in an academic climate of mutual respect and caring .'" />
-                        <x-page-component :content="'The institution believes  that accepting responsibilities for  nurturing  learners focusing on developing  with the competencies of 
-                        care giver , critical thinker , communicator , leader , manager ,teacher  and researcher are essential for the lifelong personal growth and development of students.'"/>
+                        <x-page-component :content="'Craft hospital and Research  Centre  initiated  as a infertility treatment hospital in 2018.We started AR Super specialty  hospital ,
+                         offering a high quality health care with the latest diagnostic facilities under one roof. At present the hospital gives services in general Medicines ,General 
+                         surgery , obstetrics  ,and Gynecology , Pediatrics ,Ortho pediatrics , ENT, Psychiatry , Neurology.'" />
+                        <x-page-component :content="'CRAFT SCHOOL OF NURSING , a unit of craft hospital and Research Institute, Kodungallur came into existence in 2023.Like all other 
+                        educational institutions , We have been open to all people irrespective of religion , cast or community and is recognized  by Kerala Nurses and Midwives  Council (KNMC).'"/>
+                        <p class="text-teal text-base md:text-xl ml-4 lg:ml-0 font-medium">Aims</p>
+                        <div class="text-justify font-extralight  mb-2 text-sm md:text-base 2xl:text-base xl:text-base  mr-6 ml-6 font-inter text-black lg:text-base  lg:text-justify lg:font-extralight lg:ml-0   lg:mt-0">
+                            <p>The aims of the Diploma in General Nursing and Midwifery programs are :</p>
+                            <p>To bring out  nurses with a sound educational programme in nursing to enable them to function as efficient members of health team.</p>
+                            <p>To serve as a base for further professional education and Specialization in nursing</p>
+                            <p>Increase Collaboration with community</p>
+                            <p>Perform self directed learning and continually aspire to improve individual professional skills .</p>
+                        </div>
+                        <x-infrastructure-component/>
                     </div>
                 </div>
             </div>
