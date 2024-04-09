@@ -10,8 +10,8 @@
 
         <div>
             <div class="relative mt-2">
-                <div class="lg:w-full xl:w-full 2xl:w-full h-auto lg:bg-cover hidden lg:block "><img src="{{url('/images/courses (1).webp')}}" width="1200" height="632"  alt="nursing_college_student_image"></div>
-                <div class=" w-full sm:w-full md:w-full h-auto  bg-cover lg:hidden"><img src="{{url('/images/coursesphn (1).webp')}}" width="640" height="687"  alt="nursing_college_student_image"></div>
+                <div><img src="{{url('/images/courses (1).webp')}}" width="1200" height="632" class="lg:w-full xl:w-full 2xl:w-full h-auto lg:bg-cover hidden lg:block "  alt="nursing_college_student_image"></div>
+                <div ><img src="{{url('/images/coursesphn (1).webp')}}" width="640" height="687" class=" w-full sm:w-full md:w-full h-auto  bg-cover lg:hidden"  alt="nursing_college_student_image"></div>
                 <div class="absolute inset-0 overflow-hidden  bg-gradient-to-r from-secondary/40 to-accent/10">
                     <div class="mt-36  ml-6 sm:ml-12  sm:mt-52 md:mt-72 lg:mt-44 xl:mt-52 xl:ml-20 2xl:mt-72 xl:ml-24 xl:mr-24 2xl:ml-32 2xl:mr-32">
                         <div class=""><h class="text-white text-sm sm:text-base md:text-base lg:text-lg outline outline-white outline-1 font-normal lg:font-bold font-inter lg:px-2 lg:py-2  pt-1 pb-1 pl-1 pr-1">ACADEMICS</h></div>
