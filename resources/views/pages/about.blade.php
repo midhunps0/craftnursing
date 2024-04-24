@@ -46,6 +46,7 @@
                             <p>Perform self directed learning and continually aspire to improve individual professional skills .</p>
                         </div>
                         <x-infrastructure-component/>
+                        <x-principal/>
                     </div>
                 </div>
             </div>
