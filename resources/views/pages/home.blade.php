@@ -12,9 +12,9 @@
 
         <div>
             <div class="relative ">
-                <img src="{{url('/images/1phn.webp')}}" width="976" height="511" class="w-full sm:w-full h-auto bg-cover lg:hidden" alt="nursing_student_image">
-                <img src="{{url('/images/1new.webp')}}" width="580" height="520%" class="lg:w-full xl:w-full 2xl:w-full h-auto lg:bg-cover hidden lg:block" alt="nursing_student_image">
-                <div class="absolute inset-0 overflow-hidden  bg-gradient-to-r from-secondary/40 to-accent/20">
+                <img src="{{url('/images/home_cover_crop_phn.webp')}}" width="976" height="511" class="w-full sm:w-full h-auto bg-cover lg:hidden" alt="nursing_student_image">
+                <img src="{{url('/images/home_covernew (1).webp')}}" width="580" height="520" class="lg:w-full xl:w-full 2xl:w-full h-auto lg:bg-cover hidden lg:block" alt="nursing_student_image">
+                <div class="absolute inset-0 overflow-hidden  bg-gradient-to-r from-secondary/70 to-accent/10">
                     <div class="mt-12 ml-14 text-left sm:mt-20 md:mt-28 md:ml-20 lg:ml-14 xl:mt-36 2xl:mt-48 xl:ml-24 xl:mr-24 2xl:ml-32 2xl:mr-32">
                             <div class=""><h class="text-white text-xs font-inter outline outline-white outline-1 p-1 font-bold md:text-sm lg:text-lg">WELCOME TO CRAFT SCHOOL OF NURSING</h></div>
                             <p class=" text-left text-white font-inter text-2xl font-bold mr-10 mt-2 sm:text-3xl md:text-4xl lg:text-6xl lg:leading-12 xl:mt-6 xl:text-7xl 2xl:mt-4 2xl:text-8xl ">DIPLOMA IN GENERAL <br> NURSING & MIDWIFERY <br>3 YEARS</p>
@@ -109,9 +109,9 @@
 
         <div>
             <div class="relative mt-4">
-            <img src="{{url('/images/3 phn.webp')}}" width="390" height="475" class="w-full sm:w-full md:w-full h-auto bg-cover lg:hidden"alt="nursing_student_image">
-            <img src="{{url('/images/3n3.webp')}}" width="1024" height="624" class="w-full h-auto bg-cover hidden lg:block"alt="nursing_student_image">
-            <div class="absolute inset-0 overflow-hidden  bg-gradient-to-r from-cyan/100 to-teal/10 lg:bg-gradient-to-r from-cyan/80 to-teal/10">
+            <img src="{{url('/images/teacher_student_crop_phn.webp')}}" width="390" height="475" class="w-full sm:w-full md:w-full h-auto bg-cover lg:hidden"alt="nursing_student_image">
+            <img src="{{url('/images/teacher_student_crop.webp')}}" width="1024" height="624" class="w-full h-auto bg-cover hidden lg:block"alt="nursing_student_image">
+            <div class="absolute inset-0 overflow-hidden  bg-gradient-to-r from-cyan/80 to-teal/50 lg:bg-gradient-to-r from-cyan/80 to-teal/10">
             <div class="2xl:ml-28 2xl:mr-28"><div class="text-center mt-36 md:mt-72 lg:mt-28 xl:mt-40 2xl:mt-48"><h class="font-inter text-white text-xl md:text-4xl font-bold lg:text-4xl xl:text-5xl 2xl:text-6xl">"Save one life, you're a hero. Save<br> a hundred lives, you're a nurse."</h></div>
             <div class="lg:ml-20 lg:mr-20"><p class="font-inter text-white text-center text-sm  mt-4 mr-10 ml-10 md:mr-20 md:ml-20 xl:mr-24 xl:ml-24 2xl:mr-44 2xl:ml-44 md:mt-12 md:text-base  lg:text-base xl:text-base 2xl:text-xl lg:mt-6 ">
                         Nurses are healthcare professionals trained to provide compassionate, holistic care to individuals across the lifespan, encompassing physical, emotional, and psychological needs.
