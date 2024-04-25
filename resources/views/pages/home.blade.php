@@ -18,7 +18,7 @@
                     <div class="mt-12 ml-14 text-left sm:mt-20 md:mt-28 md:ml-20 lg:ml-14 xl:mt-36 2xl:mt-48 xl:ml-24 xl:mr-24 2xl:ml-32 2xl:mr-32">
                             <div class=""><h class="text-white text-xs font-inter outline outline-white outline-1 p-1 font-bold md:text-sm lg:text-lg">WELCOME TO CRAFT SCHOOL OF NURSING</h></div>
                             <p class=" text-left text-white font-inter text-2xl font-bold mr-10 mt-2 sm:text-3xl md:text-4xl lg:text-6xl lg:leading-12 xl:mt-6 xl:text-7xl 2xl:mt-4 2xl:text-8xl ">DIPLOMA IN GENERAL <br> NURSING & MIDWIFERY <br>3 YEARS</p>
-                            <p class=" text-left text-white font-inter mt-4 text-sm font-arial mr-24 sm:text-sm md:text-base md:mt-6 lg:hidden" >General Nursing and Midwifery (GNM) is a diploma program that prepares individuals to become registered nurses (RNs) and midwives.</p>
+                            <p class=" text-left text-white font-inter mt-4 text-sm  mr-24 sm:text-sm md:text-base md:mt-6 lg:hidden" >General Nursing and Midwifery (GNM) is a diploma program that prepares individuals to become registered nurses (RNs) and midwives.</p>
                             <div class="flex">
                                 <a @click.prevent.stop="$dispatch('linkaction', {link: '{{route('applicationform')}}', route: 'applicationform'});" href="{{route('applicationform')}}" class="cursor-pointer shadow-md text-center flex items-center font-inter font-bold bg-teal text-white p-2 mt-2 sm:mt-6 md:mt-12 md:p-3 md:text-base md:text-lg lg:px-5 xl:text-xl xl:px-6 2xl:text-2xl 2xl:px-8 2xl:mt-20" type="button">
                                     APPLY NOW
@@ -81,7 +81,7 @@
 
                 <div class="lg:w-1/2 mt-8">
                     <div class="relative mt-2 ml-6 lg:mt-8 lg:flex flex-col ">
-                        <img src="{{url('/images/2new.webp')}}" width="926" height="631" class=" w-5/6 sm:w-5/6 md:w-5/6 h-auto md:ml-6 lg:ml-2 lg:w-full xl:w-full 2xl:w-full " alt="group_of_nursing_student">
+                        <img src="{{url('/images/student_group_crop (1).webp')}}" width="926" height="631" class=" w-5/6 sm:w-5/6 md:w-5/6 h-auto md:ml-6 lg:ml-2 lg:w-full xl:w-full 2xl:w-full " alt="group_of_nursing_student">
                         <div class=" h-44 w-48 sm:h-48 sm:w-56 ml-40 border-t-4 border-teal -mt-36 mr-4 bg-base-100 opacity-80 shadow-xl lg:opacity-100 md:h-72 md:w-80 sm:ml-80 sm:-mt-44 md:ml-96 md:-mt-64 lg:flex justify-end lg:h-52 lg:w-56 lg:ml-0 lg:ml-52 lg:-mr-6 lg:-mt-40 xl:h-60 xl:w-64 xl:-mt-56 xl:ml-72 2xl:h-64 2xl:ml-96   ">
                             <div class="md:px-10 md:py-8 lg:px-2 lg:py-2  text-black lg:text-justify lg:text-sm xl:text-base md:text-base text-xs sm:text-sm">
                                 <div class="mt-5 text-left ml-6 lg:ml-2 "><h class="font-bold font-inter text-black text-base sm:text-lg md:text-lg lg:text-lg">CRAFT legacy since<br> 1972</h></div>  
@@ -168,7 +168,7 @@
                     </div>
                     <!-- subdiv2 -->
                     <div class="mt-8 ml-4 mr-6 md:ml-8 md:mr-8 lg:w-2/4  lg:mt-14 lg:mr-4">
-                        <img src="{{url('/images/5.webp')}}" width="750" height="554" class="w-full sm:w-full md:w-full lg:w-full xl:w-full 2xl:w-full h-auto bg-cover"alt="nursing_student_image">
+                        <img src="{{url('/images/home_courses.webp')}}" width="750" height="554" class="w-full sm:w-full md:w-full lg:w-full xl:w-full 2xl:w-full h-auto bg-cover"alt="nursing_student_image">
                     </div>  
                 </div>
                 
