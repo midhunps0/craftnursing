@@ -2,7 +2,7 @@
         <div class="relative">
                 
                 <img src="{{url('/images/footer_img phn.webp')}}" width="742" height="768" class="bg-cover w-full lg:hidden md:hidden" alt="nursing_student_logo">
-                <img src="{{url('/images/footer_img_croped_new.webp')}}" width="1200" height="675" class="bg-cover w-full hidden md:block lg:block " alt="nursing_student_logo">
+                <img src="{{url('/images/footer_img_croped_new1.webp')}}" width="1200" height="675" class="bg-cover w-full hidden md:block lg:block " alt="nursing_student_logo">
                 <div class="absolute inset-0 overflow-hidden  bg-gradient-to-r from-submarine/100 to-teal/30  flex flex-col items-center justify-center">
                     <div class="ml-6   lg:ml-16  xl:ml-24 xl:mr-24 2xl:ml-32 2xl:mr-32">
                         <h class="font-inter text-white font-bold text-2xl sm:text-2xl md:text-2xl lg:text-3xl 2xl:text-4xl">Fulfill Your Dreams Of A<br> Noble Career</h>

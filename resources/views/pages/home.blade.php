@@ -168,7 +168,7 @@
                     </div>
                     <!-- subdiv2 -->
                     <div class="mt-8 ml-4 mr-6 md:ml-8 md:mr-8 lg:w-2/4  lg:mt-14 lg:mr-4">
-                        <img src="{{url('/images/home_courses.webp')}}" width="750" height="554" class="w-full sm:w-full md:w-full lg:w-full xl:w-full 2xl:w-full h-auto bg-cover"alt="nursing_student_image">
+                        <img src="{{url('/images/home_courses_new.webp')}}" width="750" height="554" class="w-full sm:w-full md:w-full lg:w-full xl:w-full 2xl:w-full h-auto bg-cover"alt="nursing_student_image">
                     </div>  
                 </div>
                 
