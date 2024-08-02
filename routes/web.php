@@ -29,11 +29,7 @@ Route::get('/courses', [PageController::class, 'courses'])->name('courses');
 Route::get('/gallery', [PageController::class, 'gallery'])->name('gallery');
 Route::get('/contact_us', [PageController::class, 'contact'])->name('contact');
 // Route::get('/news/{id}', [PageController::class, 'news'])->name('news');
-<<<<<<< HEAD
-Route::post('/contact_us', [ContactController::class,'submit'])->name('contact.submit');
-=======
 // Route::post('/contact', [ContactController::class,'submit'])->name('contact.submit');
->>>>>>> d3f576b (completed contact form)
 Route::get('/applicationform', [PageController::class, 'applicationform'])->name('applicationform');
 Route::post('/applicationform', [ApplicationController::class, 'submit'])->name('applicationform.submit');
 
