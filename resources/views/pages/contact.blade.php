@@ -67,8 +67,7 @@
                                             </div>
                                             <div class="relative mt-4 lg:mt-16 mr-4 lg:mr-0 ">
                                                 <input id="email" name="email" type="email" autocomplete="email"
-                                                    class="w-full h-10 text-gray-900 placeholder-transparent border-0 border-b border-black peer focus:outline-none focus:border-0 border-b
-                                                        border-black"
+                                                    class="w-full h-10 text-gray-900 placeholder-transparent border-0 border-b border-black peer focus:outline-none focus:border-0 border-b"
                                                     placeholder="Email" required />
                                                 <label for="email"
                                                     class="absolute left-0 -top-3.5 text-black text-sm transition-all peer-placeholder-shown:text-sm peer-placeholder-shown:md:text-base peer-placeholder-shown:lg:text-xl peer-placeholder-shown:text-black
@@ -76,13 +75,15 @@
                                                 </label>
                                             </div>
                                             <div class="relative mt-4 lg:mt-16 mr-4 lg:mr-0 ">
-                                                <input id="message" name="message" type="text"
+                                                {{-- <input id="message" name="message" type="text"
                                                     class="w-full h-10 text-gray-900 placeholder-transparent border-0 border-b border-black peer focus:outline-none focus:border-0"
-                                                    placeholder="Mesage" required/>
-                                                <label for="message"
-                                                    class="absolute left-0 -top-3.5 text-black text-sm transition-all peer-placeholder-shown:text-sm peer-placeholder-shown:md:text-base peer-placeholder-shown:lg:text-xl peer-placeholder-shown:text-black
-                                                        peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-black peer-focus:text-sm font-gothic">Message
+                                                    placeholder="Mesage" required/> --}}
+                                                    <label for="message"
+                                                    class="text-black text-lg
+                                                        font-gothic">Message
                                                 </label>
+                                                <textarea id="message" rows="4" class="w-full" name="message"></textarea>
+
                                             </div>
 
                                             <div class="mt-6 items-center text-center lg:mt-16 xl:mt-32">
