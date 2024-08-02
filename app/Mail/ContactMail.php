@@ -13,47 +13,52 @@ class ContactMail extends Mailable
 {
     use Queueable, SerializesModels;
 
+    // private $name;
+    // private $email;
+    // private $userMessage;
+
     /**
      * Create a new message instance.
      */
-    public $formData;
-    public function __construct($formData)
-    {
-       $this->formData =$formData;
-    }
-    
-    public function build(){
-        return $this->view('emails.contactform')->with(['formData'=>$this->formData]);
-        
-    }
+    public function __construct(
+        private $name,
+        private $email,
+        private $userMessage
+    )
+    {}
 
     /**
      * Get the message envelope.
      */
-    // public function envelope(): Envelope
-    // {
-    //     return new Envelope(
-    //         subject: 'Contact Mail',
-    //     );
-    // }
+    public function envelope(): Envelope
+    {
+        return new Envelope(
+            subject: 'New contact message',
+        );
+    }
 
     /**
      * Get the message content definition.
      */
-    // public function content(): Content
-    // {
-    //     return new Content(
-    //         view: 'view.name',
-    //     );
-    // }
+    public function content(): Content
+    {
+        return new Content(
+            view: 'mail.contact',
+            with: [
+                'name' => $this->name,
+                'email' => $this->email,
+                'user_message' => $this->userMessage
+            ]
+        );
+    }
 
     /**
      * Get the attachments for the message.
      *
      * @return array<int, \Illuminate\Mail\Mailables\Attachment>
      */
-    // public function attachments(): array
-    // {
-    //     return [];
-    // }
+    public function attachments(): array
+    {
+        return [];
+    }
 }

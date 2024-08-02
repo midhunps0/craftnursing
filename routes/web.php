@@ -3,6 +3,7 @@
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ApplicationController;
+use App\Http\Controllers\MailController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RoleController;
 use App\Http\Controllers\ProfileController;
@@ -28,7 +29,11 @@ Route::get('/courses', [PageController::class, 'courses'])->name('courses');
 Route::get('/gallery', [PageController::class, 'gallery'])->name('gallery');
 Route::get('/contact_us', [PageController::class, 'contact'])->name('contact');
 // Route::get('/news/{id}', [PageController::class, 'news'])->name('news');
+<<<<<<< HEAD
 Route::post('/contact_us', [ContactController::class,'submit'])->name('contact.submit');
+=======
+// Route::post('/contact', [ContactController::class,'submit'])->name('contact.submit');
+>>>>>>> d3f576b (completed contact form)
 Route::get('/applicationform', [PageController::class, 'applicationform'])->name('applicationform');
 Route::post('/applicationform', [ApplicationController::class, 'submit'])->name('applicationform.submit');
 
@@ -51,5 +56,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/roles-permissions', [RoleController::class, 'rolesPermissions'])->name('roles.permissions');
     Route::post('/roles/permission-update', [RoleController::class, 'permissionUpdate'])->name('roles.update_permissions');
 });
+
+Route::post('contact-mail', [MailController::class, 'contactMail'])->name('mail.contact');
 
 require __DIR__.'/auth.php';
