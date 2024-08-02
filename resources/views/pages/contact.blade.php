@@ -103,13 +103,8 @@
 
                                             <div x-show="errorMessage" x-cloak class="mt-4 xl:mt-8 border border-red ml-2 mr-2 text-center">
                                                 <div class=" text-center mb-4">
-<<<<<<< HEAD
-                                                    <p class="text-sm font-inter mt-2">Please enter valid information</p>
-                                                    <div class="mt-4 mb-2"><a href="{{route('contact')}}" class="text-white cursor-pointer shadow-md text-base font-bold bg-red border border-red font-teal px-4 py-2   " @click="$dispatch('linkaction', {link: '{{route('contact')}}', route: 'contact'})">OK</a></div>
-=======
                                                     <p class="text-sm font-inter mt-2">Sorry, we were unable to submit the message because of some unexpected errors.</p>
                                                     <div class="mt-4 mb-2"><a class="text-white cursor-pointer shadow-md text-base font-bold bg-red border border-red font-teal px-4 py-2   " @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'})">OK</a></div>
->>>>>>> d3f576b (completed contact form)
                                                 </div>
                                             </div>
 
@@ -158,11 +153,4 @@
 
 
     </div>
-<<<<<<< HEAD
-    <meta name="description" content="Your page description here">
-    <meta property="og:title" content="Your Open Graph title here">
-    <meta property="og:description" content="Your Open Graph description here">
 </x-guest-layout>
-=======
-</x-guest-layout>
->>>>>>> d3f576b (completed contact form)
