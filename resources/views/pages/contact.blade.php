@@ -90,13 +90,8 @@
                                             </div>
                                             <div x-show="successMessage" x-cloak class="absolute top-0 left-0 h-full w-full text-center bg-base-100/80 flex justify-center items-center">
                                                 <div class=" text-center mb-4">
-<<<<<<< HEAD
-                                                    <p class="text-sm font-inter mt-2">Your message has been successfully sent!</p>
-                                                    <div class="mt-4 mb-2"><a href="{{route('home')}}" class="text-white cursor-pointer shadow-md text-base font-bold bg-primary border border-primary font-teal px-4 py-2   " @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'})">OK</a></div>
-=======
                                                     <p class="text-sm font-inter mt-2 font-bold">Your message has been successfully submitted. We will get back to you shortly.<br>Thank you!</p>
                                                     <div class="mt-4 mb-2"><a class="text-white cursor-pointer shadow-md text-base font-bold bg-primary border border-primary font-teal px-4 py-2   " @click="successMessage=false;">OK</a></div>
->>>>>>> d3f576b (completed contact form)
                                                 </div>
                                             </div>
 
